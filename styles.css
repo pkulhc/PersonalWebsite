@@ -803,3 +803,480 @@ footer a {
     flex-direction: column;
   }
 }
+
+/* ==============================================
+   Scroll-triggered entrance animations
+   ============================================== */
+
+.animate-on-scroll.pre-animate {
+  opacity: 0;
+  transform: translateY(36px);
+}
+
+.animate-on-scroll.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.75s cubic-bezier(0.16, 1, 0.3, 1),
+              transform 0.75s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Stagger children — for grids */
+.animate-stagger.pre-animate > * {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.6s cubic-bezier(0.16, 1, 0.3, 1),
+              transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.animate-stagger.is-visible > *:nth-child(1) { transition-delay: 0s; }
+.animate-stagger.is-visible > *:nth-child(2) { transition-delay: 0.08s; }
+.animate-stagger.is-visible > *:nth-child(3) { transition-delay: 0.16s; }
+.animate-stagger.is-visible > *:nth-child(4) { transition-delay: 0.24s; }
+
+.animate-stagger.is-visible > * {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ==============================================
+   Hero entrance — plays immediately on page load
+   ============================================== */
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(38px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hero-copy {
+  animation: fadeUp 0.9s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.portrait-wrap {
+  animation: fadeUp 0.9s 0.2s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+/* ==============================================
+   Interactive hover micro-animations
+   ============================================== */
+
+/* Brand logo */
+.brand-mark {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.brand:hover .brand-mark {
+  transform: scale(1.12);
+  box-shadow: 0 0 0 5px rgba(31, 111, 91, 0.12);
+}
+
+/* Research cards */
+.research-item {
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1),
+              box-shadow 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.research-item:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 24px 56px rgba(23, 32, 29, 0.12);
+  position: relative;
+  z-index: 2;
+}
+
+/* Profile figures */
+.profile-figure {
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1),
+              box-shadow 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.profile-figure:hover {
+  transform: scale(1.03);
+  box-shadow: 0 18px 44px rgba(23, 32, 29, 0.16);
+}
+
+/* Publication list items */
+.publication {
+  transition: background-color 0.25s ease, transform 0.25s ease;
+}
+
+.publication:hover {
+  background-color: rgba(255, 255, 255, 0.76);
+  transform: translateX(6px);
+}
+
+/* Timeline entries */
+.timeline article {
+  transition: background-color 0.25s ease;
+}
+
+.timeline article:hover {
+  background-color: rgba(31, 111, 91, 0.04);
+}
+
+/* Link row pills */
+.link-row a {
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+}
+
+.link-row a:hover {
+  border-color: rgba(31, 111, 91, 0.4);
+  box-shadow: 0 8px 22px rgba(23, 32, 29, 0.08);
+}
+
+/* Hero buttons — upgrade hover feel */
+.button {
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1),
+              box-shadow 0.25s cubic-bezier(0.16, 1, 0.3, 1),
+              background 0.25s ease;
+}
+
+.button:hover {
+  transform: translateY(-3px);
+}
+
+.button.primary:hover {
+  box-shadow: 0 18px 40px rgba(23, 32, 29, 0.28);
+}
+
+.button.secondary:hover {
+  box-shadow: 0 8px 22px rgba(23, 32, 29, 0.1);
+  border-color: rgba(23, 32, 29, 0.28);
+  background: rgba(255, 255, 255, 0.86);
+}
+
+/* Stats — monospaced numerals for smooth counting */
+.stats strong {
+  font-variant-numeric: tabular-nums;
+  transition: color 0.3s ease;
+}
+
+/* ==============================================
+   Accessibility — respect reduced motion preference
+   ============================================== */
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-on-scroll.pre-animate,
+  .animate-on-scroll.is-visible,
+  .animate-stagger.pre-animate > *,
+  .animate-stagger.is-visible > *,
+  .hero-copy,
+  .portrait-wrap {
+    animation: none !important;
+    transition: none !important;
+    opacity: 1 !important;
+    transform: none !important;
+  }
+
+  .research-item:hover,
+  .publication:hover,
+  .profile-figure:hover {
+    transform: none !important;
+  }
+}
+
+/* ==============================================
+   Dark mode
+   ============================================== */
+
+html[data-theme="dark"] {
+  --ink: #ddd8ce;
+  --muted: #928e83;
+  --paper: #141916;
+  --soft: #1c221f;
+  --line: #2d3430;
+  --green: #4dac8c;
+  --blue: #6093cf;
+  --red: #c07a6e;
+  --gold: #c59b4a;
+  --white: #ddd8ce;
+  --shadow: 0 24px 70px rgba(0, 0, 0, 0.55);
+  color-scheme: dark;
+}
+
+html[data-theme="dark"] body {
+  background: var(--paper);
+}
+
+/* Header */
+html[data-theme="dark"] .site-header {
+  background: rgba(20, 25, 22, 0.85);
+}
+
+html[data-theme="dark"] .site-header[data-scrolled="true"] {
+  border-color: rgba(221, 216, 206, 0.1);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.4);
+}
+
+html[data-theme="dark"] .site-nav {
+  color: var(--muted);
+}
+
+html[data-theme="dark"] .brand-mark {
+  background: rgba(77, 172, 140, 0.12);
+  border-color: rgba(77, 172, 140, 0.32);
+}
+
+/* Hero */
+html[data-theme="dark"] .hero {
+  background:
+    linear-gradient(115deg, rgba(77, 172, 140, 0.12), transparent 38%),
+    linear-gradient(20deg, rgba(197, 155, 74, 0.1), transparent 30%);
+  border-color: var(--line);
+}
+
+html[data-theme="dark"] h1 span {
+  color: var(--muted);
+}
+
+html[data-theme="dark"] .lead {
+  color: #9a978c;
+}
+
+html[data-theme="dark"] .button.primary {
+  background: var(--green);
+  color: #141916;
+  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.45);
+}
+
+html[data-theme="dark"] .button.primary:hover {
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.55);
+}
+
+html[data-theme="dark"] .button.secondary,
+html[data-theme="dark"] .link-row a {
+  background: rgba(221, 216, 206, 0.06);
+  border-color: rgba(221, 216, 206, 0.14);
+  color: var(--ink);
+}
+
+html[data-theme="dark"] .button.secondary:hover {
+  background: rgba(221, 216, 206, 0.1);
+  border-color: rgba(221, 216, 206, 0.28);
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.35);
+}
+
+/* Portrait */
+html[data-theme="dark"] .portrait-wrap::before {
+  background: rgba(96, 147, 207, 0.14);
+  border-color: rgba(96, 147, 207, 0.25);
+}
+
+html[data-theme="dark"] .portrait-caption {
+  background: rgba(20, 25, 22, 0.9);
+  border-color: rgba(221, 216, 206, 0.08);
+  box-shadow: 0 12px 34px rgba(0, 0, 0, 0.35);
+}
+
+/* Stats */
+html[data-theme="dark"] .stats strong {
+  color: var(--red);
+}
+
+/* Profile figures */
+html[data-theme="dark"] .profile-figure {
+  background: var(--soft);
+  border-color: var(--line);
+}
+
+html[data-theme="dark"] .profile-figure figcaption {
+  background: rgba(20, 25, 22, 0.88);
+  border-color: rgba(221, 216, 206, 0.06);
+  box-shadow: 0 10px 26px rgba(0, 0, 0, 0.3);
+}
+
+/* Research grid */
+html[data-theme="dark"] .research-grid {
+  background: var(--line);
+  border-color: var(--line);
+}
+
+html[data-theme="dark"] .research-item {
+  background: var(--paper);
+}
+
+html[data-theme="dark"] .research-highlights li {
+  color: #8a887e;
+}
+
+html[data-theme="dark"] .research-item:hover {
+  box-shadow: 0 24px 56px rgba(0, 0, 0, 0.4);
+}
+
+/* Publications */
+html[data-theme="dark"] .publication-panel {
+  background: rgba(28, 34, 31, 0.55);
+  border-color: var(--line);
+}
+
+html[data-theme="dark"] .tabs {
+  background: rgba(20, 25, 22, 0.55);
+  border-color: var(--line);
+}
+
+html[data-theme="dark"] .tab.active {
+  background: var(--green);
+  color: #141916;
+}
+
+html[data-theme="dark"] .publication:hover {
+  background-color: rgba(221, 216, 206, 0.05);
+}
+
+html[data-theme="dark"] .publication-meta p strong {
+  color: var(--ink);
+}
+
+/* Projects */
+html[data-theme="dark"] .projects-section {
+  background: #171c19;
+}
+
+/* Contact & Footer */
+html[data-theme="dark"] .contact-section {
+  background: #1a1f1c;
+}
+
+html[data-theme="dark"] .contact-section .section-kicker {
+  color: var(--green);
+}
+
+html[data-theme="dark"] footer {
+  background: #1a1f1c;
+  color: rgba(221, 216, 206, 0.5);
+}
+
+html[data-theme="dark"] address {
+  color: rgba(221, 216, 206, 0.6);
+}
+
+html[data-theme="dark"] address a,
+html[data-theme="dark"] footer a {
+  color: var(--ink);
+}
+
+/* Intro text */
+html[data-theme="dark"] .intro-text {
+  color: #98968c;
+}
+
+/* Timeline */
+html[data-theme="dark"] .timeline article:hover {
+  background-color: rgba(77, 172, 140, 0.08);
+}
+
+/* Link row hover */
+html[data-theme="dark"] .link-row a:hover {
+  border-color: rgba(77, 172, 140, 0.5);
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.3);
+}
+
+/* Mobile nav */
+html[data-theme="dark"] .nav-toggle {
+  background: var(--soft);
+  border-color: var(--line);
+}
+
+html[data-theme="dark"] .nav-toggle span {
+  background: var(--ink);
+}
+
+html[data-theme="dark"] .site-nav {
+  background: var(--soft);
+}
+
+/* ==============================================
+   Nav scroll spy — active state
+   ============================================== */
+
+.site-nav a.active {
+  color: var(--green);
+}
+
+.site-nav a.active::after {
+  transform: scaleX(1);
+}
+
+/* ==============================================
+   Research card decorative hover
+   ============================================== */
+
+.research-item {
+  position: relative;
+  overflow: hidden;
+}
+
+/* Color accent bar slides in from left */
+.research-item::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  background: currentColor;
+  transform: scaleY(0);
+  transform-origin: bottom;
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.research-item:hover::before {
+  transform: scaleY(1);
+  transform-origin: top;
+}
+
+.accent-green::before  { color: var(--green); }
+.accent-blue::before   { color: var(--blue); }
+.accent-red::before    { color: var(--red); }
+
+/* Number scales up with color glow */
+.research-item > span {
+  display: inline-block;
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1),
+              text-shadow 0.35s ease;
+}
+
+.research-item:hover > span {
+  transform: scale(1.22);
+}
+
+.accent-green:hover > span  { text-shadow: 0 0 22px rgba(31, 111, 91, 0.35); }
+.accent-blue:hover > span   { text-shadow: 0 0 22px rgba(49, 95, 156, 0.35); }
+.accent-red:hover > span    { text-shadow: 0 0 22px rgba(154, 75, 63, 0.35); }
+
+/* ==============================================
+   Theme toggle button
+   ============================================== */
+
+.theme-toggle {
+  display: grid;
+  place-items: center;
+  width: 42px;
+  height: 42px;
+  border: 1px solid rgba(23, 32, 29, 0.14);
+  border-radius: 50%;
+  background: transparent;
+  cursor: pointer;
+  font-size: 19px;
+  line-height: 1;
+  transition: background 0.25s ease, transform 0.25s ease, border-color 0.25s ease;
+  flex-shrink: 0;
+  margin-left: 6px;
+}
+
+.theme-toggle:hover {
+  background: rgba(31, 111, 91, 0.07);
+  transform: scale(1.1);
+}
+
+html[data-theme="dark"] .theme-toggle {
+  border-color: rgba(221, 216, 206, 0.14);
+}
+
+html[data-theme="dark"] .theme-toggle:hover {
+  background: rgba(77, 172, 140, 0.12);
+}
