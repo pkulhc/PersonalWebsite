@@ -337,14 +337,14 @@ h1 span {
 }
 
 .research-item {
-  min-height: 348px;
+  min-height: 460px;
   padding: clamp(26px, 4vw, 42px);
   background: var(--paper);
 }
 
 .research-item span {
   display: block;
-  margin-bottom: 78px;
+  margin-bottom: 58px;
   font-size: 14px;
   font-weight: 800;
 }
@@ -356,6 +356,33 @@ h1 span {
 
 .research-item p {
   color: var(--muted);
+}
+
+.research-highlights {
+  display: grid;
+  gap: 12px;
+  margin: 26px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.research-highlights li {
+  position: relative;
+  padding-left: 18px;
+  color: #3f4d48;
+  font-size: 15px;
+  line-height: 1.58;
+}
+
+.research-highlights li::before {
+  position: absolute;
+  top: 0.74em;
+  left: 0;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: currentColor;
+  content: "";
 }
 
 .accent-green span {
