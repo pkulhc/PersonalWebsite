@@ -808,7 +808,7 @@ footer a {
    Scroll-triggered entrance animations
    ============================================== */
 
-.animate-on-scroll.pre-animate {
+.animate-on-scroll {
   opacity: 0;
   transform: translateY(36px);
 }
@@ -821,7 +821,7 @@ footer a {
 }
 
 /* Stagger children — for grids */
-.animate-stagger.pre-animate > * {
+.animate-stagger > * {
   opacity: 0;
   transform: translateY(24px);
   transition: opacity 0.6s cubic-bezier(0.16, 1, 0.3, 1),
@@ -845,7 +845,7 @@ footer a {
 @keyframes fadeUp {
   from {
     opacity: 0;
-    transform: translateY(38px);
+    transform: translateY(64px);
   }
   to {
     opacity: 1;
@@ -854,11 +854,11 @@ footer a {
 }
 
 .hero-copy {
-  animation: fadeUp 0.9s cubic-bezier(0.16, 1, 0.3, 1) both;
+  animation: fadeUp 1.1s 0.1s cubic-bezier(0.16, 1, 0.3, 1) both;
 }
 
 .portrait-wrap {
-  animation: fadeUp 0.9s 0.2s cubic-bezier(0.16, 1, 0.3, 1) both;
+  animation: fadeUp 1.1s 0.3s cubic-bezier(0.16, 1, 0.3, 1) both;
 }
 
 /* ==============================================
@@ -960,9 +960,9 @@ footer a {
    ============================================== */
 
 @media (prefers-reduced-motion: reduce) {
-  .animate-on-scroll.pre-animate,
+  .animate-on-scroll,
   .animate-on-scroll.is-visible,
-  .animate-stagger.pre-animate > *,
+  .animate-stagger > *,
   .animate-stagger.is-visible > *,
   .hero-copy,
   .portrait-wrap {

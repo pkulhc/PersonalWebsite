@@ -46,9 +46,6 @@ publications.forEach((paper) => {
 // ── Scroll-triggered entrance animations ──
 const animatedElements = document.querySelectorAll(".animate-on-scroll, .animate-stagger");
 
-// JS adds the hidden state — if JS fails, content stays fully visible
-animatedElements.forEach((el) => el.classList.add("pre-animate"));
-
 const scrollObserver = new IntersectionObserver(
   (entries) => {
     entries.forEach((entry) => {
