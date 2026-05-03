@@ -337,10 +337,11 @@ window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", (e)
 
   const fallback = countEl.textContent.trim();
 
-  // Try direct NCBI E-utilities (may be blocked by CORS on some browsers)
+  // Query with affiliation filter to exclude other researchers with the same name
+  const apiQuery = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=haocheng+lu[Author]+AND+(Southern+University+of+Science+and+Technology[Affiliation]+OR+Michigan[Affiliation]+OR+Peking+University[Affiliation])&retmax=0";
   const urls = [
-    `https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=haocheng+lu[Author]&retmax=0`,
-    `https://api.allorigins.win/raw?url=${encodeURIComponent("https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=haocheng+lu[Author]&retmax=0")}`,
+    apiQuery,
+    `https://api.allorigins.win/raw?url=${encodeURIComponent(apiQuery)}`,
   ];
 
   for (const url of urls) {
