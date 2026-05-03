@@ -270,7 +270,7 @@ h1 span {
 
 .stats {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   border-bottom: 1px solid var(--line);
 }
 
@@ -422,8 +422,9 @@ h1 span {
 
 .publication {
   display: grid;
-  grid-template-columns: 76px minmax(0, 1fr);
-  gap: 22px;
+  grid-template-columns: minmax(190px, 0.42fr) minmax(0, 1fr);
+  column-gap: clamp(28px, 4vw, 44px);
+  row-gap: 12px;
   padding: 28px;
   border-bottom: 1px solid var(--line);
 }
@@ -448,8 +449,16 @@ h1 span {
 }
 
 .publication p {
+  grid-column: 1;
   margin: 0;
   color: var(--muted);
+  font-size: 15px;
+  line-height: 1.55;
+}
+
+.publication p strong {
+  color: var(--ink);
+  font-weight: 900;
 }
 
 .timeline {
