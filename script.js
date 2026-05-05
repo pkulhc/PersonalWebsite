@@ -182,7 +182,15 @@ function applyTheme(theme) {
 
 function updateToggleLabel(theme) {
   if (themeToggle) {
-    themeToggle.setAttribute("aria-label", theme === "dark" ? "切换浅色模式" : "切换暗色模式");
+    const isEnglish = document.documentElement.lang?.startsWith("en");
+    const label = isEnglish
+      ? theme === "dark"
+        ? "Switch to light mode"
+        : "Switch to dark mode"
+      : theme === "dark"
+        ? "切换浅色模式"
+        : "切换暗色模式";
+    themeToggle.setAttribute("aria-label", label);
     themeToggle.textContent = theme === "dark" ? "☀️" : "🌙";
   }
 }

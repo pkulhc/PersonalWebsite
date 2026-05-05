@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Haocheng Lu, Assistant Professor in the Department of Pharmacology, School of Medicine, Southern University of Science and Technology. Research in cardiovascular and metabolic diseases."
+    />
+    <title>Haocheng Lu | Personal Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700;900&family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" data-scrolled="false">
+      <a class="brand" href="#top" aria-label="Haocheng Lu homepage">
+        <span class="brand-mark">HL</span>
+        <span>Haocheng Lu</span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">
+        <span></span>
+        <span></span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#projects">Funding & Honors</a>
+        <a href="#contact">Contact</a>
+        <a class="language-link" href="index.html">中文</a>
+      </nav>
+      <button class="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <canvas id="hero-canvas" aria-hidden="true"></canvas>
+        <div class="hero-copy">
+          <p class="eyebrow">Cardiovascular & Metabolic Disease Research</p>
+          <h1>Haocheng Lu<br /><span>鲁昊骋</span></h1>
+          <p class="lead">
+            Assistant Professor and doctoral supervisor in the Department of Pharmacology, School of Medicine, Southern University of Science and Technology. My research focuses on cardiovascular and metabolic diseases, using animal models, multi-omics, single-cell sequencing, and human genetics to understand disease mechanisms and identify therapeutic opportunities.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#publications">View Publications</a>
+            <a class="button secondary" href="mailto:luhc@sustech.edu.cn">luhc@sustech.edu.cn</a>
+          </div>
+        </div>
+        <div class="portrait-wrap" aria-label="Portrait of Haocheng Lu">
+          <img src="assets/haocheng-lu.webp" alt="Portrait of Haocheng Lu" />
+          <div class="portrait-caption">
+            <strong>Southern University of Science and Technology</strong>
+            <span>School of Medicine · Department of Pharmacology</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="stats" aria-label="Academic overview">
+        <div>
+          <strong>52</strong>
+          <span>NCBI Bibliography publications</span>
+        </div>
+        <div>
+          <strong>5+</strong>
+          <span>Principal investigator grants</span>
+        </div>
+        <div>
+          <strong>2024</strong>
+          <span>Guangdong Pearl River Young Talent</span>
+        </div>
+      </section>
+
+      <section id="about" class="section intro-grid animate-on-scroll">
+        <div>
+          <p class="section-kicker">Profile</p>
+          <h2>Connecting mechanism discovery with pharmacological intervention through vascular biology.</h2>
+        </div>
+        <div class="intro-text">
+          <p>
+            Dr. Haocheng Lu received his bachelor’s degree in Clinical Medicine from Peking University Health Science Center, together with a dual bachelor’s degree in Economics from the National School of Development, Peking University. He earned his Ph.D. in Physiology from the University of Michigan in 2019 and subsequently completed postdoctoral training in the Department of Internal Medicine at the University of Michigan. He is now an Assistant Professor in the Department of Pharmacology, School of Medicine, SUSTech.
+          </p>
+          <p>
+            His research centers on aortic aneurysm, atherosclerosis, metabolic dysfunction, and vascular cell homeostasis. The lab integrates human genetics, multi-omics maps, animal disease models, and pharmacological perturbation to link mechanistic discovery with translational validation.
+          </p>
+        </div>
+        <div class="profile-visuals animate-stagger" aria-label="Representative mechanism illustrations">
+          <figure class="profile-figure">
+            <img src="assets/profile-tfeb-aaa.webp" alt="Scientific illustration of TFEB activation protecting vascular smooth muscle cells and reducing abdominal aortic aneurysm formation" />
+            <figcaption>TFEB · AAA</figcaption>
+          </figure>
+          <figure class="profile-figure">
+            <img src="assets/profile-endothelial-tfeb.webp" alt="Scientific illustration of endothelial TFEB suppressing inflammation under laminar flow and reducing atherosclerosis" />
+            <figcaption>Endothelial TFEB</figcaption>
+          </figure>
+          <figure class="profile-figure">
+            <img src="assets/profile-crispr-trem2.webp" alt="Scientific illustration of CRISPR-MI and single-cell sequencing identifying TREM2-mediated macrophage mechanisms" />
+            <figcaption>CRISPR-MI · TREM2</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section id="research" class="section">
+        <div class="section-heading">
+          <p class="section-kicker">Research</p>
+          <h2>Research Directions</h2>
+        </div>
+        <div class="research-grid animate-stagger">
+          <article class="research-item accent-green">
+            <span>01</span>
+            <h3>Aortic aneurysm mechanisms and therapeutic targets</h3>
+            <p>
+              We investigate aortic aneurysm, a highly lethal vascular dilation disease, focusing on how vascular smooth muscle cells, macrophages, perivascular adipose tissue, and genetic variants jointly drive lesion development and rupture risk.
+            </p>
+            <ul class="research-highlights">
+              <li>Identified the smooth muscle TFEB-BCL2 axis as protective in abdominal aortic aneurysm and proposed TFEB activation by cyclodextrin as an intervention strategy.</li>
+              <li>Combined GWAS/TWAS with mechanistic studies to reveal the role of TCF7L2 in thoracic aortic aneurysm.</li>
+              <li>Characterized spatially distinct PVAT remodeling in response to AngII.</li>
+            </ul>
+          </article>
+          <article class="research-item accent-blue">
+            <span>02</span>
+            <h3>Atherosclerosis and metabolic disease mechanisms</h3>
+            <p>
+              We study how shear stress, endothelial inflammation, lipid metabolism, and glucose metabolism reshape vascular homeostasis, with the goal of identifying molecular nodes connecting cardiovascular and metabolic disease.
+            </p>
+            <ul class="research-highlights">
+              <li>First demonstrated that endothelial TFEB suppresses inflammation, oxidative stress, and atherosclerosis.</li>
+              <li>Showed that TFEB contributes to angiogenesis, insulin signaling, and systemic metabolic homeostasis.</li>
+              <li>Revealed how lipid-metabolism genes such as TM6SF2 affect cholesterol metabolism and diabetes-related phenotypes.</li>
+            </ul>
+          </article>
+          <article class="research-item accent-red">
+            <span>03</span>
+            <h3>Cardiovascular drug discovery and technology translation</h3>
+            <p>
+              We develop in vivo functional screening strategies and validate therapeutic candidates in disease models, building a translational pipeline from high-throughput discovery to mechanistic intervention.
+            </p>
+            <ul class="research-highlights">
+              <li>Established CRISPR-MI, an in vivo CRISPR screening platform for identifying disease-driving genes within complex lesions.</li>
+              <li>Integrated scRNA-seq to reveal TREM2 as a regulator of macrophage infiltration and apoptosis and as a potential AAA therapeutic target.</li>
+              <li>Systematically studied the pharmacological potential of nitro-fatty acids in endothelial protection, inflammation resolution, and metabolic disease.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="publications" class="section split-section animate-on-scroll">
+        <div class="section-heading sticky-heading">
+          <p class="section-kicker">Publications</p>
+          <h2>Selected Publications</h2>
+          <p>
+            The public NCBI bibliography currently lists 52 publications. The selected list below highlights first-author and corresponding-author work.
+          </p>
+          <div class="link-row">
+            <a href="https://www.ncbi.nlm.nih.gov/myncbi/haocheng.lu.2/bibliography/public/" target="_blank" rel="noreferrer">NCBI Bibliography</a>
+            <a href="https://www.sustech.edu.cn/zh/faculties/haochenglu.html" target="_blank" rel="noreferrer">SUSTech Profile</a>
+          </div>
+        </div>
+        <div class="publication-panel">
+          <div class="tabs" role="tablist" aria-label="Publication categories">
+            <button class="tab active" data-filter="featured" role="tab" aria-selected="true">Featured</button>
+            <button class="tab" data-filter="latest" role="tab" aria-selected="false">Latest</button>
+            <button class="tab" data-filter="reviews" role="tab" aria-selected="false">Reviews</button>
+          </div>
+          <div class="publication-list">
+            <article class="publication" data-group="featured">
+              <div class="publication-meta"><time>2026</time><p><strong><em>J Am Heart Assoc.</em></strong> Zhang C, Hu W, Zhang J, Wang Z, <strong class="me">Lu H</strong><sup>*</sup>. IF: 5.3</p></div>
+              <div class="publication-main"><h3>Role of Caveolae and Caveolin in Vascular Physiology and Pathology.</h3></div>
+            </article>
+            <article class="publication" data-group="featured">
+              <div class="publication-meta"><time>2025</time><p><strong><em>Adv Sci (Weinh).</em></strong> <strong class="me">Lu H</strong>, Xue C, Zhao Y, Sun J, et al. IF: 14.1</p></div>
+              <div class="publication-main"><h3>CRISPR-MI and scRNA-Seq Reveal TREM2's Function in Monocyte Infiltration and Macrophage Apoptosis During Abdominal Aortic Aneurysm Development.</h3></div>
+            </article>
+            <article class="publication" data-group="featured">
+              <div class="publication-meta"><time>2024</time><p><strong><em>Front Immunol.</em></strong> Wenting Hu, Yaozhong Liu, Cuihong Lian, <strong class="me">Haocheng Lu</strong><sup>*</sup>. IF: 5.7</p></div>
+              <div class="publication-main"><h3>Genetic insight into putative causes of xanthelasma palpebrarum: a Mendelian randomization study.</h3></div>
+            </article>
+            <article class="publication" data-group="featured">
+              <div class="publication-meta"><time>2021</time><p><strong><em>J Am Heart Assoc.</em></strong> <strong class="me">Haocheng Lu</strong>, Wa Du, Lu Ren, Milton H. Hamblin, Richard C. Becker, Y. Eugene Chen, Yanbo Fan. IF: 6.1</p></div>
+              <div class="publication-main"><h3>Vascular Smooth Muscle Cells in Aortic Aneurysm: From Genetics to Mechanisms.</h3></div>
+            </article>
+            <article class="publication" data-group="featured">
+              <div class="publication-meta"><time>2021</time><p><strong><em>Cardiovasc Drugs Ther.</em></strong> <strong class="me">Haocheng Lu</strong>, Jifeng Zhang, Y. Eugene Chen, Minerva T. Garcia-Barrio. IF: 3.9</p></div>
+              <div class="publication-main"><h3>Integration of Transformative Platforms for the Discovery of Causative Genes in Cardiovascular Diseases.</h3></div>
+            </article>
+            <article class="publication" data-group="featured">
+              <div class="publication-meta"><time>2021</time><p><strong><em>EBioMedicine.</em></strong> <strong class="me">Haocheng Lu</strong>, Jinjian Sun, Milton H. Hamblin, Y. Eugene Chen, Yanbo Fan. IF: 11.2</p></div>
+              <div class="publication-main"><h3>Transcription factor EB regulates cardiovascular homeostasis.</h3></div>
+            </article>
+            <article class="publication" data-group="featured">
+              <div class="publication-meta"><time>2021</time><p><strong><em>Am J Hum Genet.</em></strong> Tanmoy Roychowdhury<sup>#</sup>, <strong class="me">Haocheng Lu</strong><sup>#</sup>, Whitney E. Hornsby, et al. IF: 11.0</p></div>
+              <div class="publication-main"><h3>Regulatory variants in TCF7L2 are associated with thoracic aortic aneurysm.</h3></div>
+            </article>
+            <article class="publication" data-group="featured">
+              <div class="publication-meta"><time>2020</time><p><strong><em>Circulation.</em></strong> <strong class="me">Haocheng Lu</strong>, Jinjian Sun, Wenying Liang, Ziyi Chang, Oren Rom, et al. IF: 39.9</p></div>
+              <div class="publication-main"><h3>Cyclodextrin Prevents Abdominal Aortic Aneurysm via Activation of Vascular Smooth Muscle Cell TFEB.</h3></div>
+            </article>
+            <article class="publication" data-group="featured">
+              <div class="publication-meta"><time>2019</time><p><strong><em>Physiol Genomics.</em></strong> <strong class="me">Haocheng Lu</strong>, Jinjian Sun, Wenying Liang, Jifeng Zhang, Oren Rom, et al. IF: 4.3</p></div>
+              <div class="publication-main"><h3>Novel gene regulatory networks identified in response to nitro-conjugated linoleic acid in human endothelial cells.</h3></div>
+            </article>
+            <article class="publication" data-group="featured">
+              <div class="publication-meta"><time>2017</time><p><strong><em>Science Signaling.</em></strong> <strong class="me">Haocheng Lu</strong>, Yanbo Fan, Congzhen Qiao, et al. IF: 9.5</p></div>
+              <div class="publication-main"><h3>TFEB inhibits endothelial cell inflammation and reduces atherosclerosis.</h3></div>
+            </article>
+            <article class="publication" data-group="latest">
+              <div class="publication-meta"><time>2026</time><p><strong><em>JCI Insight.</em></strong> Deng Y, Liu Y, Zhao Y, ... <strong class="me">Lu H</strong>, et al. Epub ahead of print.</p></div>
+              <div class="publication-main"><h3>TCF7L2 promotes abdominal aortic aneurysm through smooth muscle cell-mediated extracellular matrix remodeling.</h3></div>
+            </article>
+            <article class="publication" data-group="latest">
+              <div class="publication-meta"><time>2026</time><p><strong><em>J Am Heart Assoc.</em></strong> Zhang C, Hu W, Zhang J, Wang Z, <strong class="me">Lu H</strong><sup>*</sup>. IF: 5.3</p></div>
+              <div class="publication-main"><h3>Role of Caveolae and Caveolin in Vascular Physiology and Pathology.</h3></div>
+            </article>
+            <article class="publication" data-group="latest">
+              <div class="publication-meta"><time>2026</time><p><strong><em>Circ Res.</em></strong> Gao T, Li X, Zhang W, ... <strong class="me">Lu H</strong>, et al.</p></div>
+              <div class="publication-main"><h3>SWAP70 Promotes Atherosclerosis Via Endothelial CAV1 Nuclear Translocation.</h3></div>
+            </article>
+            <article class="publication" data-group="latest">
+              <div class="publication-meta"><time>2025</time><p><strong><em>Circulation.</em></strong> Liu Y, Wang H, Yu M, ... <strong class="me">Lu H</strong>, et al. IF: 38.6</p></div>
+              <div class="publication-main"><h3>Hypertriglyceridemia as a Key Contributor to Abdominal Aortic Aneurysm Development and Rupture.</h3></div>
+            </article>
+            <article class="publication" data-group="reviews">
+              <div class="publication-meta"><time>2021</time><p><strong><em>EBioMedicine.</em></strong> <strong class="me">Haocheng Lu</strong>, Jinjian Sun, Milton H Hamblin, Y Eugene Chen, Yanbo Fan. IF: 11.2</p></div>
+              <div class="publication-main"><h3>Transcription factor EB regulates cardiovascular homeostasis.</h3></div>
+            </article>
+            <article class="publication" data-group="reviews">
+              <div class="publication-meta"><time>2021</time><p><strong><em>J Am Heart Assoc.</em></strong> <strong class="me">Haocheng Lu</strong>, Wa Du, Lu Ren, Milton H. Hamblin, Richard C. Becker, Y. Eugene Chen, Yanbo Fan. IF: 6.1</p></div>
+              <div class="publication-main"><h3>Vascular Smooth Muscle Cells in Aortic Aneurysm: From Genetics to Mechanisms.</h3></div>
+            </article>
+            <article class="publication" data-group="reviews">
+              <div class="publication-meta"><time>2021</time><p><strong><em>Cardiovasc Drugs Ther.</em></strong> <strong class="me">Haocheng Lu</strong>, Jifeng Zhang, Y. Eugene Chen, Minerva T. Garcia-Barrio. IF: 3.9</p></div>
+              <div class="publication-main"><h3>Integration of Transformative Platforms for the Discovery of Causative Genes in Cardiovascular Diseases.</h3></div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="timeline" class="section">
+        <div class="section-heading">
+          <p class="section-kicker">Experience</p>
+          <h2>Education & Experience</h2>
+        </div>
+        <div class="timeline animate-stagger">
+          <article><time>2022.6 - Present</time><h3>School of Medicine, SUSTech</h3><p>Assistant Professor / Associate Researcher, doctoral supervisor</p></article>
+          <article><time>2019.5 - 2022.4</time><h3>Department of Internal Medicine, University of Michigan</h3><p>Postdoctoral fellow, mentor: Prof. Y. Eugene Chen</p></article>
+          <article><time>2014.9 - 2019.4</time><h3>Department of Physiology, University of Michigan</h3><p>Ph.D., mentor: Prof. Y. Eugene Chen</p></article>
+          <article><time>2008.9 - 2014.7</time><h3>Peking University Health Science Center / National School of Development</h3><p>Bachelor of Clinical Medicine; dual bachelor’s degree in Economics</p></article>
+        </div>
+      </section>
+
+      <section id="projects" class="section projects-section animate-on-scroll">
+        <div class="section-heading">
+          <p class="section-kicker">Funding & Honors</p>
+          <h2>Grants and Honors</h2>
+        </div>
+        <div class="two-columns">
+          <div class="list-block">
+            <h3>Selected Grants</h3>
+            <ul>
+              <li><strong>National Natural Science Foundation of China, General Program</strong><span>82370490, 2024.1 - 2027.12, RMB 490,000</span></li>
+              <li><strong>National Natural Science Foundation of China, Young Scientists Fund</strong><span>32300958, 2024.1 - 2026.12, RMB 300,000</span></li>
+              <li><strong>Shenzhen Medical Academy Young Investigator Program</strong><span>A032400515, 2025.1 - 2027.12, RMB 800,000</span></li>
+              <li><strong>Guangdong Natural Science Foundation, General Program</strong><span>2023A1515010489, 2023.1 - 2025.12, RMB 100,000</span></li>
+              <li><strong>Shenzhen Basic Research Program</strong><span>JCYJ20240813100605008, 2024.11 - 2027.11, RMB 300,000</span></li>
+            </ul>
+          </div>
+          <div class="list-block honors">
+            <h3>Honors</h3>
+            <ul>
+              <li><strong>Guangdong Pearl River Young Talent</strong><span>2024</span></li>
+              <li><strong>American Heart Association Predoctoral Fellowship</strong><span>2017 - 2019</span></li>
+              <li><strong>Young Investigator Award</strong><span>AHA ATVB-PVD Scientific Sessions, 2018</span></li>
+              <li><strong>Gold Medal, International Biology Olympiad</strong><span>19th IBO, Mumbai, India, 2008</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact-section animate-on-scroll">
+        <div>
+          <p class="section-kicker">Contact</p>
+          <h2>Research collaborations, student training, and academic exchanges in cardiovascular and metabolic disease are welcome.</h2>
+        </div>
+        <address>
+          <a href="mailto:luhc@sustech.edu.cn">luhc@sustech.edu.cn</a>
+          <a href="tel:075588018819">0755-88018819</a>
+          <span>Department of Pharmacology, School of Medicine, SUSTech</span>
+          <span>1088 Xueyuan Avenue, Nanshan District, Shenzhen, Guangdong, China</span>
+        </address>
+      </section>
+    </main>
+
+    <footer>
+      <span>© 2026 Haocheng Lu</span>
+      <a href="#top">Back to top</a>
+    </footer>
+
+    <script src="script.js"></script>
+    <noscript>
+      <style>
+        .animate-on-scroll,
+        .animate-stagger > * { opacity: 1 !important; transform: none !important; }
+      </style>
+    </noscript>
+  </body>
+</html>

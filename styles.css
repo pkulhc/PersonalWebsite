@@ -97,6 +97,17 @@ img {
   position: relative;
 }
 
+.language-link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 34px;
+  padding: 0 12px;
+  border: 1px solid rgba(23, 32, 29, 0.14);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.5);
+  font-size: 13px;
+}
+
 .site-nav a::after {
   position: absolute;
   right: 0;
@@ -113,6 +124,10 @@ img {
 .site-nav a:hover::after,
 .site-nav a:focus-visible::after {
   transform: scaleX(1);
+}
+
+.site-nav .language-link::after {
+  display: none;
 }
 
 .nav-toggle {
@@ -746,6 +761,11 @@ footer a {
     padding: 14px;
   }
 
+  .site-nav .language-link {
+    justify-content: center;
+    min-height: 44px;
+  }
+
   .site-nav a::after {
     display: none;
   }
@@ -1028,6 +1048,12 @@ html[data-theme="dark"] .site-header[data-scrolled="true"] {
 
 html[data-theme="dark"] .site-nav {
   color: var(--muted);
+}
+
+html[data-theme="dark"] .language-link {
+  background: rgba(221, 216, 206, 0.06);
+  border-color: rgba(221, 216, 206, 0.14);
+  color: var(--ink);
 }
 
 html[data-theme="dark"] .brand-mark {
