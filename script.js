@@ -370,19 +370,23 @@ window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", (e)
   countEl.textContent = fallback;
 })();
 
-// ── Add PubMed search links to publications ──
+// Add PubMed links to publications.
 document.querySelectorAll(".publication").forEach((pub) => {
   const titleEl = pub.querySelector(".publication-main h3");
   if (!titleEl) return;
 
   const title = titleEl.textContent.trim();
+  const metaText = pub.querySelector(".publication-meta")?.textContent ?? "";
+  const pmid = metaText.match(/PMID:\s*(\d+)/)?.[1];
   const link = document.createElement("a");
-  link.href = `https://pubmed.ncbi.nlm.nih.gov/?term=${encodeURIComponent(title)}`;
+  link.href = pmid
+    ? `https://pubmed.ncbi.nlm.nih.gov/${pmid}/`
+    : `https://pubmed.ncbi.nlm.nih.gov/?term=${encodeURIComponent(title)}`;
   link.target = "_blank";
   link.rel = "noopener noreferrer";
   link.className = "pubmed-link";
   link.textContent = "PubMed";
-  link.setAttribute("aria-label", `在 PubMed 中搜索: ${title}`);
+  link.setAttribute("aria-label", pmid ? `Open PubMed PMID ${pmid}` : `Search PubMed: ${title}`);
 
   pub.querySelector(".publication-main")?.appendChild(link);
 });
