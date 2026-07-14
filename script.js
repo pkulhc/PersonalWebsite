@@ -1,4 +1,5 @@
 const header = document.querySelector(".site-header");
+const scrollProgress = document.querySelector(".scroll-progress");
 const navToggle = document.querySelector(".nav-toggle");
 const navLinks = document.querySelectorAll(".site-nav a");
 const tabs = document.querySelectorAll(".tab");
@@ -6,6 +7,11 @@ const publications = document.querySelectorAll(".publication");
 
 const updateHeader = () => {
   header.dataset.scrolled = window.scrollY > 12 ? "true" : "false";
+  if (scrollProgress) {
+    const scrollable = document.documentElement.scrollHeight - window.innerHeight;
+    const progress = scrollable > 0 ? Math.min(window.scrollY / scrollable, 1) : 0;
+    scrollProgress.style.transform = `scaleX(${progress})`;
+  }
 };
 
 updateHeader();
