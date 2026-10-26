@@ -2,7 +2,7 @@
   "source": "https://www.ncbi.nlm.nih.gov/myncbi/haocheng.lu.2/bibliography/public/",
   "verifiedAt": "2026-10-26",
   "total": 56,
-  "notes": "Membership from both My Bibliography pages; metadata from PubMed XML. Dates use journal publication dates; missing date components are used only for sorting. Author roles retain the supplied CV and previously verified website credits. New TFEB-mRNA corresponding authors verified against PMC13687531; emodin corresponding authors verified from PubMed electronic-address affiliations. Autophagy author list abbreviated to first/corresponding author and Haocheng Lu. Vascular Smooth Muscle Cells in Aortic Aneurysm (PMID 34796717) retains its original review classification. Full page ranges and electronic article identifiers are retained from PubMed XML.",
+  "notes": "Membership from both My Bibliography pages; metadata from PubMed XML. Dates use journal publication dates; missing date components are used only for sorting. Author roles retain the supplied CV and previously verified website credits. New TFEB-mRNA corresponding authors verified against PMC13687531; emodin corresponding authors verified from PubMed electronic-address affiliations. Autophagy author list abbreviated to first/corresponding author and Haocheng Lu. Vascular Smooth Muscle Cells in Aortic Aneurysm (PMID 34796717) retains its original review classification. Full page ranges and electronic article identifiers are retained from PubMed XML. Haocheng Lu confirmed his corresponding authorship of PMID 42924840 on 2026-10-26.",
   "publications": [
     {
       "pmid": "42924840",
@@ -56,7 +56,7 @@
           "name": "Lu H",
           "fullName": "Haocheng Lu",
           "me": true,
-          "marks": ""
+          "marks": "*"
         },
         {
           "name": "Lin J",
