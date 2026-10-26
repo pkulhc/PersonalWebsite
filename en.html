@@ -14,9 +14,14 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;700;900&family=Noto+Serif+SC:wght@600;700;900&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="canonical" href="https://pkulhc.github.io/PersonalWebsite/en.html" />
+    <link rel="alternate" hreflang="zh-CN" href="https://pkulhc.github.io/PersonalWebsite/" />
+    <meta name="theme-color" content="#f8f9fa" />
+    <script src="theme.js?v=20261026"></script>
+    <link rel="stylesheet" href="styles.css?v=20261026" />
   </head>
   <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
     <header class="site-header" data-scrolled="false">
       <span class="scroll-progress" aria-hidden="true"></span>
       <a class="brand" href="#top" aria-label="Haocheng Lu homepage">
@@ -24,46 +29,42 @@
         <span>Haocheng Lu</span>
       </a>
       <button class="nav-toggle" aria-label="Open navigation menu" aria-expanded="false" aria-controls="site-nav">
-        <span></span>
-        <span></span>
+        <img class="icon" src="assets/icons/menu.svg" width="20" height="20" alt="" />
       </button>
       <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+        <a href="#about">Profile</a>
         <a href="#research">Research</a>
         <a href="#publications">Publications</a>
         <a href="#projects">Funding & Honors</a>
         <a href="#contact">Contact</a>
         <a class="language-link" href="index.html">中文</a>
       </nav>
-      <button class="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+      <button class="theme-toggle" aria-label="Switch to dark mode" title="Switch to dark mode"><img class="icon" src="assets/icons/moon.svg" width="20" height="20" alt="" /></button>
     </header>
 
     <main id="top">
-      <section class="hero">
-        <canvas id="hero-canvas" aria-hidden="true"></canvas>
+      <section id="main-content" class="hero" aria-labelledby="hero-title">
         <div class="hero-copy">
           <p class="eyebrow">Cardiovascular & Metabolic Disease Research</p>
-          <h1>Haocheng Lu<br /><span>鲁昊骋</span></h1>
+          <h1 id="hero-title">Haocheng Lu<span>鲁昊骋 · PhD</span></h1>
+          <p class="hero-role">Department of Pharmacology · School of Medicine, SUSTech<br /><strong>Assistant Professor &amp; Doctoral Supervisor</strong></p>
           <p class="lead">
-            Assistant Professor and doctoral supervisor in the Department of Pharmacology, School of Medicine, Southern University of Science and Technology. My research focuses on cardiovascular and metabolic diseases, using animal models, multi-omics, single-cell sequencing, and human genetics to understand disease mechanisms and identify therapeutic opportunities.
+            I study the mechanisms of vascular homeostasis and cardiometabolic disease, combining genetics, multi-omics and in vivo functional screening to identify therapeutic targets and interventions.
           </p>
           <div class="hero-actions">
-            <a class="button primary" href="#publications">View Publications</a>
-            <a class="button secondary" href="mailto:luhc@sustech.edu.cn">luhc@sustech.edu.cn</a>
+            <a class="button primary" href="#publications">Publications<img class="icon" src="assets/icons/arrow-down.svg" width="18" height="18" alt="" /></a>
+            <a class="button secondary" href="mailto:luhc@sustech.edu.cn"><img class="icon" src="assets/icons/mail.svg" width="18" height="18" alt="" />luhc@sustech.edu.cn</a>
           </div>
         </div>
         <div class="portrait-wrap" aria-label="Portrait of Haocheng Lu">
-          <img src="assets/haocheng-lu.webp" alt="Portrait of Haocheng Lu" />
-          <div class="portrait-caption">
-            <strong>Southern University of Science and Technology</strong>
-            <span>School of Medicine · Department of Pharmacology</span>
-          </div>
+          <img src="assets/haocheng-lu.webp" alt="Portrait of Haocheng Lu" width="960" height="1280" fetchpriority="high" />
         </div>
       </section>
 
       <section class="stats" aria-label="Academic overview">
         <div>
-          <strong>53</strong>
-          <span>NCBI Bibliography publications</span>
+          <strong data-publication-total>56</strong>
+          <span>Publications</span>
         </div>
         <div>
           <strong>5+</strong>
@@ -90,17 +91,17 @@
         </div>
         <div class="profile-visuals animate-stagger" aria-label="Representative mechanism illustrations">
           <figure class="profile-figure">
-            <img src="assets/profile-tfeb-aaa.webp" alt="Scientific illustration of TFEB activation protecting vascular smooth muscle cells and reducing abdominal aortic aneurysm formation" />
+            <img src="assets/profile-tfeb-aaa.webp" alt="Scientific illustration of TFEB activation protecting vascular smooth muscle cells and reducing abdominal aortic aneurysm formation" loading="lazy" decoding="async" />
             <figcaption>TFEB · AAA</figcaption>
             <a class="profile-paper-link" href="https://pubmed.ncbi.nlm.nih.gov/32354235/" target="_blank" rel="noreferrer">View on PubMed</a>
           </figure>
           <figure class="profile-figure">
-            <img src="assets/profile-endothelial-tfeb.webp" alt="Scientific illustration of endothelial TFEB suppressing inflammation under laminar flow and reducing atherosclerosis" />
+            <img src="assets/profile-endothelial-tfeb.webp" alt="Scientific illustration of endothelial TFEB suppressing inflammation under laminar flow and reducing atherosclerosis" loading="lazy" decoding="async" />
             <figcaption>Endothelial TFEB</figcaption>
             <a class="profile-paper-link" href="https://pubmed.ncbi.nlm.nih.gov/28143903/" target="_blank" rel="noreferrer">View on PubMed</a>
           </figure>
           <figure class="profile-figure">
-            <img src="assets/profile-crispr-trem2.webp" alt="Scientific illustration of CRISPR-MI and single-cell sequencing identifying TREM2-mediated macrophage mechanisms" />
+            <img src="assets/profile-crispr-trem2.webp" alt="Scientific illustration of CRISPR-MI and single-cell sequencing identifying TREM2-mediated macrophage mechanisms" loading="lazy" decoding="async" />
             <figcaption>CRISPR-MI · TREM2</figcaption>
             <a class="profile-paper-link" href="https://pubmed.ncbi.nlm.nih.gov/41058009/" target="_blank" rel="noreferrer">View on PubMed</a>
           </figure>
@@ -152,602 +153,707 @@
         </div>
       </section>
 
-      <section id="publications" class="section split-section animate-on-scroll">
-        <div class="section-heading sticky-heading">
-          <p class="section-kicker">Publications</p>
-          <h2>Selected Publications</h2>
-          <p>
-            The public NCBI bibliography currently lists 53 publications. The tabs below include featured papers, recent papers, reviews, and the complete PubMed-sourced list.
-          </p>
-          <div class="link-row">
-            <a href="https://www.ncbi.nlm.nih.gov/myncbi/haocheng.lu.2/bibliography/public/" target="_blank" rel="noreferrer">NCBI Bibliography</a>
-            <a href="https://www.sustech.edu.cn/zh/faculties/haochenglu.html" target="_blank" rel="noreferrer">SUSTech Profile</a>
+      <!-- PUBLICATIONS:START -->
+      <section id="publications" class="section publications-section" aria-labelledby="publications-title">
+        <div class="publications-heading">
+          <div><p class="section-kicker">Publications</p><h2 id="publications-title">Selected & Recent Work</h2></div>
+          <div class="publication-source">
+            <p>56 publications · Updated October 26, 2026</p>
+            <a href="https://www.ncbi.nlm.nih.gov/myncbi/haocheng.lu.2/bibliography/public/" target="_blank" rel="noopener noreferrer">NCBI Bibliography <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a>
           </div>
         </div>
         <div class="publication-panel">
-          <div class="tabs" role="tablist" aria-label="Publication categories">
-            <button class="tab active" data-filter="featured" role="tab" aria-selected="true">Featured</button>
-            <button class="tab" data-filter="latest" role="tab" aria-selected="false">Latest</button>
-            <button class="tab" data-filter="reviews" role="tab" aria-selected="false">Reviews</button>
-            <button class="tab" data-filter="all" role="tab" aria-selected="false">All</button>
+          <div class="publication-controls" hidden>
+            <div class="tabs" role="tablist" aria-label="Publication categories">
+              <button type="button" id="tab-featured" class="tab active" data-filter="featured" role="tab" aria-selected="true" aria-controls="publication-results" tabindex="0">Featured<span class="tab-count">10</span></button>
+              <button type="button" id="tab-latest" class="tab" data-filter="latest" role="tab" aria-selected="false" aria-controls="publication-results" tabindex="-1">Latest<span class="tab-count">10</span></button>
+              <button type="button" id="tab-reviews" class="tab" data-filter="reviews" role="tab" aria-selected="false" aria-controls="publication-results" tabindex="-1">Reviews<span class="tab-count">9</span></button>
+              <button type="button" id="tab-all" class="tab" data-filter="all" role="tab" aria-selected="false" aria-controls="publication-results" tabindex="-1">All<span class="tab-count">56</span></button>
+            </div>
+            <div class="publication-filters">
+              <label class="search-field" for="publication-search"><img class="icon" src="assets/icons/search.svg" width="16" height="16" alt="" /><span class="sr-only">Search publications</span><input id="publication-search" type="search" placeholder="Title, author, journal or PMID" autocomplete="off" /></label>
+              <label class="year-field" for="publication-year"><span class="sr-only">Publication year</span><select id="publication-year"><option value="all">All years</option><option value="2026">2026</option><option value="2025">2025</option><option value="2024">2024</option><option value="2023">2023</option><option value="2022">2022</option><option value="2021">2021</option><option value="2020">2020</option><option value="2019">2019</option><option value="2018">2018</option><option value="2017">2017</option><option value="2016">2016</option></select></label>
+            </div>
           </div>
-          <div class="publication-list">
-            <article class="publication" data-group="featured">
-              <div class="publication-meta"><time>2026</time><p><strong><em>Med Rev (2021).</em></strong> Liu Y, Zhao L, Zhang C, Ruan X, Yu H, Cao Y, Ju W, <strong class="me">Lu H</strong><sup>*</sup>.</p></div>
-              <div class="publication-main"><h3>Metabolic reprogramming in aortic diseases: insights from metabolomics and therapeutic opportunities.</h3></div>
-            </article>
-            <article class="publication" data-group="featured">
-              <div class="publication-meta"><time>2026</time><p><strong><em>J Am Heart Assoc.</em></strong> Zhang C, Hu W, Zhang J, Wang Z, <strong class="me">Lu H</strong><sup>*</sup>. IF: 5.3</p></div>
-              <div class="publication-main"><h3>Role of Caveolae and Caveolin in Vascular Physiology and Pathology.</h3></div>
-            </article>
-            <article class="publication" data-group="featured">
-              <div class="publication-meta"><time>2025</time><p><strong><em>Adv Sci (Weinh).</em></strong> <strong class="me">Lu H</strong>, Xue C, Zhao Y, Sun J, et al. IF: 14.1</p></div>
-              <div class="publication-main"><h3>CRISPR-MI and scRNA-Seq Reveal TREM2's Function in Monocyte Infiltration and Macrophage Apoptosis During Abdominal Aortic Aneurysm Development.</h3></div>
-            </article>
-            <article class="publication" data-group="featured">
-              <div class="publication-meta"><time>2021</time><p><strong><em>J Am Heart Assoc.</em></strong> <strong class="me">Haocheng Lu</strong>, Wa Du, Lu Ren, Milton H. Hamblin, Richard C. Becker, Y. Eugene Chen, Yanbo Fan. IF: 6.1</p></div>
-              <div class="publication-main"><h3>Vascular Smooth Muscle Cells in Aortic Aneurysm: From Genetics to Mechanisms.</h3></div>
-            </article>
-            <article class="publication" data-group="featured">
-              <div class="publication-meta"><time>2021</time><p><strong><em>Cardiovasc Drugs Ther.</em></strong> <strong class="me">Haocheng Lu</strong>, Jifeng Zhang, Y. Eugene Chen, Minerva T. Garcia-Barrio. IF: 3.9</p></div>
-              <div class="publication-main"><h3>Integration of Transformative Platforms for the Discovery of Causative Genes in Cardiovascular Diseases.</h3></div>
-            </article>
-            <article class="publication" data-group="featured">
-              <div class="publication-meta"><time>2021</time><p><strong><em>EBioMedicine.</em></strong> <strong class="me">Haocheng Lu</strong>, Jinjian Sun, Milton H. Hamblin, Y. Eugene Chen, Yanbo Fan. IF: 11.2</p></div>
-              <div class="publication-main"><h3>Transcription factor EB regulates cardiovascular homeostasis.</h3></div>
-            </article>
-            <article class="publication" data-group="featured">
-              <div class="publication-meta"><time>2021</time><p><strong><em>Am J Hum Genet.</em></strong> Tanmoy Roychowdhury<sup>#</sup>, <strong class="me">Haocheng Lu</strong><sup>#</sup>, Whitney E. Hornsby, et al. IF: 11.0</p></div>
-              <div class="publication-main"><h3>Regulatory variants in TCF7L2 are associated with thoracic aortic aneurysm.</h3></div>
-            </article>
-            <article class="publication" data-group="featured">
-              <div class="publication-meta"><time>2020</time><p><strong><em>Circulation.</em></strong> <strong class="me">Haocheng Lu</strong>, Jinjian Sun, Wenying Liang, Ziyi Chang, Oren Rom, et al. IF: 39.9</p></div>
-              <div class="publication-main"><h3>Cyclodextrin Prevents Abdominal Aortic Aneurysm via Activation of Vascular Smooth Muscle Cell TFEB.</h3></div>
-            </article>
-            <article class="publication" data-group="featured">
-              <div class="publication-meta"><time>2019</time><p><strong><em>Physiol Genomics.</em></strong> <strong class="me">Haocheng Lu</strong>, Jinjian Sun, Wenying Liang, Jifeng Zhang, Oren Rom, et al. IF: 4.3</p></div>
-              <div class="publication-main"><h3>Novel gene regulatory networks identified in response to nitro-conjugated linoleic acid in human endothelial cells.</h3></div>
-            </article>
-            <article class="publication" data-group="featured">
-              <div class="publication-meta"><time>2017</time><p><strong><em>Science Signaling.</em></strong> <strong class="me">Haocheng Lu</strong>, Yanbo Fan, Congzhen Qiao, et al. IF: 9.5</p></div>
-              <div class="publication-main"><h3>TFEB inhibits endothelial cell inflammation and reduces atherosclerosis.</h3></div>
-            </article>
-            <article class="publication" data-group="latest">
-              <div class="publication-meta"><time>2026</time><p><strong><em>JCI Insight.</em></strong> Deng Y, Liu Y, Zhao Y, Liu H, Zhao G, Wang Z, Zhang X, Xue C, Huang W, Zhu T, <strong class="me">Lu H</strong>, et al. 2026;11(12). PMID: 42060473.</p></div>
-              <div class="publication-main"><h3>TCF7L2 promotes abdominal aortic aneurysm through smooth muscle cell-mediated extracellular matrix remodeling.</h3></div>
-            </article>
-            <article class="publication" data-group="latest">
-              <div class="publication-meta"><time>2026</time><p><strong><em>Med Rev (2021).</em></strong> Liu Y, Zhao L, Zhang C, Ruan X, Yu H, Cao Y, Ju W, <strong class="me">Lu H</strong><sup>*</sup>. 2026;6(2):142-161.</p></div>
-              <div class="publication-main"><h3>Metabolic reprogramming in aortic diseases: insights from metabolomics and therapeutic opportunities.</h3></div>
-            </article>
-            <article class="publication" data-group="latest">
-              <div class="publication-meta"><time>2026</time><p><strong><em>J Am Heart Assoc.</em></strong> Zhang C, Hu W, Zhang J, Wang Z, <strong class="me">Lu H</strong><sup>*</sup>. 2026;15(4):e047590.</p></div>
-              <div class="publication-main"><h3>Role of Caveolae and Caveolin in Vascular Physiology and Pathology.</h3></div>
-            </article>
-            <article class="publication" data-group="latest">
-              <div class="publication-meta"><time>2026</time><p><strong><em>Circ Res.</em></strong> Gao T, Li X, Zhang W, Yang Y, Liu Y, Liang F, <strong class="me">Lu H</strong>, Wang L, Bai B, Gu D. 2026;138(4):e327048.</p></div>
-              <div class="publication-main"><h3>SWAP70 Promotes Atherosclerosis Via Endothelial CAV1 Nuclear Translocation.</h3></div>
-            </article>
-            <article class="publication" data-group="latest">
-              <div class="publication-meta"><time>2025</time><p><strong><em>Adv Sci (Weinh).</em></strong> <strong class="me">Lu H</strong>, Xue C, Zhao Y, Sun J, et al. 2025;12(48):e12227.</p></div>
-              <div class="publication-main"><h3>CRISPR-MI and scRNA-Seq Reveal TREM2's Function in Monocyte Infiltration and Macrophage Apoptosis During Abdominal Aortic Aneurysm Development.</h3></div>
-            </article>
-            <article class="publication" data-group="latest">
-              <div class="publication-meta"><time>2025</time><p><strong><em>Circulation.</em></strong> Liu Y, Wang H, Yu M, Cai L, Zhao Y, Cheng Y, Deng Y, Zhao Y, <strong class="me">Lu H</strong>, et al. 2025;152(12):862-881.</p></div>
-              <div class="publication-main"><h3>Hypertriglyceridemia as a Key Contributor to Abdominal Aortic Aneurysm Development and Rupture.</h3></div>
-            </article>
-            <article class="publication" data-group="latest">
-              <div class="publication-meta"><time>2025</time><p><strong><em>Biomedicines.</em></strong> Lin J, Lin H, Xu Z, Yang Z, Hong C, Wang Y, <strong class="me">Lu H</strong><sup>*</sup>. 2025;13(6):1399.</p></div>
-              <div class="publication-main"><h3>Angiogenesis in Atrial Fibrillation: A Literature Review.</h3></div>
-            </article>
-            <article class="publication" data-group="latest">
-              <div class="publication-meta"><time>2025</time><p><strong><em>Front Cardiovasc Med.</em></strong> Su C, Zeng L, <strong class="me">Lu H</strong><sup>#</sup>, Wang Z<sup>#</sup>, Wei M<sup>#</sup>. 2025;12:1533138.</p></div>
-              <div class="publication-main"><h3>Case Report: A FBN1 frameshift-and-nonsense mutation and aortic dissection in Marfan syndrome.</h3></div>
-            </article>
-            <article class="publication" data-group="latest">
-              <div class="publication-meta"><time>2025</time><p><strong><em>Arterioscler Thromb Vasc Biol.</em></strong> Liu Y, Yu M, Wang H, Dorsey KH, Cheng Y, Zhao Y, Luo Y, Zhao G, Zhao Y, <strong class="me">Lu H</strong>, et al. 2025;45(4):523-540.</p></div>
-              <div class="publication-main"><h3>Restoring Vascular Smooth Muscle Cell Mitochondrial Function Attenuates Abdominal Aortic Aneurysm in Mice.</h3></div>
-            </article>
-            <article class="publication" data-group="latest">
-              <div class="publication-meta"><time>2024</time><p><strong><em>Cardiovasc Diabetol.</em></strong> Zhao G, Zhao Y, Liang W, <strong class="me">Lu H</strong>, et al. 2024;23(1):381.</p></div>
-              <div class="publication-main"><h3>Endothelial KLF11 is a novel protector against diabetic atherosclerosis.</h3></div>
-            </article>
-            <article class="publication" data-group="reviews">
-              <div class="publication-meta"><time>2026</time><p><strong><em>Med Rev (2021).</em></strong> Liu Y, Zhao L, Zhang C, Ruan X, Yu H, Cao Y, Ju W, <strong class="me">Lu H</strong><sup>*</sup>.</p></div>
-              <div class="publication-main"><h3>Metabolic reprogramming in aortic diseases: insights from metabolomics and therapeutic opportunities.</h3></div>
-            </article>
-            <article class="publication" data-group="reviews">
-              <div class="publication-meta"><time>2021</time><p><strong><em>EBioMedicine.</em></strong> <strong class="me">Haocheng Lu</strong>, Jinjian Sun, Milton H Hamblin, Y Eugene Chen, Yanbo Fan. IF: 11.2</p></div>
-              <div class="publication-main"><h3>Transcription factor EB regulates cardiovascular homeostasis.</h3></div>
-            </article>
-            <article class="publication" data-group="reviews">
-              <div class="publication-meta"><time>2021</time><p><strong><em>J Am Heart Assoc.</em></strong> <strong class="me">Haocheng Lu</strong>, Wa Du, Lu Ren, Milton H. Hamblin, Richard C. Becker, Y. Eugene Chen, Yanbo Fan. IF: 6.1</p></div>
-              <div class="publication-main"><h3>Vascular Smooth Muscle Cells in Aortic Aneurysm: From Genetics to Mechanisms.</h3></div>
-            </article>
-            <article class="publication" data-group="reviews">
-              <div class="publication-meta"><time>2021</time><p><strong><em>Cardiovasc Drugs Ther.</em></strong> <strong class="me">Haocheng Lu</strong>, Jifeng Zhang, Y. Eugene Chen, Minerva T. Garcia-Barrio. IF: 3.9</p></div>
-              <div class="publication-main"><h3>Integration of Transformative Platforms for the Discovery of Causative Genes in Cardiovascular Diseases.</h3></div>
-            </article>
-            <article class="publication" data-group="all">
+          <div class="publication-context"><p class="publication-legend"><sup>#</sup> Co-first author <span>·</span> <sup>*</sup> Corresponding author (including co-corresponding)</p><p id="publication-count" role="status" aria-live="polite" aria-atomic="true">56 publications</p></div>
+          <div id="publication-results" class="publication-list" tabindex="0">
+            <article class="publication" data-groups="all latest" data-year="2026" data-pmid="42924840" data-date="2026-10-23">
               <div class="publication-meta">
-                <time>2026</time>
-                <p><strong><em>JCI Insight.</em></strong> Deng Y, Liu Y, Zhao Y, Liu H, Zhao G, Wang Z, Zhang X, Xue C, Huang W, Zhu T, <strong class="me">Lu H</strong>, Guo Y, Chang L, Surakka I, Chen YE, Zhang J. 2026;11(12). PMID: 42060473.</p>
+                <time datetime="2026-10-23">2026<span class="pub-month">Oct 23</span></time>
+                <p class="pub-journal"><strong><em>J Am Heart Assoc</em></strong></p>
+                <div class="pub-authors"><span>Lin H<sup>#</sup>, Yang Z<sup>#</sup>, Zhang C<sup>#</sup>, Ruan L, Huang Z, Hong C, <strong class="me">Lu H</strong>, Lin J.</span></div>
               </div>
               <div class="publication-main">
-                <h3>TCF7L2 promotes abdominal aortic aneurysm through smooth muscle cell-mediated extracellular matrix remodeling.</h3>
+                <h3><a href="https://pubmed.ncbi.nlm.nih.gov/42924840/" target="_blank" rel="noopener noreferrer">Macrophage-Derived Glycoprotein Nonmetastatic Melanoma Protein B Attenuates Cardiac Dysfunction by Promoting Vascular Endothelial Growth Factor-Independent Angiogenesis.</a></h3>
+                <p class="pub-citation">2026:e050564 · PMID: 42924840</p>
+                <div class="paper-links"><a class="pubmed-link" href="https://pubmed.ncbi.nlm.nih.gov/42924840/" target="_blank" rel="noopener noreferrer" aria-label="PubMed: Macrophage-Derived Glycoprotein Nonmetastatic Melanoma Protein B Attenuates Cardiac Dysfunction by Promoting Vascular Endothelial Growth Factor-Independent Angiogenesis.">PubMed <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a><a class="doi-link" href="https://doi.org/10.1161/JAHA.126.050564" target="_blank" rel="noopener noreferrer" aria-label="DOI: Macrophage-Derived Glycoprotein Nonmetastatic Melanoma Protein B Attenuates Cardiac Dysfunction by Promoting Vascular Endothelial Growth Factor-Independent Angiogenesis.">DOI <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a></div>
               </div>
             </article>
-            <article class="publication" data-group="all">
+            <article class="publication" data-groups="all featured latest" data-year="2026" data-pmid="42905254" data-date="2026-10-21">
               <div class="publication-meta">
-                <time>2026</time>
-                <p><strong><em>Med Rev (2021).</em></strong> Liu Y, Zhao L, Zhang C, Ruan X, Yu H, Cao Y, Ju W, <strong class="me">Lu H</strong>. 2026;6(2):142-161. PMID: 42078196.</p>
+                <time datetime="2026-10-21">2026<span class="pub-month">Oct 21</span></time>
+                <p class="pub-journal"><strong><em>Mol Biomed</em></strong></p>
+                <div class="pub-authors"><span>Ju W<sup>#</sup>, Zhang C<sup>#*</sup>, Zhang T<sup>#</sup>, Liu Y, Wang X, Zeng L, Cao Y, Lin H, Li O, Wang PG, He Y<sup>*</sup>, <strong class="me">Lu H</strong><sup>*</sup>.</span></div>
               </div>
               <div class="publication-main">
-                <h3>Metabolic reprogramming in aortic diseases: insights from metabolomics and therapeutic opportunities.</h3>
+                <h3><a href="https://pubmed.ncbi.nlm.nih.gov/42905254/" target="_blank" rel="noopener noreferrer">Lipid nanoparticle-mediated transcription factor EB mRNA delivery for the treatment of metabolic dysfunction-associated steatotic liver disease.</a></h3>
+                <p class="pub-citation">2026;7(1):220 · PMID: 42905254</p>
+                <div class="paper-links"><a class="pubmed-link" href="https://pubmed.ncbi.nlm.nih.gov/42905254/" target="_blank" rel="noopener noreferrer" aria-label="PubMed: Lipid nanoparticle-mediated transcription factor EB mRNA delivery for the treatment of metabolic dysfunction-associated steatotic liver disease.">PubMed <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a><a class="doi-link" href="https://doi.org/10.1186/s43556-026-00615-0" target="_blank" rel="noopener noreferrer" aria-label="DOI: Lipid nanoparticle-mediated transcription factor EB mRNA delivery for the treatment of metabolic dysfunction-associated steatotic liver disease.">DOI <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a></div>
               </div>
             </article>
-            <article class="publication" data-group="all">
+            <article class="publication" data-groups="all featured latest" data-year="2026" data-pmid="42901350" data-date="2026-10-20">
               <div class="publication-meta">
-                <time>2026</time>
-                <p><strong><em>J Am Heart Assoc.</em></strong> Zhang C, Hu W, Zhang J, Wang Z, <strong class="me">Lu H</strong>. 2026;15(4):e047590. PMID: 41676939.</p>
+                <time datetime="2026-10-20">2026<span class="pub-month">Oct 20</span></time>
+                <p class="pub-journal"><strong><em>Vascul Pharmacol</em></strong></p>
+                <div class="pub-authors"><span>Liu Y, Xu Z, Deng L, Zhang C, Ruan X, Zhao L, Yang Y, Wang Z<sup>*</sup>, <strong class="me">Lu H</strong><sup>*</sup>.</span></div>
               </div>
               <div class="publication-main">
-                <h3>Role of Caveolae and Caveolin in Vascular Physiology and Pathology.</h3>
+                <h3><a href="https://pubmed.ncbi.nlm.nih.gov/42901350/" target="_blank" rel="noopener noreferrer">Integrative genetic analyses for drug repurposing identify emodin as a candidate modulator of STAT3 signaling in abdominal aortic aneurysm.</a></h3>
+                <p class="pub-citation">2026;165:107711 · PMID: 42901350</p>
+                <div class="paper-links"><a class="pubmed-link" href="https://pubmed.ncbi.nlm.nih.gov/42901350/" target="_blank" rel="noopener noreferrer" aria-label="PubMed: Integrative genetic analyses for drug repurposing identify emodin as a candidate modulator of STAT3 signaling in abdominal aortic aneurysm.">PubMed <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a><a class="doi-link" href="https://doi.org/10.1016/j.vph.2026.107711" target="_blank" rel="noopener noreferrer" aria-label="DOI: Integrative genetic analyses for drug repurposing identify emodin as a candidate modulator of STAT3 signaling in abdominal aortic aneurysm.">DOI <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a></div>
               </div>
             </article>
-            <article class="publication" data-group="all">
+            <article class="publication" data-groups="all latest" data-year="2026" data-pmid="42060473" data-date="2026-06-22">
               <div class="publication-meta">
-                <time>2026</time>
-                <p><strong><em>Circ Res.</em></strong> Gao T, Li X, Zhang W, Yang Y, Liu Y, Liang F, <strong class="me">Lu H</strong>, Wang L, Bai B, Gu D. 2026;138(4):e327048. PMID: 41532295.</p>
+                <time datetime="2026-06-22">2026<span class="pub-month">Jun 22</span></time>
+                <p class="pub-journal"><strong><em>JCI Insight</em></strong></p>
+                <div class="pub-authors"><span class="authors-short">Deng Y, Liu Y, Zhao Y, ..., <strong class="me">Lu H</strong>, ..., Chen YE, Zhang J.</span><details class="authors-details"><summary>Full authors (16)</summary><p>Deng Y, Liu Y, Zhao Y, Liu H, Zhao G, Wang Z, Zhang X, Xue C, Huang W, Zhu T, <strong class="me">Lu H</strong>, Guo Y, Chang L, Surakka I, Chen YE, Zhang J.</p></details></div>
               </div>
               <div class="publication-main">
-                <h3>SWAP70 Promotes Atherosclerosis Via Endothelial CAV1 Nuclear Translocation.</h3>
+                <h3><a href="https://pubmed.ncbi.nlm.nih.gov/42060473/" target="_blank" rel="noopener noreferrer">TCF7L2 promotes abdominal aortic aneurysm through smooth muscle cell-mediated extracellular matrix remodeling.</a></h3>
+                <p class="pub-citation">2026;11(12):e195681 · PMID: 42060473</p>
+                <div class="paper-links"><a class="pubmed-link" href="https://pubmed.ncbi.nlm.nih.gov/42060473/" target="_blank" rel="noopener noreferrer" aria-label="PubMed: TCF7L2 promotes abdominal aortic aneurysm through smooth muscle cell-mediated extracellular matrix remodeling.">PubMed <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a><a class="doi-link" href="https://doi.org/10.1172/jci.insight.195681" target="_blank" rel="noopener noreferrer" aria-label="DOI: TCF7L2 promotes abdominal aortic aneurysm through smooth muscle cell-mediated extracellular matrix remodeling.">DOI <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a></div>
               </div>
             </article>
-            <article class="publication" data-group="all">
+            <article class="publication" data-groups="all featured latest reviews" data-year="2026" data-pmid="42078196" data-date="2026-04-01">
               <div class="publication-meta">
-                <time>2025</time>
-                <p><strong><em>Adv Sci (Weinh).</em></strong> <strong class="me">Lu H</strong>, Xue C, Zhao Y, Sun J, Zhao C, Zhang X, Zhao G, Liu Y, Liu H, Deng Y, Wang Y, Zhang C, Liu Y, Zeng L, Yang Y, Li B, Ding S, Zhou L, Kuang H, Wang Z, Ju W, Lin H, Lin J, Guo Y, Chang L, Zhao H, Wang J, Lin J, Zheng L, Chen YE, Zhang J. 2025;12(48):e12227. PMID: 41058009.</p>
+                <time datetime="2026-04">2026<span class="pub-month">Apr</span></time>
+                <p class="pub-journal"><strong><em>Med Rev (2021)</em></strong></p>
+                <div class="pub-authors"><span>Liu Y, Zhao L, Zhang C, Ruan X, Yu H, Cao Y, Ju W, <strong class="me">Lu H</strong><sup>*</sup>.</span></div>
               </div>
               <div class="publication-main">
-                <h3>CRISPR-MI and scRNA-Seq Reveal TREM2&#x27;s Function in Monocyte Infiltration and Macrophage Apoptosis During Abdominal Aortic Aneurysm Development.</h3>
+                <h3><a href="https://pubmed.ncbi.nlm.nih.gov/42078196/" target="_blank" rel="noopener noreferrer">Metabolic reprogramming in aortic diseases: insights from metabolomics and therapeutic opportunities.</a></h3>
+                <p class="pub-citation">2026;6(2):142-161 · PMID: 42078196</p>
+                <div class="paper-links"><a class="pubmed-link" href="https://pubmed.ncbi.nlm.nih.gov/42078196/" target="_blank" rel="noopener noreferrer" aria-label="PubMed: Metabolic reprogramming in aortic diseases: insights from metabolomics and therapeutic opportunities.">PubMed <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a><a class="doi-link" href="https://doi.org/10.1515/mr-2026-0010" target="_blank" rel="noopener noreferrer" aria-label="DOI: Metabolic reprogramming in aortic diseases: insights from metabolomics and therapeutic opportunities.">DOI <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a></div>
               </div>
             </article>
-            <article class="publication" data-group="all">
+            <article class="publication" data-groups="all featured latest reviews" data-year="2026" data-pmid="41676939" data-date="2026-02-17">
               <div class="publication-meta">
-                <time>2025</time>
-                <p><strong><em>Circulation.</em></strong> Liu Y, Wang H, Yu M, Cai L, Zhao Y, Cheng Y, Deng Y, Zhao Y, <strong class="me">Lu H</strong>, Wu X, Zhao G, Xue C, Liu H, Surakka I, Schwendeman A, Lu HS, Daugherty A, Chang L, Zhang J, Temel RE, Chen YE, Guo Y. 2025;152(12):862-881. PMID: 40762097.</p>
+                <time datetime="2026-02-17">2026<span class="pub-month">Feb 17</span></time>
+                <p class="pub-journal"><strong><em>J Am Heart Assoc</em></strong></p>
+                <div class="pub-authors"><span>Zhang C<sup>#</sup>, Hu W<sup>#</sup>, Zhang J, Wang Z, <strong class="me">Lu H</strong><sup>*</sup>.</span></div>
               </div>
               <div class="publication-main">
-                <h3>Hypertriglyceridemia as a Key Contributor to Abdominal Aortic Aneurysm Development and Rupture: Insights From Genetic and Experimental Models.</h3>
+                <h3><a href="https://pubmed.ncbi.nlm.nih.gov/41676939/" target="_blank" rel="noopener noreferrer">Role of Caveolae and Caveolin in Vascular Physiology and Pathology.</a></h3>
+                <p class="pub-citation">2026;15(4):e047590 · PMID: 41676939</p>
+                <div class="paper-links"><a class="pubmed-link" href="https://pubmed.ncbi.nlm.nih.gov/41676939/" target="_blank" rel="noopener noreferrer" aria-label="PubMed: Role of Caveolae and Caveolin in Vascular Physiology and Pathology.">PubMed <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a><a class="doi-link" href="https://doi.org/10.1161/JAHA.125.047590" target="_blank" rel="noopener noreferrer" aria-label="DOI: Role of Caveolae and Caveolin in Vascular Physiology and Pathology.">DOI <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a></div>
               </div>
             </article>
-            <article class="publication" data-group="all">
+            <article class="publication" data-groups="all latest" data-year="2026" data-pmid="41532295" data-date="2026-02-13">
               <div class="publication-meta">
-                <time>2025</time>
-                <p><strong><em>Biomedicines.</em></strong> Lin J, Lin H, Xu Z, Yang Z, Hong C, Wang Y, <strong class="me">Lu H</strong>. 2025;13(6). PMID: 40564118.</p>
+                <time datetime="2026-02-13">2026<span class="pub-month">Feb 13</span></time>
+                <p class="pub-journal"><strong><em>Circ Res</em></strong></p>
+                <div class="pub-authors"><span>Gao T, Li X, Zhang W, Yang Y, Liu Y, Liang F, <strong class="me">Lu H</strong>, Wang L, Bai B, Gu D.</span></div>
               </div>
               <div class="publication-main">
-                <h3>Angiogenesis in Atrial Fibrillation: A Literature Review.</h3>
+                <h3><a href="https://pubmed.ncbi.nlm.nih.gov/41532295/" target="_blank" rel="noopener noreferrer">SWAP70 Promotes Atherosclerosis Via Endothelial CAV1 Nuclear Translocation.</a></h3>
+                <p class="pub-citation">2026;138(4):e327048 · PMID: 41532295</p>
+                <div class="paper-links"><a class="pubmed-link" href="https://pubmed.ncbi.nlm.nih.gov/41532295/" target="_blank" rel="noopener noreferrer" aria-label="PubMed: SWAP70 Promotes Atherosclerosis Via Endothelial CAV1 Nuclear Translocation.">PubMed <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a><a class="doi-link" href="https://doi.org/10.1161/CIRCRESAHA.125.327048" target="_blank" rel="noopener noreferrer" aria-label="DOI: SWAP70 Promotes Atherosclerosis Via Endothelial CAV1 Nuclear Translocation.">DOI <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a></div>
               </div>
             </article>
-            <article class="publication" data-group="all">
+            <article class="publication" data-groups="all featured latest" data-year="2025" data-pmid="41058009" data-date="2025-12-01">
               <div class="publication-meta">
-                <time>2025</time>
-                <p><strong><em>Front Cardiovasc Med.</em></strong> Su C, Zeng L, <strong class="me">Lu H</strong>, Wang Z, Wei M. 2025;12:1533138. PMID: 40336639.</p>
+                <time datetime="2025-12">2025<span class="pub-month">Dec</span></time>
+                <p class="pub-journal"><strong><em>Adv Sci (Weinh)</em></strong></p>
+                <div class="pub-authors"><span class="authors-short"><strong class="me">Lu H</strong>, Xue C, Zhao Y, ..., Chen YE, Zhang J.</span><details class="authors-details"><summary>Full authors (31)</summary><p><strong class="me">Lu H</strong>, Xue C, Zhao Y, Sun J, Zhao C, Zhang X, Zhao G, Liu Y, Liu H, Deng Y, Wang Y, Zhang C, Liu Y, Zeng L, Yang Y, Li B, Ding S, Zhou L, Kuang H, Wang Z, Ju W, Lin H, Lin J, Guo Y, Chang L, Zhao H, Wang J, Lin J, Zheng L, Chen YE, Zhang J.</p></details></div>
               </div>
               <div class="publication-main">
-                <h3>Case Report: A FBN1 frameshift-and-nonsense mutation and aortic dissection in Marfan syndrome.</h3>
+                <h3><a href="https://pubmed.ncbi.nlm.nih.gov/41058009/" target="_blank" rel="noopener noreferrer">CRISPR-MI and scRNA-Seq Reveal TREM2&#39;s Function in Monocyte Infiltration and Macrophage Apoptosis During Abdominal Aortic Aneurysm Development.</a></h3>
+                <p class="pub-citation">2025;12(48):e12227 · PMID: 41058009</p>
+                <div class="paper-links"><a class="pubmed-link" href="https://pubmed.ncbi.nlm.nih.gov/41058009/" target="_blank" rel="noopener noreferrer" aria-label="PubMed: CRISPR-MI and scRNA-Seq Reveal TREM2&#39;s Function in Monocyte Infiltration and Macrophage Apoptosis During Abdominal Aortic Aneurysm Development.">PubMed <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a><a class="doi-link" href="https://doi.org/10.1002/advs.202412227" target="_blank" rel="noopener noreferrer" aria-label="DOI: CRISPR-MI and scRNA-Seq Reveal TREM2&#39;s Function in Monocyte Infiltration and Macrophage Apoptosis During Abdominal Aortic Aneurysm Development.">DOI <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a></div>
               </div>
             </article>
-            <article class="publication" data-group="all">
+            <article class="publication" data-groups="all latest" data-year="2025" data-pmid="39359016" data-date="2025-10-01">
               <div class="publication-meta">
-                <time>2025</time>
-                <p><strong><em>Arterioscler Thromb Vasc Biol.</em></strong> Liu Y, Yu M, Wang H, Dorsey KH, Cheng Y, Zhao Y, Luo Y, Zhao G, Zhao Y, <strong class="me">Lu H</strong>, Deng Y, Mu W, Liu H, Wu X, Wang Z, Zhang J, Chang L, Chen YE, Schwendman A, Guo Y. 2025;45(4):523-540. PMID: 39945066.</p>
+                <time datetime="2025-10">2025<span class="pub-month">Oct</span></time>
+                <p class="pub-journal"><strong><em>Br J Pharmacol</em></strong></p>
+                <div class="pub-authors"><span>Xiang W, Li L, Qin M, Li L, Yu H, Wang F, Ni S, Shen A, <strong class="me">Lu H</strong>, Ni H, Wang Y.</span></div>
               </div>
               <div class="publication-main">
-                <h3>Restoring Vascular Smooth Muscle Cell Mitochondrial Function Attenuates Abdominal Aortic Aneurysm in Mice.</h3>
+                <h3><a href="https://pubmed.ncbi.nlm.nih.gov/39359016/" target="_blank" rel="noopener noreferrer">Diminished nuclear-localized β-adrenoceptor signalling activates YAP to promote kidney fibrosis in diabetic nephropathy.</a></h3>
+                <p class="pub-citation">2025;182(20):4926-4943 · PMID: 39359016</p>
+                <div class="paper-links"><a class="pubmed-link" href="https://pubmed.ncbi.nlm.nih.gov/39359016/" target="_blank" rel="noopener noreferrer" aria-label="PubMed: Diminished nuclear-localized β-adrenoceptor signalling activates YAP to promote kidney fibrosis in diabetic nephropathy.">PubMed <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a><a class="doi-link" href="https://doi.org/10.1111/bph.17347" target="_blank" rel="noopener noreferrer" aria-label="DOI: Diminished nuclear-localized β-adrenoceptor signalling activates YAP to promote kidney fibrosis in diabetic nephropathy.">DOI <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a></div>
               </div>
             </article>
-            <article class="publication" data-group="all">
+            <article class="publication" data-groups="all latest" data-year="2025" data-pmid="40762097" data-date="2025-09-23">
               <div class="publication-meta">
-                <time>2024</time>
-                <p><strong><em>Cardiovasc Diabetol.</em></strong> Zhao G, Zhao Y, Liang W, <strong class="me">Lu H</strong>, Liu H, Deng Y, Zhu T, Guo Y, Chang L, Garcia-Barrio MT, Chen YE, Zhang J. 2024;23(1):381. PMID: 39462409.</p>
+                <time datetime="2025-09-23">2025<span class="pub-month">Sep 23</span></time>
+                <p class="pub-journal"><strong><em>Circulation</em></strong></p>
+                <div class="pub-authors"><span class="authors-short">Liu Y, Wang H, Yu M, ..., <strong class="me">Lu H</strong>, ..., Chen YE, Guo Y.</span><details class="authors-details"><summary>Full authors (22)</summary><p>Liu Y, Wang H, Yu M, Cai L, Zhao Y, Cheng Y, Deng Y, Zhao Y, <strong class="me">Lu H</strong>, Wu X, Zhao G, Xue C, Liu H, Surakka I, Schwendeman A, Lu HS, Daugherty A, Chang L, Zhang J, Temel RE, Chen YE, Guo Y.</p></details></div>
               </div>
               <div class="publication-main">
-                <h3>Endothelial KLF11 is a novel protector against diabetic atherosclerosis.</h3>
+                <h3><a href="https://pubmed.ncbi.nlm.nih.gov/40762097/" target="_blank" rel="noopener noreferrer">Hypertriglyceridemia as a Key Contributor to Abdominal Aortic Aneurysm Development and Rupture: Insights From Genetic and Experimental Models.</a></h3>
+                <p class="pub-citation">2025;152(12):862-881 · PMID: 40762097</p>
+                <div class="paper-links"><a class="pubmed-link" href="https://pubmed.ncbi.nlm.nih.gov/40762097/" target="_blank" rel="noopener noreferrer" aria-label="PubMed: Hypertriglyceridemia as a Key Contributor to Abdominal Aortic Aneurysm Development and Rupture: Insights From Genetic and Experimental Models.">PubMed <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a><a class="doi-link" href="https://doi.org/10.1161/CIRCULATIONAHA.125.074737" target="_blank" rel="noopener noreferrer" aria-label="DOI: Hypertriglyceridemia as a Key Contributor to Abdominal Aortic Aneurysm Development and Rupture: Insights From Genetic and Experimental Models.">DOI <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a></div>
               </div>
             </article>
-            <article class="publication" data-group="all">
+            <article class="publication" data-groups="all reviews" data-year="2025" data-pmid="40564118" data-date="2025-06-06">
               <div class="publication-meta">
-                <time>2025</time>
-                <p><strong><em>Br J Pharmacol.</em></strong> Xiang W, Li L, Qin M, Li L, Yu H, Wang F, Ni S, Shen A, <strong class="me">Lu H</strong>, Ni H, Wang Y. 2025;182(20):4926-4943. PMID: 39359016.</p>
+                <time datetime="2025-06-06">2025<span class="pub-month">Jun 6</span></time>
+                <p class="pub-journal"><strong><em>Biomedicines</em></strong></p>
+                <div class="pub-authors"><span>Lin J, Lin H, Xu Z, Yang Z, Hong C, Wang Y, <strong class="me">Lu H</strong><sup>*</sup>.</span></div>
               </div>
               <div class="publication-main">
-                <h3>Diminished nuclear-localized β-adrenoceptor signalling activates YAP to promote kidney fibrosis in diabetic nephropathy.</h3>
+                <h3><a href="https://pubmed.ncbi.nlm.nih.gov/40564118/" target="_blank" rel="noopener noreferrer">Angiogenesis in Atrial Fibrillation: A Literature Review.</a></h3>
+                <p class="pub-citation">2025;13(6):1399 · PMID: 40564118</p>
+                <div class="paper-links"><a class="pubmed-link" href="https://pubmed.ncbi.nlm.nih.gov/40564118/" target="_blank" rel="noopener noreferrer" aria-label="PubMed: Angiogenesis in Atrial Fibrillation: A Literature Review.">PubMed <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a><a class="doi-link" href="https://doi.org/10.3390/biomedicines13061399" target="_blank" rel="noopener noreferrer" aria-label="DOI: Angiogenesis in Atrial Fibrillation: A Literature Review.">DOI <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a></div>
               </div>
             </article>
-            <article class="publication" data-group="all">
+            <article class="publication" data-groups="all" data-year="2025" data-pmid="39945066" data-date="2025-04-01">
               <div class="publication-meta">
-                <time>2024</time>
-                <p><strong><em>Front Immunol.</em></strong> Hu W, Liu Y, Lian C, <strong class="me">Lu H</strong>. 2024;15:1347112. PMID: 38601164.</p>
+                <time datetime="2025-04">2025<span class="pub-month">Apr</span></time>
+                <p class="pub-journal"><strong><em>Arterioscler Thromb Vasc Biol</em></strong></p>
+                <div class="pub-authors"><span class="authors-short">Liu Y<sup>#</sup>, Yu M<sup>#</sup>, Wang H, ..., <strong class="me">Lu H</strong>, ..., Schwendman A, Guo Y.</span><details class="authors-details"><summary>Full authors (20)</summary><p>Liu Y<sup>#</sup>, Yu M<sup>#</sup>, Wang H, Dorsey KH, Cheng Y, Zhao Y, Luo Y, Zhao G, Zhao Y, <strong class="me">Lu H</strong>, Deng Y, Mu W, Liu H, Wu X, Wang Z, Zhang J, Chang L, Chen YE, Schwendman A, Guo Y.</p></details></div>
               </div>
               <div class="publication-main">
-                <h3>Genetic insight into putative causes of xanthelasma palpebrarum: a Mendelian randomization study.</h3>
+                <h3><a href="https://pubmed.ncbi.nlm.nih.gov/39945066/" target="_blank" rel="noopener noreferrer">Restoring Vascular Smooth Muscle Cell Mitochondrial Function Attenuates Abdominal Aortic Aneurysm in Mice.</a></h3>
+                <p class="pub-citation">2025;45(4):523-540 · PMID: 39945066</p>
+                <div class="paper-links"><a class="pubmed-link" href="https://pubmed.ncbi.nlm.nih.gov/39945066/" target="_blank" rel="noopener noreferrer" aria-label="PubMed: Restoring Vascular Smooth Muscle Cell Mitochondrial Function Attenuates Abdominal Aortic Aneurysm in Mice.">PubMed <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a><a class="doi-link" href="https://doi.org/10.1161/ATVBAHA.124.321730" target="_blank" rel="noopener noreferrer" aria-label="DOI: Restoring Vascular Smooth Muscle Cell Mitochondrial Function Attenuates Abdominal Aortic Aneurysm in Mice.">DOI <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a></div>
               </div>
             </article>
-            <article class="publication" data-group="all">
+            <article class="publication" data-groups="all" data-year="2025" data-pmid="40336639" data-date="2025-01-01">
               <div class="publication-meta">
-                <time>2023</time>
-                <p><strong><em>Extracell Vesicle.</em></strong> Han C, Yang J, Yin T, An J, Qiao A, Cao Y, Feng Y, <strong class="me">Lu H</strong>, Wang Y, Yang L, Qin G. 2023;2. PMID: 40151378.</p>
+                <time datetime="2025">2025<span class="pub-month"></span></time>
+                <p class="pub-journal"><strong><em>Front Cardiovasc Med</em></strong></p>
+                <div class="pub-authors"><span>Su C<sup>#</sup>, Zeng L<sup>#</sup>, <strong class="me">Lu H</strong><sup>*</sup>, Wang Z<sup>*</sup>, Wei M<sup>*</sup>.</span></div>
               </div>
               <div class="publication-main">
-                <h3>CD63-Snorkel tagging for isolation of exosomes.</h3>
+                <h3><a href="https://pubmed.ncbi.nlm.nih.gov/40336639/" target="_blank" rel="noopener noreferrer">Case Report: A FBN1 frameshift-and-nonsense mutation and aortic dissection in Marfan syndrome.</a></h3>
+                <p class="pub-citation">2025;12:1533138 · PMID: 40336639</p>
+                <div class="paper-links"><a class="pubmed-link" href="https://pubmed.ncbi.nlm.nih.gov/40336639/" target="_blank" rel="noopener noreferrer" aria-label="PubMed: Case Report: A FBN1 frameshift-and-nonsense mutation and aortic dissection in Marfan syndrome.">PubMed <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a><a class="doi-link" href="https://doi.org/10.3389/fcvm.2025.1533138" target="_blank" rel="noopener noreferrer" aria-label="DOI: Case Report: A FBN1 frameshift-and-nonsense mutation and aortic dissection in Marfan syndrome.">DOI <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a></div>
               </div>
             </article>
-            <article class="publication" data-group="all">
+            <article class="publication" data-groups="all" data-year="2024" data-pmid="37212950" data-date="2024-12-01">
               <div class="publication-meta">
-                <time>2023</time>
-                <p><strong><em>Cell Rep.</em></strong> Zhao Y, Liu Y, Zhao G, <strong class="me">Lu H</strong>, Liu Y, Xue C, Chang Z, Liu H, Deng Y, Liang W, Wang H, Rom O, Garcia-Barrio MT, Zhu T, Guo Y, Chang L, Lin J, Chen YE, Zhang J. 2023;42(10):113171. PMID: 37768825.</p>
+                <time datetime="2024-12">2024<span class="pub-month">Dec</span></time>
+                <p class="pub-journal"><strong><em>Cardiovasc Drugs Ther</em></strong></p>
+                <div class="pub-authors"><span>Ning Z<sup>#</sup>, Huang Y<sup>#</sup>, <strong class="me">Lu H</strong>, Zhou Y, Tu T, Ouyang F, Liu Y, Liu Q.</span></div>
               </div>
               <div class="publication-main">
-                <h3>Myeloid BAF60a deficiency alters metabolic homeostasis and exacerbates atherosclerosis.</h3>
+                <h3><a href="https://pubmed.ncbi.nlm.nih.gov/37212950/" target="_blank" rel="noopener noreferrer">Novel Drug Targets for Atrial Fibrillation Identified Through Mendelian Randomization Analysis of the Blood Proteome.</a></h3>
+                <p class="pub-citation">2024;38(6):1215-1222 · PMID: 37212950</p>
+                <div class="paper-links"><a class="pubmed-link" href="https://pubmed.ncbi.nlm.nih.gov/37212950/" target="_blank" rel="noopener noreferrer" aria-label="PubMed: Novel Drug Targets for Atrial Fibrillation Identified Through Mendelian Randomization Analysis of the Blood Proteome.">PubMed <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a><a class="doi-link" href="https://doi.org/10.1007/s10557-023-07467-8" target="_blank" rel="noopener noreferrer" aria-label="DOI: Novel Drug Targets for Atrial Fibrillation Identified Through Mendelian Randomization Analysis of the Blood Proteome.">DOI <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a></div>
               </div>
             </article>
-            <article class="publication" data-group="all">
+            <article class="publication" data-groups="all" data-year="2024" data-pmid="39462409" data-date="2024-10-26">
               <div class="publication-meta">
-                <time>2023</time>
-                <p><strong><em>JCI Insight.</em></strong> Zhao Y, Zhao G, Chang Z, Zhu T, Zhao Y, <strong class="me">Lu H</strong>, Xue C, Saunders TL, Guo Y, Chang L, Chen YE, Zhang J. 2023;8(14). PMID: 37289544.</p>
+                <time datetime="2024-10-26">2024<span class="pub-month">Oct 26</span></time>
+                <p class="pub-journal"><strong><em>Cardiovasc Diabetol</em></strong></p>
+                <div class="pub-authors"><span>Zhao G, Zhao Y, Liang W, <strong class="me">Lu H</strong>, Liu H, Deng Y, Zhu T, Guo Y, Chang L, Garcia-Barrio MT, Chen YE, Zhang J.</span></div>
               </div>
               <div class="publication-main">
-                <h3>Generating endogenous Myh11-driven Cre mice for sex-independent gene deletion in smooth muscle cells.</h3>
+                <h3><a href="https://pubmed.ncbi.nlm.nih.gov/39462409/" target="_blank" rel="noopener noreferrer">Endothelial KLF11 is a novel protector against diabetic atherosclerosis.</a></h3>
+                <p class="pub-citation">2024;23(1):381 · PMID: 39462409</p>
+                <div class="paper-links"><a class="pubmed-link" href="https://pubmed.ncbi.nlm.nih.gov/39462409/" target="_blank" rel="noopener noreferrer" aria-label="PubMed: Endothelial KLF11 is a novel protector against diabetic atherosclerosis.">PubMed <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a><a class="doi-link" href="https://doi.org/10.1186/s12933-024-02473-y" target="_blank" rel="noopener noreferrer" aria-label="DOI: Endothelial KLF11 is a novel protector against diabetic atherosclerosis.">DOI <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a></div>
               </div>
             </article>
-            <article class="publication" data-group="all">
+            <article class="publication" data-groups="all" data-year="2024" data-pmid="38601164" data-date="2024-01-01">
               <div class="publication-meta">
-                <time>2023</time>
-                <p><strong><em>JCI Insight.</em></strong> Wang Z, Zhao X, Zhao G, Guo Y, <strong class="me">Lu H</strong>, Mu W, Zhong J, Garcia-Barrio M, Zhang J, Chen YE, Chang L. 2023;8(11). PMID: 37079380.</p>
+                <time datetime="2024">2024<span class="pub-month"></span></time>
+                <p class="pub-journal"><strong><em>Front Immunol</em></strong></p>
+                <div class="pub-authors"><span>Hu W, Liu Y, Lian C<sup>#</sup>, <strong class="me">Lu H</strong>.</span></div>
               </div>
               <div class="publication-main">
-                <h3>PRDM16 deficiency in vascular smooth muscle cells aggravates abdominal aortic aneurysm.</h3>
+                <h3><a href="https://pubmed.ncbi.nlm.nih.gov/38601164/" target="_blank" rel="noopener noreferrer">Genetic insight into putative causes of xanthelasma palpebrarum: a Mendelian randomization study.</a></h3>
+                <p class="pub-citation">2024;15:1347112 · PMID: 38601164</p>
+                <div class="paper-links"><a class="pubmed-link" href="https://pubmed.ncbi.nlm.nih.gov/38601164/" target="_blank" rel="noopener noreferrer" aria-label="PubMed: Genetic insight into putative causes of xanthelasma palpebrarum: a Mendelian randomization study.">PubMed <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a><a class="doi-link" href="https://doi.org/10.3389/fimmu.2024.1347112" target="_blank" rel="noopener noreferrer" aria-label="DOI: Genetic insight into putative causes of xanthelasma palpebrarum: a Mendelian randomization study.">DOI <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a></div>
               </div>
             </article>
-            <article class="publication" data-group="all">
+            <article class="publication" data-groups="all" data-year="2023" data-pmid="40151378" data-date="2023-12-01">
               <div class="publication-meta">
-                <time>2024</time>
-                <p><strong><em>Cardiovasc Drugs Ther.</em></strong> Ning Z, Huang Y, <strong class="me">Lu H</strong>, Zhou Y, Tu T, Ouyang F, Liu Y, Liu Q. 2024;38(6):1215-1222. PMID: 37212950.</p>
+                <time datetime="2023-12">2023<span class="pub-month">Dec</span></time>
+                <p class="pub-journal"><strong><em>Extracell Vesicle</em></strong></p>
+                <div class="pub-authors"><span>Han C, Yang J, Yin T, An J, Qiao A, Cao Y, Feng Y, <strong class="me">Lu H</strong>, Wang Y, Yang L, Qin G.</span></div>
               </div>
               <div class="publication-main">
-                <h3>Novel Drug Targets for Atrial Fibrillation Identified Through Mendelian Randomization Analysis of the Blood Proteome.</h3>
+                <h3><a href="https://pubmed.ncbi.nlm.nih.gov/40151378/" target="_blank" rel="noopener noreferrer">CD63-Snorkel tagging for isolation of exosomes.</a></h3>
+                <p class="pub-citation">2023;2:100031 · PMID: 40151378</p>
+                <div class="paper-links"><a class="pubmed-link" href="https://pubmed.ncbi.nlm.nih.gov/40151378/" target="_blank" rel="noopener noreferrer" aria-label="PubMed: CD63-Snorkel tagging for isolation of exosomes.">PubMed <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a><a class="doi-link" href="https://doi.org/10.1016/j.vesic.2023.100031" target="_blank" rel="noopener noreferrer" aria-label="DOI: CD63-Snorkel tagging for isolation of exosomes.">DOI <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a></div>
               </div>
             </article>
-            <article class="publication" data-group="all">
+            <article class="publication" data-groups="all" data-year="2023" data-pmid="37768825" data-date="2023-10-31">
               <div class="publication-meta">
-                <time>2023</time>
-                <p><strong><em>J Physiol.</em></strong> <strong class="me">Lu H</strong>, Zhang C, Li Y, Wang Y. 2023;601(2):255-256. PMID: 36482858.</p>
+                <time datetime="2023-10-31">2023<span class="pub-month">Oct 31</span></time>
+                <p class="pub-journal"><strong><em>Cell Rep</em></strong></p>
+                <div class="pub-authors"><span class="authors-short">Zhao Y, Liu Y, Zhao G, <strong class="me">Lu H</strong>, ..., Chen YE, Zhang J.</span><details class="authors-details"><summary>Full authors (19)</summary><p>Zhao Y, Liu Y, Zhao G, <strong class="me">Lu H</strong>, Liu Y, Xue C, Chang Z, Liu H, Deng Y, Liang W, Wang H, Rom O, Garcia-Barrio MT, Zhu T, Guo Y, Chang L, Lin J, Chen YE, Zhang J.</p></details></div>
               </div>
               <div class="publication-main">
-                <h3>Mitochondria dysfunction in the failing right heart: what is the potential therapeutic target?.</h3>
+                <h3><a href="https://pubmed.ncbi.nlm.nih.gov/37768825/" target="_blank" rel="noopener noreferrer">Myeloid BAF60a deficiency alters metabolic homeostasis and exacerbates atherosclerosis.</a></h3>
+                <p class="pub-citation">2023;42(10):113171 · PMID: 37768825</p>
+                <div class="paper-links"><a class="pubmed-link" href="https://pubmed.ncbi.nlm.nih.gov/37768825/" target="_blank" rel="noopener noreferrer" aria-label="PubMed: Myeloid BAF60a deficiency alters metabolic homeostasis and exacerbates atherosclerosis.">PubMed <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a><a class="doi-link" href="https://doi.org/10.1016/j.celrep.2023.113171" target="_blank" rel="noopener noreferrer" aria-label="DOI: Myeloid BAF60a deficiency alters metabolic homeostasis and exacerbates atherosclerosis.">DOI <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a></div>
               </div>
             </article>
-            <article class="publication" data-group="all">
+            <article class="publication" data-groups="all" data-year="2023" data-pmid="37289544" data-date="2023-07-24">
               <div class="publication-meta">
-                <time>2023</time>
-                <p><strong><em>iScience.</em></strong> Ren L, Du W, Song D, <strong class="me">Lu H</strong>, Hamblin MH, Wang C, Du C, Fan GC, Becker RC, Fan Y. 2023;26(1):105769. PMID: 36594018.</p>
+                <time datetime="2023-07-24">2023<span class="pub-month">Jul 24</span></time>
+                <p class="pub-journal"><strong><em>JCI Insight</em></strong></p>
+                <div class="pub-authors"><span>Zhao Y, Zhao G, Chang Z, Zhu T, Zhao Y, <strong class="me">Lu H</strong>, Xue C, Saunders TL, Guo Y, Chang L, Chen YE, Zhang J.</span></div>
               </div>
               <div class="publication-main">
-                <h3>Genetic ablation of diabetes-associated gene Ccdc92 reduces obesity and insulin resistance in mice.</h3>
+                <h3><a href="https://pubmed.ncbi.nlm.nih.gov/37289544/" target="_blank" rel="noopener noreferrer">Generating endogenous Myh11-driven Cre mice for sex-independent gene deletion in smooth muscle cells.</a></h3>
+                <p class="pub-citation">2023;8(14):e171661 · PMID: 37289544</p>
+                <div class="paper-links"><a class="pubmed-link" href="https://pubmed.ncbi.nlm.nih.gov/37289544/" target="_blank" rel="noopener noreferrer" aria-label="PubMed: Generating endogenous Myh11-driven Cre mice for sex-independent gene deletion in smooth muscle cells.">PubMed <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a><a class="doi-link" href="https://doi.org/10.1172/jci.insight.171661" target="_blank" rel="noopener noreferrer" aria-label="DOI: Generating endogenous Myh11-driven Cre mice for sex-independent gene deletion in smooth muscle cells.">DOI <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a></div>
               </div>
             </article>
-            <article class="publication" data-group="all">
+            <article class="publication" data-groups="all" data-year="2023" data-pmid="37079380" data-date="2023-06-08">
               <div class="publication-meta">
-                <time>2022</time>
-                <p><strong><em>J Clin Invest.</em></strong> Zhao G, Zhao Y, <strong class="me">Lu H</strong>, Chang Z, Liu H, Wang H, Liang W, Liu Y, Zhu T, Rom O, Guo Y, Chang L, Yang B, Garcia-Barrio MT, Lin JD, Chen YE, Zhang J. 2022;132(21). PMID: 36066968.</p>
+                <time datetime="2023-06-08">2023<span class="pub-month">Jun 8</span></time>
+                <p class="pub-journal"><strong><em>JCI Insight</em></strong></p>
+                <div class="pub-authors"><span>Wang Z, Zhao X, Zhao G, Guo Y, <strong class="me">Lu H</strong>, Mu W, Zhong J, Garcia-Barrio M, Zhang J, Chen YE, Chang L.</span></div>
               </div>
               <div class="publication-main">
-                <h3>BAF60c prevents abdominal aortic aneurysm formation through epigenetic control of vascular smooth muscle cell homeostasis.</h3>
+                <h3><a href="https://pubmed.ncbi.nlm.nih.gov/37079380/" target="_blank" rel="noopener noreferrer">PRDM16 deficiency in vascular smooth muscle cells aggravates abdominal aortic aneurysm.</a></h3>
+                <p class="pub-citation">2023;8(11):e167041 · PMID: 37079380</p>
+                <div class="paper-links"><a class="pubmed-link" href="https://pubmed.ncbi.nlm.nih.gov/37079380/" target="_blank" rel="noopener noreferrer" aria-label="PubMed: PRDM16 deficiency in vascular smooth muscle cells aggravates abdominal aortic aneurysm.">PubMed <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a><a class="doi-link" href="https://doi.org/10.1172/jci.insight.167041" target="_blank" rel="noopener noreferrer" aria-label="DOI: PRDM16 deficiency in vascular smooth muscle cells aggravates abdominal aortic aneurysm.">DOI <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a></div>
               </div>
             </article>
-            <article class="publication" data-group="all">
+            <article class="publication" data-groups="all" data-year="2023" data-pmid="36594018" data-date="2023-01-20">
               <div class="publication-meta">
-                <time>2022</time>
-                <p><strong><em>Cells.</em></strong> Zhu W, Liang W, <strong class="me">Lu H</strong>, Chang L, Zhang J, Chen YE, Guo Y. 2022;11(18). PMID: 36139452.</p>
+                <time datetime="2023-01-20">2023<span class="pub-month">Jan 20</span></time>
+                <p class="pub-journal"><strong><em>iScience</em></strong></p>
+                <div class="pub-authors"><span>Ren L, Du W, Song D, <strong class="me">Lu H</strong>, Hamblin MH, Wang C, Du C, Fan GC, Becker RC, Fan Y.</span></div>
               </div>
               <div class="publication-main">
-                <h3>Myeloid TM6SF2 Deficiency Inhibits Atherosclerosis.</h3>
+                <h3><a href="https://pubmed.ncbi.nlm.nih.gov/36594018/" target="_blank" rel="noopener noreferrer">Genetic ablation of diabetes-associated gene Ccdc92 reduces obesity and insulin resistance in mice.</a></h3>
+                <p class="pub-citation">2023;26(1):105769 · PMID: 36594018</p>
+                <div class="paper-links"><a class="pubmed-link" href="https://pubmed.ncbi.nlm.nih.gov/36594018/" target="_blank" rel="noopener noreferrer" aria-label="PubMed: Genetic ablation of diabetes-associated gene Ccdc92 reduces obesity and insulin resistance in mice.">PubMed <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a><a class="doi-link" href="https://doi.org/10.1016/j.isci.2022.105769" target="_blank" rel="noopener noreferrer" aria-label="DOI: Genetic ablation of diabetes-associated gene Ccdc92 reduces obesity and insulin resistance in mice.">DOI <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a></div>
               </div>
             </article>
-            <article class="publication" data-group="all">
+            <article class="publication" data-groups="all" data-year="2023" data-pmid="36482858" data-date="2023-01-01">
               <div class="publication-meta">
-                <time>2022</time>
-                <p><strong><em>Pharmacol Res.</em></strong> Wang Z, <strong class="me">Lu H</strong>, Garcia-Barrio M, Guo Y, Zhang J, Chen YE, Chang L. 2022;178:106183. PMID: 35306139.</p>
+                <time datetime="2023-01">2023<span class="pub-month">Jan</span></time>
+                <p class="pub-journal"><strong><em>J Physiol</em></strong></p>
+                <div class="pub-authors"><span><strong class="me">Lu H</strong>, Zhang C, Li Y, Wang Y.</span></div>
               </div>
               <div class="publication-main">
-                <h3>RNA sequencing reveals perivascular adipose tissue plasticity in response to angiotensin II.</h3>
+                <h3><a href="https://pubmed.ncbi.nlm.nih.gov/36482858/" target="_blank" rel="noopener noreferrer">Mitochondria dysfunction in the failing right heart: what is the potential therapeutic target?</a></h3>
+                <p class="pub-citation">2023;601(2):255-256 · PMID: 36482858</p>
+                <div class="paper-links"><a class="pubmed-link" href="https://pubmed.ncbi.nlm.nih.gov/36482858/" target="_blank" rel="noopener noreferrer" aria-label="PubMed: Mitochondria dysfunction in the failing right heart: what is the potential therapeutic target?">PubMed <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a><a class="doi-link" href="https://doi.org/10.1113/JP283977" target="_blank" rel="noopener noreferrer" aria-label="DOI: Mitochondria dysfunction in the failing right heart: what is the potential therapeutic target?">DOI <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a></div>
               </div>
             </article>
-            <article class="publication" data-group="all">
+            <article class="publication" data-groups="all" data-year="2022" data-pmid="36066968" data-date="2022-11-01">
               <div class="publication-meta">
-                <time>2022</time>
-                <p><strong><em>Cardiovasc Res.</em></strong> Wang H, Guo Y, <strong class="me">Lu H</strong>, Luo Y, Hu W, Liang W, Garcia-Barrio MT, Chang L, Schwendeman A, Zhang J, Chen YE. 2022;118(2):475-488. PMID: 33538785.</p>
+                <time datetime="2022-11-01">2022<span class="pub-month">Nov 1</span></time>
+                <p class="pub-journal"><strong><em>J Clin Invest</em></strong></p>
+                <div class="pub-authors"><span class="authors-short">Zhao G, Zhao Y, <strong class="me">Lu H</strong>, ..., Chen YE, Zhang J.</span><details class="authors-details"><summary>Full authors (17)</summary><p>Zhao G, Zhao Y, <strong class="me">Lu H</strong>, Chang Z, Liu H, Wang H, Liang W, Liu Y, Zhu T, Rom O, Guo Y, Chang L, Yang B, Garcia-Barrio MT, Lin JD, Chen YE, Zhang J.</p></details></div>
               </div>
               <div class="publication-main">
-                <h3>Krüppel-like factor 14 deletion in myeloid cells accelerates atherosclerotic lesion development.</h3>
+                <h3><a href="https://pubmed.ncbi.nlm.nih.gov/36066968/" target="_blank" rel="noopener noreferrer">BAF60c prevents abdominal aortic aneurysm formation through epigenetic control of vascular smooth muscle cell homeostasis.</a></h3>
+                <p class="pub-citation">2022;132(21):e158309 · PMID: 36066968</p>
+                <div class="paper-links"><a class="pubmed-link" href="https://pubmed.ncbi.nlm.nih.gov/36066968/" target="_blank" rel="noopener noreferrer" aria-label="PubMed: BAF60c prevents abdominal aortic aneurysm formation through epigenetic control of vascular smooth muscle cell homeostasis.">PubMed <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a><a class="doi-link" href="https://doi.org/10.1172/JCI158309" target="_blank" rel="noopener noreferrer" aria-label="DOI: BAF60c prevents abdominal aortic aneurysm formation through epigenetic control of vascular smooth muscle cell homeostasis.">DOI <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a></div>
               </div>
             </article>
-            <article class="publication" data-group="all">
+            <article class="publication" data-groups="all" data-year="2022" data-pmid="36139452" data-date="2022-09-15">
               <div class="publication-meta">
-                <time>2021</time>
-                <p><strong><em>J Am Heart Assoc.</em></strong> <strong class="me">Lu H</strong>, Du W, Ren L, Hamblin MH, Becker RC, Chen YE, Fan Y. 2021;10(24):e023601. PMID: 34796717.</p>
+                <time datetime="2022-09-15">2022<span class="pub-month">Sep 15</span></time>
+                <p class="pub-journal"><strong><em>Cells</em></strong></p>
+                <div class="pub-authors"><span>Zhu W, Liang W, <strong class="me">Lu H</strong>, Chang L, Zhang J, Chen YE, Guo Y.</span></div>
               </div>
               <div class="publication-main">
-                <h3>Vascular Smooth Muscle Cells in Aortic Aneurysm: From Genetics to Mechanisms.</h3>
+                <h3><a href="https://pubmed.ncbi.nlm.nih.gov/36139452/" target="_blank" rel="noopener noreferrer">Myeloid TM6SF2 Deficiency Inhibits Atherosclerosis.</a></h3>
+                <p class="pub-citation">2022;11(18):2877 · PMID: 36139452</p>
+                <div class="paper-links"><a class="pubmed-link" href="https://pubmed.ncbi.nlm.nih.gov/36139452/" target="_blank" rel="noopener noreferrer" aria-label="PubMed: Myeloid TM6SF2 Deficiency Inhibits Atherosclerosis.">PubMed <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a><a class="doi-link" href="https://doi.org/10.3390/cells11182877" target="_blank" rel="noopener noreferrer" aria-label="DOI: Myeloid TM6SF2 Deficiency Inhibits Atherosclerosis.">DOI <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a></div>
               </div>
             </article>
-            <article class="publication" data-group="all">
+            <article class="publication" data-groups="all" data-year="2022" data-pmid="34428834" data-date="2022-05-01">
               <div class="publication-meta">
-                <time>2022</time>
-                <p><strong><em>J Cell Physiol.</em></strong> Luo Y, <strong class="me">Lu H</strong>, Peng D, Ruan X, Eugene Chen Y, Guo Y. 2022;237(1):489-506. PMID: 34661916.</p>
+                <time datetime="2022-05">2022<span class="pub-month">May</span></time>
+                <p class="pub-journal"><strong><em>Thromb Haemost</em></strong></p>
+                <div class="pub-authors"><span>Liang W, <strong class="me">Lu H</strong>, Sun J, Zhao G, Wang H, Guo Y, Eitzman D, Chen YE, Fan Y, Zhang J.</span></div>
               </div>
               <div class="publication-main">
-                <h3>Liver-humanized mice: A translational strategy to study metabolic disorders.</h3>
+                <h3><a href="https://pubmed.ncbi.nlm.nih.gov/34428834/" target="_blank" rel="noopener noreferrer">KLF11 Protects against Venous Thrombosis via Suppressing Tissue Factor Expression.</a></h3>
+                <p class="pub-citation">2022;122(5):777-788 · PMID: 34428834</p>
+                <div class="paper-links"><a class="pubmed-link" href="https://pubmed.ncbi.nlm.nih.gov/34428834/" target="_blank" rel="noopener noreferrer" aria-label="PubMed: KLF11 Protects against Venous Thrombosis via Suppressing Tissue Factor Expression.">PubMed <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a><a class="doi-link" href="https://doi.org/10.1055/s-0041-1735191" target="_blank" rel="noopener noreferrer" aria-label="DOI: KLF11 Protects against Venous Thrombosis via Suppressing Tissue Factor Expression.">DOI <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a></div>
               </div>
             </article>
-            <article class="publication" data-group="all">
+            <article class="publication" data-groups="all" data-year="2022" data-pmid="35306139" data-date="2022-04-01">
               <div class="publication-meta">
-                <time>2021</time>
-                <p><strong><em>iScience.</em></strong> Fan Y, Wolford BN, <strong class="me">Lu H</strong>, Liang W, Sun J, Zhou W, Rom O, Mahajan A, Surakka I, Graham SE, Liu Z, Kim H, Ramdas S, Fritsche LG, Nielsen JB, Gabrielsen ME, Hveem K, Yang D, Song J, Garcia-Barrio MT, Zhang J, Liu W, Zhang K, Willer CJ, Chen YE. 2021;24(11):103196. PMID: 34746691.</p>
+                <time datetime="2022-04">2022<span class="pub-month">Apr</span></time>
+                <p class="pub-journal"><strong><em>Pharmacol Res</em></strong></p>
+                <div class="pub-authors"><span>Wang Z, <strong class="me">Lu H</strong>, Garcia-Barrio M, Guo Y, Zhang J, Chen YE, Chang L.</span></div>
               </div>
               <div class="publication-main">
-                <h3>Type 2 diabetes sex-specific effects associated with E167K coding variant in TM6SF2.</h3>
+                <h3><a href="https://pubmed.ncbi.nlm.nih.gov/35306139/" target="_blank" rel="noopener noreferrer">RNA sequencing reveals perivascular adipose tissue plasticity in response to angiotensin II.</a></h3>
+                <p class="pub-citation">2022;178:106183 · PMID: 35306139</p>
+                <div class="paper-links"><a class="pubmed-link" href="https://pubmed.ncbi.nlm.nih.gov/35306139/" target="_blank" rel="noopener noreferrer" aria-label="PubMed: RNA sequencing reveals perivascular adipose tissue plasticity in response to angiotensin II.">PubMed <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a><a class="doi-link" href="https://doi.org/10.1016/j.phrs.2022.106183" target="_blank" rel="noopener noreferrer" aria-label="DOI: RNA sequencing reveals perivascular adipose tissue plasticity in response to angiotensin II.">DOI <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a></div>
               </div>
             </article>
-            <article class="publication" data-group="all">
+            <article class="publication" data-groups="all" data-year="2022" data-pmid="33538785" data-date="2022-01-29">
               <div class="publication-meta">
-                <time>2022</time>
-                <p><strong><em>Thromb Haemost.</em></strong> Liang W, <strong class="me">Lu H</strong>, Sun J, Zhao G, Wang H, Guo Y, Eitzman D, Chen YE, Fan Y, Zhang J. 2022;122(5):777-788. PMID: 34428834.</p>
+                <time datetime="2022-01-29">2022<span class="pub-month">Jan 29</span></time>
+                <p class="pub-journal"><strong><em>Cardiovasc Res</em></strong></p>
+                <div class="pub-authors"><span>Wang H, Guo Y, <strong class="me">Lu H</strong>, Luo Y, Hu W, Liang W, Garcia-Barrio MT, Chang L, Schwendeman A, Zhang J, Chen YE.</span></div>
               </div>
               <div class="publication-main">
-                <h3>KLF11 Protects against Venous Thrombosis via Suppressing Tissue Factor Expression.</h3>
+                <h3><a href="https://pubmed.ncbi.nlm.nih.gov/33538785/" target="_blank" rel="noopener noreferrer">Krüppel-like factor 14 deletion in myeloid cells accelerates atherosclerotic lesion development.</a></h3>
+                <p class="pub-citation">2022;118(2):475-488 · PMID: 33538785</p>
+                <div class="paper-links"><a class="pubmed-link" href="https://pubmed.ncbi.nlm.nih.gov/33538785/" target="_blank" rel="noopener noreferrer" aria-label="PubMed: Krüppel-like factor 14 deletion in myeloid cells accelerates atherosclerotic lesion development.">PubMed <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a><a class="doi-link" href="https://doi.org/10.1093/cvr/cvab027" target="_blank" rel="noopener noreferrer" aria-label="DOI: Krüppel-like factor 14 deletion in myeloid cells accelerates atherosclerotic lesion development.">DOI <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a></div>
               </div>
             </article>
-            <article class="publication" data-group="all">
+            <article class="publication" data-groups="all reviews" data-year="2022" data-pmid="34661916" data-date="2022-01-01">
               <div class="publication-meta">
-                <time>2021</time>
-                <p><strong><em>Cell Rep.</em></strong> Liu Y, Zhao Y, Shukha Y, <strong class="me">Lu H</strong>, Wang L, Liu Z, Liu C, Zhao Y, Wang H, Zhao G, Liang W, Fan Y, Chang L, Yurdagul A Jr, Pattillo CB, Orr AW, Aviram M, Wen B, Garcia-Barrio MT, Zhang J, Liu W, Sun D, Hayek T, Chen YE, Rom O. 2021;36(4):109420. PMID: 34320345.</p>
+                <time datetime="2022-01">2022<span class="pub-month">Jan</span></time>
+                <p class="pub-journal"><strong><em>J Cell Physiol</em></strong></p>
+                <div class="pub-authors"><span>Luo Y, <strong class="me">Lu H</strong>, Peng D, Ruan X, Eugene Chen Y, Guo Y.</span></div>
               </div>
               <div class="publication-main">
-                <h3>Dysregulated oxalate metabolism is a driver and therapeutic target in atherosclerosis.</h3>
+                <h3><a href="https://pubmed.ncbi.nlm.nih.gov/34661916/" target="_blank" rel="noopener noreferrer">Liver-humanized mice: A translational strategy to study metabolic disorders.</a></h3>
+                <p class="pub-citation">2022;237(1):489-506 · PMID: 34661916</p>
+                <div class="paper-links"><a class="pubmed-link" href="https://pubmed.ncbi.nlm.nih.gov/34661916/" target="_blank" rel="noopener noreferrer" aria-label="PubMed: Liver-humanized mice: A translational strategy to study metabolic disorders.">PubMed <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a><a class="doi-link" href="https://doi.org/10.1002/jcp.30610" target="_blank" rel="noopener noreferrer" aria-label="DOI: Liver-humanized mice: A translational strategy to study metabolic disorders.">DOI <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a></div>
               </div>
             </article>
-            <article class="publication" data-group="all">
+            <article class="publication" data-groups="all featured reviews" data-year="2021" data-pmid="34796717" data-date="2021-12-21">
               <div class="publication-meta">
-                <time>2021</time>
-                <p><strong><em>Am J Hum Genet.</em></strong> Roychowdhury T, <strong class="me">Lu H</strong>, Hornsby WE, Crone B, Wang GT, Guo DC, Sendamarai AK, Devineni P, Lin M, Zhou W, Graham SE, Wolford BN, Surakka I, Wang Z, Chang L, Zhang J, Mathis M, Brummett CM, Melendez TL, Shea MJ, Kim KM, Deeb GM, Patel HJ, Eliason J, Eagle KA, Yang B, Ganesh SK, Brumpton B, Åsvold BO, Skogholt AH, Hveem K, VA Million Veteran Program, Pyarajan S, Klarin D, Tsao PS, Damrauer SM, Leal SM, Milewicz DM, Chen YE, Garcia-Barrio MT, Willer CJ. 2021;108(9):1578-1589. PMID: 34265237.</p>
+                <time datetime="2021-12-21">2021<span class="pub-month">Dec 21</span></time>
+                <p class="pub-journal"><strong><em>J Am Heart Assoc</em></strong></p>
+                <div class="pub-authors"><span><strong class="me">Lu H</strong>, Du W, Ren L, Hamblin MH, Becker RC, Chen YE, Fan Y.</span></div>
               </div>
               <div class="publication-main">
-                <h3>Regulatory variants in TCF7L2 are associated with thoracic aortic aneurysm.</h3>
+                <h3><a href="https://pubmed.ncbi.nlm.nih.gov/34796717/" target="_blank" rel="noopener noreferrer">Vascular Smooth Muscle Cells in Aortic Aneurysm: From Genetics to Mechanisms.</a></h3>
+                <p class="pub-citation">2021;10(24):e023601 · PMID: 34796717</p>
+                <div class="paper-links"><a class="pubmed-link" href="https://pubmed.ncbi.nlm.nih.gov/34796717/" target="_blank" rel="noopener noreferrer" aria-label="PubMed: Vascular Smooth Muscle Cells in Aortic Aneurysm: From Genetics to Mechanisms.">PubMed <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a><a class="doi-link" href="https://doi.org/10.1161/JAHA.121.023601" target="_blank" rel="noopener noreferrer" aria-label="DOI: Vascular Smooth Muscle Cells in Aortic Aneurysm: From Genetics to Mechanisms.">DOI <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a></div>
               </div>
             </article>
-            <article class="publication" data-group="all">
+            <article class="publication" data-groups="all" data-year="2021" data-pmid="34746691" data-date="2021-11-19">
               <div class="publication-meta">
-                <time>2021</time>
-                <p><strong><em>Front Cell Dev Biol.</em></strong> Zhao G, <strong class="me">Lu H</strong>, Liu Y, Zhao Y, Zhu T, Garcia-Barrio MT, Chen YE, Zhang J. 2021;9:689469. PMID: 34095155.</p>
+                <time datetime="2021-11-19">2021<span class="pub-month">Nov 19</span></time>
+                <p class="pub-journal"><strong><em>iScience</em></strong></p>
+                <div class="pub-authors"><span class="authors-short">Fan Y, Wolford BN, <strong class="me">Lu H</strong>, ..., Willer CJ, Chen YE.</span><details class="authors-details"><summary>Full authors (25)</summary><p>Fan Y, Wolford BN, <strong class="me">Lu H</strong>, Liang W, Sun J, Zhou W, Rom O, Mahajan A, Surakka I, Graham SE, Liu Z, Kim H, Ramdas S, Fritsche LG, Nielsen JB, Gabrielsen ME, Hveem K, Yang D, Song J, Garcia-Barrio MT, Zhang J, Liu W, Zhang K, Willer CJ, Chen YE.</p></details></div>
               </div>
               <div class="publication-main">
-                <h3>Single-Cell Transcriptomics Reveals Endothelial Plasticity During Diabetic Atherogenesis.</h3>
+                <h3><a href="https://pubmed.ncbi.nlm.nih.gov/34746691/" target="_blank" rel="noopener noreferrer">Type 2 diabetes sex-specific effects associated with E167K coding variant in TM6SF2.</a></h3>
+                <p class="pub-citation">2021;24(11):103196 · PMID: 34746691</p>
+                <div class="paper-links"><a class="pubmed-link" href="https://pubmed.ncbi.nlm.nih.gov/34746691/" target="_blank" rel="noopener noreferrer" aria-label="PubMed: Type 2 diabetes sex-specific effects associated with E167K coding variant in TM6SF2.">PubMed <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a><a class="doi-link" href="https://doi.org/10.1016/j.isci.2021.103196" target="_blank" rel="noopener noreferrer" aria-label="DOI: Type 2 diabetes sex-specific effects associated with E167K coding variant in TM6SF2.">DOI <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a></div>
               </div>
             </article>
-            <article class="publication" data-group="all">
+            <article class="publication" data-groups="all" data-year="2021" data-pmid="32671602" data-date="2021-10-01">
               <div class="publication-meta">
-                <time>2021</time>
-                <p><strong><em>Cardiovasc Res.</em></strong> Zhao G, <strong class="me">Lu H</strong>, Chang Z, Zhao Y, Zhu T, Chang L, Guo Y, Garcia-Barrio MT, Chen YE, Zhang J. 2021;117(5):1402-1416. PMID: 32678909.</p>
+                <time datetime="2021-10">2021<span class="pub-month">Oct</span></time>
+                <p class="pub-journal"><strong><em>Cardiovasc Drugs Ther</em></strong></p>
+                <div class="pub-authors"><span class="authors-short">Zhao Y<sup>#</sup>, Chang Z<sup>#</sup>, Zhao G, <strong class="me">Lu H</strong>, ..., Zhang J, Chen YE.</span><details class="authors-details"><summary>Full authors (17)</summary><p>Zhao Y<sup>#</sup>, Chang Z<sup>#</sup>, Zhao G, <strong class="me">Lu H</strong>, Xiong W, Liang W, Wang H, Villacorta L, Garcia-Barrio MT, Zhu T, Guo Y, Fan Y, Chang L, Schopfer FJ, Freeman BA, Zhang J, Chen YE.</p></details></div>
               </div>
               <div class="publication-main">
-                <h3>Single-cell RNA sequencing reveals the cellular heterogeneity of aneurysmal infrarenal abdominal aorta.</h3>
+                <h3><a href="https://pubmed.ncbi.nlm.nih.gov/32671602/" target="_blank" rel="noopener noreferrer">Suppression of Vascular Macrophage Activation by Nitro-Oleic Acid and its Implication for Abdominal Aortic Aneurysm Therapy.</a></h3>
+                <p class="pub-citation">2021;35(5):939-951 · PMID: 32671602</p>
+                <div class="paper-links"><a class="pubmed-link" href="https://pubmed.ncbi.nlm.nih.gov/32671602/" target="_blank" rel="noopener noreferrer" aria-label="PubMed: Suppression of Vascular Macrophage Activation by Nitro-Oleic Acid and its Implication for Abdominal Aortic Aneurysm Therapy.">PubMed <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a><a class="doi-link" href="https://doi.org/10.1007/s10557-020-07031-8" target="_blank" rel="noopener noreferrer" aria-label="DOI: Suppression of Vascular Macrophage Activation by Nitro-Oleic Acid and its Implication for Abdominal Aortic Aneurysm Therapy.">DOI <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a></div>
               </div>
             </article>
-            <article class="publication" data-group="all">
+            <article class="publication" data-groups="all featured" data-year="2021" data-pmid="34265237" data-date="2021-09-02">
               <div class="publication-meta">
-                <time>2021</time>
-                <p><strong><em>Cardiovasc Drugs Ther.</em></strong> <strong class="me">Lu H</strong>, Zhang J, Chen YE, Garcia-Barrio MT. 2021;35(3):637-654. PMID: 33856594.</p>
+                <time datetime="2021-09-02">2021<span class="pub-month">Sep 2</span></time>
+                <p class="pub-journal"><strong><em>Am J Hum Genet</em></strong></p>
+                <div class="pub-authors"><span class="authors-short">Roychowdhury T<sup>#</sup>, <strong class="me">Lu H</strong><sup>#</sup>, Hornsby WE, ..., Garcia-Barrio MT, Willer CJ.</span><details class="authors-details"><summary>Full authors (41)</summary><p>Roychowdhury T<sup>#</sup>, <strong class="me">Lu H</strong><sup>#</sup>, Hornsby WE, Crone B, Wang GT, Guo DC, Sendamarai AK, Devineni P, Lin M, Zhou W, Graham SE, Wolford BN, Surakka I, Wang Z, Chang L, Zhang J, Mathis M, Brummett CM, Melendez TL, Shea MJ, Kim KM, Deeb GM, Patel HJ, Eliason J, Eagle KA, Yang B, Ganesh SK, Brumpton B, Åsvold BO, Skogholt AH, Hveem K, VA Million Veteran Program, Pyarajan S, Klarin D, Tsao PS, Damrauer SM, Leal SM, Milewicz DM, Chen YE, Garcia-Barrio MT, Willer CJ.</p></details></div>
               </div>
               <div class="publication-main">
-                <h3>Integration of Transformative Platforms for the Discovery of Causative Genes in Cardiovascular Diseases.</h3>
+                <h3><a href="https://pubmed.ncbi.nlm.nih.gov/34265237/" target="_blank" rel="noopener noreferrer">Regulatory variants in TCF7L2 are associated with thoracic aortic aneurysm.</a></h3>
+                <p class="pub-citation">2021;108(9):1578-1589 · PMID: 34265237</p>
+                <div class="paper-links"><a class="pubmed-link" href="https://pubmed.ncbi.nlm.nih.gov/34265237/" target="_blank" rel="noopener noreferrer" aria-label="PubMed: Regulatory variants in TCF7L2 are associated with thoracic aortic aneurysm.">PubMed <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a><a class="doi-link" href="https://doi.org/10.1016/j.ajhg.2021.06.016" target="_blank" rel="noopener noreferrer" aria-label="DOI: Regulatory variants in TCF7L2 are associated with thoracic aortic aneurysm.">DOI <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a></div>
               </div>
             </article>
-            <article class="publication" data-group="all">
+            <article class="publication" data-groups="all" data-year="2021" data-pmid="34320345" data-date="2021-07-27">
               <div class="publication-meta">
-                <time>2021</time>
-                <p><strong><em>JCI Insight.</em></strong> Zhao G, Chang Z, Zhao Y, Guo Y, <strong class="me">Lu H</strong>, Liang W, Rom O, Wang H, Sun J, Zhu T, Fan Y, Chang L, Yang B, Garcia-Barrio MT, Chen YE, Zhang J. 2021;6(5). PMID: 33507881.</p>
+                <time datetime="2021-07-27">2021<span class="pub-month">Jul 27</span></time>
+                <p class="pub-journal"><strong><em>Cell Rep</em></strong></p>
+                <div class="pub-authors"><span class="authors-short">Liu Y, Zhao Y, Shukha Y, <strong class="me">Lu H</strong>, ..., Chen YE, Rom O.</span><details class="authors-details"><summary>Full authors (25)</summary><p>Liu Y, Zhao Y, Shukha Y, <strong class="me">Lu H</strong>, Wang L, Liu Z, Liu C, Zhao Y, Wang H, Zhao G, Liang W, Fan Y, Chang L, Yurdagul A, Pattillo CB, Orr AW, Aviram M, Wen B, Garcia-Barrio MT, Zhang J, Liu W, Sun D, Hayek T, Chen YE, Rom O.</p></details></div>
               </div>
               <div class="publication-main">
-                <h3>KLF11 protects against abdominal aortic aneurysm through inhibition of endothelial cell dysfunction.</h3>
+                <h3><a href="https://pubmed.ncbi.nlm.nih.gov/34320345/" target="_blank" rel="noopener noreferrer">Dysregulated oxalate metabolism is a driver and therapeutic target in atherosclerosis.</a></h3>
+                <p class="pub-citation">2021;36(4):109420 · PMID: 34320345</p>
+                <div class="paper-links"><a class="pubmed-link" href="https://pubmed.ncbi.nlm.nih.gov/34320345/" target="_blank" rel="noopener noreferrer" aria-label="PubMed: Dysregulated oxalate metabolism is a driver and therapeutic target in atherosclerosis.">PubMed <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a><a class="doi-link" href="https://doi.org/10.1016/j.celrep.2021.109420" target="_blank" rel="noopener noreferrer" aria-label="DOI: Dysregulated oxalate metabolism is a driver and therapeutic target in atherosclerosis.">DOI <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a></div>
               </div>
             </article>
-            <article class="publication" data-group="all">
+            <article class="publication" data-groups="all reviews" data-year="2021" data-pmid="33856594" data-date="2021-06-01">
               <div class="publication-meta">
-                <time>2021</time>
-                <p><strong><em>Arterioscler Thromb Vasc Biol.</em></strong> Hu D, Guo Y, Wu R, Shao T, Long J, Yu B, Wang H, Luo Y, <strong class="me">Lu H</strong>, Zhang J, Chen YE, Peng D. 2021;41(4):e208-e223. PMID: 33535788.</p>
+                <time datetime="2021-06">2021<span class="pub-month">Jun</span></time>
+                <p class="pub-journal"><strong><em>Cardiovasc Drugs Ther</em></strong></p>
+                <div class="pub-authors"><span><strong class="me">Lu H</strong>, Zhang J, Chen YE, Garcia-Barrio MT.</span></div>
               </div>
               <div class="publication-main">
-                <h3>New Insight Into Metformin-Induced Cholesterol-Lowering Effect Crosstalk Between Glucose and Cholesterol Homeostasis via ChREBP (Carbohydrate-Responsive Element-Binding Protein)-Mediated PCSK9 (Proprotein Convertase Subtilisin/Kexin Type 9) Regulation.</h3>
+                <h3><a href="https://pubmed.ncbi.nlm.nih.gov/33856594/" target="_blank" rel="noopener noreferrer">Integration of Transformative Platforms for the Discovery of Causative Genes in Cardiovascular Diseases.</a></h3>
+                <p class="pub-citation">2021;35(3):637-654 · PMID: 33856594</p>
+                <div class="paper-links"><a class="pubmed-link" href="https://pubmed.ncbi.nlm.nih.gov/33856594/" target="_blank" rel="noopener noreferrer" aria-label="PubMed: Integration of Transformative Platforms for the Discovery of Causative Genes in Cardiovascular Diseases.">PubMed <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a><a class="doi-link" href="https://doi.org/10.1007/s10557-021-07175-1" target="_blank" rel="noopener noreferrer" aria-label="DOI: Integration of Transformative Platforms for the Discovery of Causative Genes in Cardiovascular Diseases.">DOI <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a></div>
               </div>
             </article>
-            <article class="publication" data-group="all">
+            <article class="publication" data-groups="all" data-year="2021" data-pmid="32678909" data-date="2021-04-23">
               <div class="publication-meta">
-                <time>2021</time>
-                <p><strong><em>Autophagy.</em></strong> Klionsky DJ, ... <strong class="me">Lu H</strong>, ... Tong CK. 2021;17(1):1-382. PMID: 33634751.</p>
+                <time datetime="2021-04-23">2021<span class="pub-month">Apr 23</span></time>
+                <p class="pub-journal"><strong><em>Cardiovasc Res</em></strong></p>
+                <div class="pub-authors"><span>Zhao G, <strong class="me">Lu H</strong>, Chang Z, Zhao Y, Zhu T, Chang L, Guo Y, Garcia-Barrio MT, Chen YE, Zhang J.</span></div>
               </div>
               <div class="publication-main">
-                <h3>Guidelines for the use and interpretation of assays for monitoring autophagy (4th edition)(1).</h3>
+                <h3><a href="https://pubmed.ncbi.nlm.nih.gov/32678909/" target="_blank" rel="noopener noreferrer">Single-cell RNA sequencing reveals the cellular heterogeneity of aneurysmal infrarenal abdominal aorta.</a></h3>
+                <p class="pub-citation">2021;117(5):1402-1416 · PMID: 32678909</p>
+                <div class="paper-links"><a class="pubmed-link" href="https://pubmed.ncbi.nlm.nih.gov/32678909/" target="_blank" rel="noopener noreferrer" aria-label="PubMed: Single-cell RNA sequencing reveals the cellular heterogeneity of aneurysmal infrarenal abdominal aorta.">PubMed <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a><a class="doi-link" href="https://doi.org/10.1093/cvr/cvaa214" target="_blank" rel="noopener noreferrer" aria-label="DOI: Single-cell RNA sequencing reveals the cellular heterogeneity of aneurysmal infrarenal abdominal aorta.">DOI <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a></div>
               </div>
             </article>
-            <article class="publication" data-group="all">
+            <article class="publication" data-groups="all" data-year="2021" data-pmid="33535788" data-date="2021-04-01">
               <div class="publication-meta">
-                <time>2021</time>
-                <p><strong><em>EBioMedicine.</em></strong> <strong class="me">Lu H</strong>, Sun J, Hamblin MH, Chen YE, Fan Y. 2021;63:103207. PMID: 33418500.</p>
+                <time datetime="2021-04">2021<span class="pub-month">Apr</span></time>
+                <p class="pub-journal"><strong><em>Arterioscler Thromb Vasc Biol</em></strong></p>
+                <div class="pub-authors"><span>Hu D<sup>#</sup>, Guo Y<sup>#</sup>, Wu R, Shao T, Long J, Yu B, Wang H, Luo Y, <strong class="me">Lu H</strong>, Zhang J, Chen YE, Peng D.</span></div>
               </div>
               <div class="publication-main">
-                <h3>Transcription factor EB regulates cardiovascular homeostasis.</h3>
+                <h3><a href="https://pubmed.ncbi.nlm.nih.gov/33535788/" target="_blank" rel="noopener noreferrer">New Insight Into Metformin-Induced Cholesterol-Lowering Effect Crosstalk Between Glucose and Cholesterol Homeostasis via ChREBP (Carbohydrate-Responsive Element-Binding Protein)-Mediated PCSK9 (Proprotein Convertase Subtilisin/Kexin Type 9) Regulation.</a></h3>
+                <p class="pub-citation">2021;41(4):e208-e223 · PMID: 33535788</p>
+                <div class="paper-links"><a class="pubmed-link" href="https://pubmed.ncbi.nlm.nih.gov/33535788/" target="_blank" rel="noopener noreferrer" aria-label="PubMed: New Insight Into Metformin-Induced Cholesterol-Lowering Effect Crosstalk Between Glucose and Cholesterol Homeostasis via ChREBP (Carbohydrate-Responsive Element-Binding Protein)-Mediated PCSK9 (Proprotein Convertase Subtilisin/Kexin Type 9) Regulation.">PubMed <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a><a class="doi-link" href="https://doi.org/10.1161/ATVBAHA.120.315708" target="_blank" rel="noopener noreferrer" aria-label="DOI: New Insight Into Metformin-Induced Cholesterol-Lowering Effect Crosstalk Between Glucose and Cholesterol Homeostasis via ChREBP (Carbohydrate-Responsive Element-Binding Protein)-Mediated PCSK9 (Proprotein Convertase Subtilisin/Kexin Type 9) Regulation.">DOI <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a></div>
               </div>
             </article>
-            <article class="publication" data-group="all">
+            <article class="publication" data-groups="all" data-year="2021" data-pmid="33507881" data-date="2021-03-08">
               <div class="publication-meta">
-                <time>2021</time>
-                <p><strong><em>Arterioscler Thromb Vasc Biol.</em></strong> Sun J, <strong class="me">Lu H</strong>, Liang W, Zhao G, Ren L, Hu D, Chang Z, Liu Y, Garcia-Barrio MT, Zhang J, Chen YE, Fan Y. 2021;41(2):783-795. PMID: 33297755.</p>
+                <time datetime="2021-03-08">2021<span class="pub-month">Mar 8</span></time>
+                <p class="pub-journal"><strong><em>JCI Insight</em></strong></p>
+                <div class="pub-authors"><span class="authors-short">Zhao G, Chang Z, Zhao Y, ..., <strong class="me">Lu H</strong>, ..., Chen YE, Zhang J.</span><details class="authors-details"><summary>Full authors (16)</summary><p>Zhao G, Chang Z, Zhao Y, Guo Y, <strong class="me">Lu H</strong>, Liang W, Rom O, Wang H, Sun J, Zhu T, Fan Y, Chang L, Yang B, Garcia-Barrio MT, Chen YE, Zhang J.</p></details></div>
               </div>
               <div class="publication-main">
-                <h3>Endothelial TFEB (Transcription Factor EB) Improves Glucose Tolerance via Upregulation of IRS (Insulin Receptor Substrate) 1 and IRS2.</h3>
+                <h3><a href="https://pubmed.ncbi.nlm.nih.gov/33507881/" target="_blank" rel="noopener noreferrer">KLF11 protects against abdominal aortic aneurysm through inhibition of endothelial cell dysfunction.</a></h3>
+                <p class="pub-citation">2021;6(5):e141673 · PMID: 33507881</p>
+                <div class="paper-links"><a class="pubmed-link" href="https://pubmed.ncbi.nlm.nih.gov/33507881/" target="_blank" rel="noopener noreferrer" aria-label="PubMed: KLF11 protects against abdominal aortic aneurysm through inhibition of endothelial cell dysfunction.">PubMed <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a><a class="doi-link" href="https://doi.org/10.1172/jci.insight.141673" target="_blank" rel="noopener noreferrer" aria-label="DOI: KLF11 protects against abdominal aortic aneurysm through inhibition of endothelial cell dysfunction.">DOI <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a></div>
               </div>
             </article>
-            <article class="publication" data-group="all">
+            <article class="publication" data-groups="all" data-year="2021" data-pmid="33297755" data-date="2021-02-01">
               <div class="publication-meta">
-                <time>2020</time>
-                <p><strong><em>Sci Transl Med.</em></strong> Rom O, Liu Y, Liu Z, Zhao Y, Wu J, Ghrayeb A, Villacorta L, Fan Y, Chang L, Wang L, Liu C, Yang D, Song J, Rech JC, Guo Y, Wang H, Zhao G, Liang W, Koike Y, <strong class="me">Lu H</strong>, Koike T, Hayek T, Pennathur S, Xi C, Wen B, Sun D, Garcia-Barrio MT, Aviram M, Gottlieb E, Mor I, Liu W, Zhang J, Chen YE. 2020;12(572). PMID: 33268508.</p>
+                <time datetime="2021-02">2021<span class="pub-month">Feb</span></time>
+                <p class="pub-journal"><strong><em>Arterioscler Thromb Vasc Biol</em></strong></p>
+                <div class="pub-authors"><span>Sun J, <strong class="me">Lu H</strong>, Liang W, Zhao G, Ren L, Hu D, Chang Z, Liu Y, Garcia-Barrio MT, Zhang J, Chen YE, Fan Y.</span></div>
               </div>
               <div class="publication-main">
-                <h3>Glycine-based treatment ameliorates NAFLD by modulating fatty acid oxidation, glutathione synthesis, and the gut microbiome.</h3>
+                <h3><a href="https://pubmed.ncbi.nlm.nih.gov/33297755/" target="_blank" rel="noopener noreferrer">Endothelial TFEB (Transcription Factor EB) Improves Glucose Tolerance via Upregulation of IRS (Insulin Receptor Substrate) 1 and IRS2.</a></h3>
+                <p class="pub-citation">2021;41(2):783-795 · PMID: 33297755</p>
+                <div class="paper-links"><a class="pubmed-link" href="https://pubmed.ncbi.nlm.nih.gov/33297755/" target="_blank" rel="noopener noreferrer" aria-label="PubMed: Endothelial TFEB (Transcription Factor EB) Improves Glucose Tolerance via Upregulation of IRS (Insulin Receptor Substrate) 1 and IRS2.">PubMed <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a><a class="doi-link" href="https://doi.org/10.1161/ATVBAHA.120.315310" target="_blank" rel="noopener noreferrer" aria-label="DOI: Endothelial TFEB (Transcription Factor EB) Improves Glucose Tolerance via Upregulation of IRS (Insulin Receptor Substrate) 1 and IRS2.">DOI <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a></div>
               </div>
             </article>
-            <article class="publication" data-group="all">
+            <article class="publication" data-groups="all" data-year="2021" data-pmid="34095155" data-date="2021-01-01">
               <div class="publication-meta">
-                <time>2020</time>
-                <p><strong><em>Nat Commun.</em></strong> Surakka I, Fritsche LG, Zhou W, Backman J, Kosmicki JA, <strong class="me">Lu H</strong>, Brumpton B, Nielsen JB, Gabrielsen ME, Skogholt AH, Wolford B, Graham SE, Chen YE, Lee S, Kang HM, Langhammer A, Forsmo S, Åsvold BO, Styrkarsdottir U, Holm H, Gudbjartsson D, Stefansson K, Baras A, Regeneron Genetics Center, Abecasis GR, Hveem K, Willer CJ. 2020;11(1):4093. PMID: 33097703.</p>
+                <time datetime="2021">2021<span class="pub-month"></span></time>
+                <p class="pub-journal"><strong><em>Front Cell Dev Biol</em></strong></p>
+                <div class="pub-authors"><span>Zhao G, <strong class="me">Lu H</strong>, Liu Y, Zhao Y, Zhu T, Garcia-Barrio MT, Chen YE, Zhang J.</span></div>
               </div>
               <div class="publication-main">
-                <h3>MEPE loss-of-function variant associates with decreased bone mineral density and increased fracture risk.</h3>
+                <h3><a href="https://pubmed.ncbi.nlm.nih.gov/34095155/" target="_blank" rel="noopener noreferrer">Single-Cell Transcriptomics Reveals Endothelial Plasticity During Diabetic Atherogenesis.</a></h3>
+                <p class="pub-citation">2021;9:689469 · PMID: 34095155</p>
+                <div class="paper-links"><a class="pubmed-link" href="https://pubmed.ncbi.nlm.nih.gov/34095155/" target="_blank" rel="noopener noreferrer" aria-label="PubMed: Single-Cell Transcriptomics Reveals Endothelial Plasticity During Diabetic Atherogenesis.">PubMed <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a><a class="doi-link" href="https://doi.org/10.3389/fcell.2021.689469" target="_blank" rel="noopener noreferrer" aria-label="DOI: Single-Cell Transcriptomics Reveals Endothelial Plasticity During Diabetic Atherogenesis.">DOI <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a></div>
               </div>
             </article>
-            <article class="publication" data-group="all">
+            <article class="publication" data-groups="all" data-year="2021" data-pmid="33634751" data-date="2021-01-01">
               <div class="publication-meta">
-                <time>2020</time>
-                <p><strong><em>Arterioscler Thromb Vasc Biol.</em></strong> Chang Z, Zhao G, Zhao Y, <strong class="me">Lu H</strong>, Xiong W, Liang W, Sun J, Wang H, Zhu T, Rom O, Guo Y, Fan Y, Chang L, Yang B, Garcia-Barrio MT, Lin JD, Chen YE, Zhang J. 2020;40(10):2494-2507. PMID: 32787523.</p>
+                <time datetime="2021-01">2021<span class="pub-month">Jan</span></time>
+                <p class="pub-journal"><strong><em>Autophagy</em></strong></p>
+                <div class="pub-authors"><span>Klionsky DJ<sup>*</sup>, ..., <strong class="me">Lu H</strong>, ...</span></div>
               </div>
               <div class="publication-main">
-                <h3>BAF60a Deficiency in Vascular Smooth Muscle Cells Prevents Abdominal Aortic Aneurysm by Reducing Inflammation and Extracellular Matrix Degradation.</h3>
+                <h3><a href="https://pubmed.ncbi.nlm.nih.gov/33634751/" target="_blank" rel="noopener noreferrer">Guidelines for the use and interpretation of assays for monitoring autophagy (4th edition).</a></h3>
+                <p class="pub-citation">2021;17(1):1-382 · PMID: 33634751</p>
+                <div class="paper-links"><a class="pubmed-link" href="https://pubmed.ncbi.nlm.nih.gov/33634751/" target="_blank" rel="noopener noreferrer" aria-label="PubMed: Guidelines for the use and interpretation of assays for monitoring autophagy (4th edition).">PubMed <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a><a class="doi-link" href="https://doi.org/10.1080/15548627.2020.1797280" target="_blank" rel="noopener noreferrer" aria-label="DOI: Guidelines for the use and interpretation of assays for monitoring autophagy (4th edition).">DOI <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a></div>
               </div>
             </article>
-            <article class="publication" data-group="all">
+            <article class="publication" data-groups="all featured reviews" data-year="2021" data-pmid="33418500" data-date="2021-01-01">
               <div class="publication-meta">
-                <time>2021</time>
-                <p><strong><em>Cardiovasc Drugs Ther.</em></strong> Zhao Y, Chang Z, Zhao G, <strong class="me">Lu H</strong>, Xiong W, Liang W, Wang H, Villacorta L, Garcia-Barrio MT, Zhu T, Guo Y, Fan Y, Chang L, Schopfer FJ, Freeman BA, Zhang J, Chen YE. 2021;35(5):939-951. PMID: 32671602.</p>
+                <time datetime="2021-01">2021<span class="pub-month">Jan</span></time>
+                <p class="pub-journal"><strong><em>EBioMedicine</em></strong></p>
+                <div class="pub-authors"><span><strong class="me">Lu H</strong>, Sun J, Hamblin MH, Chen YE, Fan Y.</span></div>
               </div>
               <div class="publication-main">
-                <h3>Suppression of Vascular Macrophage Activation by Nitro-Oleic Acid and its Implication for Abdominal Aortic Aneurysm Therapy.</h3>
+                <h3><a href="https://pubmed.ncbi.nlm.nih.gov/33418500/" target="_blank" rel="noopener noreferrer">Transcription factor EB regulates cardiovascular homeostasis.</a></h3>
+                <p class="pub-citation">2021;63:103207 · PMID: 33418500</p>
+                <div class="paper-links"><a class="pubmed-link" href="https://pubmed.ncbi.nlm.nih.gov/33418500/" target="_blank" rel="noopener noreferrer" aria-label="PubMed: Transcription factor EB regulates cardiovascular homeostasis.">PubMed <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a><a class="doi-link" href="https://doi.org/10.1016/j.ebiom.2020.103207" target="_blank" rel="noopener noreferrer" aria-label="DOI: Transcription factor EB regulates cardiovascular homeostasis.">DOI <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a></div>
               </div>
             </article>
-            <article class="publication" data-group="all">
+            <article class="publication" data-groups="all" data-year="2020" data-pmid="33268508" data-date="2020-12-02">
               <div class="publication-meta">
-                <time>2020</time>
-                <p><strong><em>Circulation.</em></strong> <strong class="me">Lu H</strong>, Sun J, Liang W, Chang Z, Rom O, Zhao Y, Zhao G, Xiong W, Wang H, Zhu T, Guo Y, Chang L, Garcia-Barrio MT, Zhang J, Chen YE, Fan Y. 2020;142(5):483-498. PMID: 32354235.</p>
+                <time datetime="2020-12-02">2020<span class="pub-month">Dec 2</span></time>
+                <p class="pub-journal"><strong><em>Sci Transl Med</em></strong></p>
+                <div class="pub-authors"><span class="authors-short">Rom O, Liu Y, Liu Z, ..., <strong class="me">Lu H</strong>, ..., Zhang J, Chen YE.</span><details class="authors-details"><summary>Full authors (33)</summary><p>Rom O, Liu Y, Liu Z, Zhao Y, Wu J, Ghrayeb A, Villacorta L, Fan Y, Chang L, Wang L, Liu C, Yang D, Song J, Rech JC, Guo Y, Wang H, Zhao G, Liang W, Koike Y, <strong class="me">Lu H</strong>, Koike T, Hayek T, Pennathur S, Xi C, Wen B, Sun D, Garcia-Barrio MT, Aviram M, Gottlieb E, Mor I, Liu W, Zhang J, Chen YE.</p></details></div>
               </div>
               <div class="publication-main">
-                <h3>Cyclodextrin Prevents Abdominal Aortic Aneurysm via Activation of Vascular Smooth Muscle Cell Transcription Factor EB.</h3>
+                <h3><a href="https://pubmed.ncbi.nlm.nih.gov/33268508/" target="_blank" rel="noopener noreferrer">Glycine-based treatment ameliorates NAFLD by modulating fatty acid oxidation, glutathione synthesis, and the gut microbiome.</a></h3>
+                <p class="pub-citation">2020;12(572):eaaz2841 · PMID: 33268508</p>
+                <div class="paper-links"><a class="pubmed-link" href="https://pubmed.ncbi.nlm.nih.gov/33268508/" target="_blank" rel="noopener noreferrer" aria-label="PubMed: Glycine-based treatment ameliorates NAFLD by modulating fatty acid oxidation, glutathione synthesis, and the gut microbiome.">PubMed <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a><a class="doi-link" href="https://doi.org/10.1126/scitranslmed.aaz2841" target="_blank" rel="noopener noreferrer" aria-label="DOI: Glycine-based treatment ameliorates NAFLD by modulating fatty acid oxidation, glutathione synthesis, and the gut microbiome.">DOI <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a></div>
               </div>
             </article>
-            <article class="publication" data-group="all">
+            <article class="publication" data-groups="all" data-year="2020" data-pmid="33097703" data-date="2020-10-23">
               <div class="publication-meta">
-                <time>2019</time>
-                <p><strong><em>Physiol Genomics.</em></strong> <strong class="me">Lu H</strong>, Sun J, Liang W, Zhang J, Rom O, Garcia-Barrio MT, Li S, Villacorta L, Schopfer FJ, Freeman BA, Chen YE, Fan Y. 2019;51(6):224-233. PMID: 31074702.</p>
+                <time datetime="2020-10-23">2020<span class="pub-month">Oct 23</span></time>
+                <p class="pub-journal"><strong><em>Nat Commun</em></strong></p>
+                <div class="pub-authors"><span class="authors-short">Surakka I, Fritsche LG, Zhou W, ..., <strong class="me">Lu H</strong>, ..., Hveem K, Willer CJ.</span><details class="authors-details"><summary>Full authors (27)</summary><p>Surakka I, Fritsche LG, Zhou W, Backman J, Kosmicki JA, <strong class="me">Lu H</strong>, Brumpton B, Nielsen JB, Gabrielsen ME, Skogholt AH, Wolford B, Graham SE, Chen YE, Lee S, Kang HM, Langhammer A, Forsmo S, Åsvold BO, Styrkarsdottir U, Holm H, Gudbjartsson D, Stefansson K, Baras A, Regeneron Genetics Center, Abecasis GR, Hveem K, Willer CJ.</p></details></div>
               </div>
               <div class="publication-main">
-                <h3>Novel gene regulatory networks identified in response to nitro-conjugated linoleic acid in human endothelial cells.</h3>
+                <h3><a href="https://pubmed.ncbi.nlm.nih.gov/33097703/" target="_blank" rel="noopener noreferrer">MEPE loss-of-function variant associates with decreased bone mineral density and increased fracture risk.</a></h3>
+                <p class="pub-citation">2020;11(1):4093 · PMID: 33097703</p>
+                <div class="paper-links"><a class="pubmed-link" href="https://pubmed.ncbi.nlm.nih.gov/33097703/" target="_blank" rel="noopener noreferrer" aria-label="PubMed: MEPE loss-of-function variant associates with decreased bone mineral density and increased fracture risk.">PubMed <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a><a class="doi-link" href="https://doi.org/10.1038/s41467-020-17315-0" target="_blank" rel="noopener noreferrer" aria-label="DOI: MEPE loss-of-function variant associates with decreased bone mineral density and increased fracture risk.">DOI <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a></div>
               </div>
             </article>
-            <article class="publication" data-group="all">
+            <article class="publication" data-groups="all" data-year="2020" data-pmid="32787523" data-date="2020-10-01">
               <div class="publication-meta">
-                <time>2019</time>
-                <p><strong><em>Arterioscler Thromb Vasc Biol.</em></strong> Liang W, Fan Y, <strong class="me">Lu H</strong>, Chang Z, Hu W, Sun J, Wang H, Zhu T, Wang J, Adili R, Garcia-Barrio MT, Holinstat M, Eitzman D, Zhang J, Chen YE. 2019;39(3):402-412. PMID: 30602303.</p>
+                <time datetime="2020-10">2020<span class="pub-month">Oct</span></time>
+                <p class="pub-journal"><strong><em>Arterioscler Thromb Vasc Biol</em></strong></p>
+                <div class="pub-authors"><span class="authors-short">Chang Z<sup>#</sup>, Zhao G<sup>#</sup>, Zhao Y<sup>#</sup>, <strong class="me">Lu H</strong>, ..., Chen YE, Zhang J.</span><details class="authors-details"><summary>Full authors (18)</summary><p>Chang Z<sup>#</sup>, Zhao G<sup>#</sup>, Zhao Y<sup>#</sup>, <strong class="me">Lu H</strong>, Xiong W, Liang W, Sun J, Wang H, Zhu T, Rom O, Guo Y, Fan Y, Chang L, Yang B, Garcia-Barrio MT, Lin JD, Chen YE, Zhang J.</p></details></div>
               </div>
               <div class="publication-main">
-                <h3>KLF11 (Krüppel-Like Factor 11) Inhibits Arterial Thrombosis via Suppression of Tissue Factor in the Vascular Wall.</h3>
+                <h3><a href="https://pubmed.ncbi.nlm.nih.gov/32787523/" target="_blank" rel="noopener noreferrer">BAF60a Deficiency in Vascular Smooth Muscle Cells Prevents Abdominal Aortic Aneurysm by Reducing Inflammation and Extracellular Matrix Degradation.</a></h3>
+                <p class="pub-citation">2020;40(10):2494-2507 · PMID: 32787523</p>
+                <div class="paper-links"><a class="pubmed-link" href="https://pubmed.ncbi.nlm.nih.gov/32787523/" target="_blank" rel="noopener noreferrer" aria-label="PubMed: BAF60a Deficiency in Vascular Smooth Muscle Cells Prevents Abdominal Aortic Aneurysm by Reducing Inflammation and Extracellular Matrix Degradation.">PubMed <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a><a class="doi-link" href="https://doi.org/10.1161/ATVBAHA.120.314955" target="_blank" rel="noopener noreferrer" aria-label="DOI: BAF60a Deficiency in Vascular Smooth Muscle Cells Prevents Abdominal Aortic Aneurysm by Reducing Inflammation and Extracellular Matrix Degradation.">DOI <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a></div>
               </div>
             </article>
-            <article class="publication" data-group="all">
+            <article class="publication" data-groups="all featured" data-year="2020" data-pmid="32354235" data-date="2020-08-04">
               <div class="publication-meta">
-                <time>2019</time>
-                <p><strong><em>EBioMedicine.</em></strong> Rom O, Xu G, Guo Y, Zhu Y, Wang H, Zhang J, Fan Y, Liang W, <strong class="me">Lu H</strong>, Liu Y, Aviram M, Liu Z, Kim S, Liu W, Wang X, Chen YE, Villacorta L. 2019;41:62-72. PMID: 30772307.</p>
+                <time datetime="2020-08-04">2020<span class="pub-month">Aug 4</span></time>
+                <p class="pub-journal"><strong><em>Circulation</em></strong></p>
+                <div class="pub-authors"><span class="authors-short"><strong class="me">Lu H</strong>, Sun J, Liang W, ..., Chen YE, Fan Y.</span><details class="authors-details"><summary>Full authors (16)</summary><p><strong class="me">Lu H</strong>, Sun J, Liang W, Chang Z, Rom O, Zhao Y, Zhao G, Xiong W, Wang H, Zhu T, Guo Y, Chang L, Garcia-Barrio MT, Zhang J, Chen YE, Fan Y.</p></details></div>
               </div>
               <div class="publication-main">
-                <h3>Nitro-fatty acids protect against steatosis and fibrosis during development of nonalcoholic fatty liver disease in mice.</h3>
+                <h3><a href="https://pubmed.ncbi.nlm.nih.gov/32354235/" target="_blank" rel="noopener noreferrer">Cyclodextrin Prevents Abdominal Aortic Aneurysm via Activation of Vascular Smooth Muscle Cell Transcription Factor EB.</a></h3>
+                <p class="pub-citation">2020;142(5):483-498 · PMID: 32354235</p>
+                <div class="paper-links"><a class="pubmed-link" href="https://pubmed.ncbi.nlm.nih.gov/32354235/" target="_blank" rel="noopener noreferrer" aria-label="PubMed: Cyclodextrin Prevents Abdominal Aortic Aneurysm via Activation of Vascular Smooth Muscle Cell Transcription Factor EB.">PubMed <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a><a class="doi-link" href="https://doi.org/10.1161/CIRCULATIONAHA.119.044803" target="_blank" rel="noopener noreferrer" aria-label="DOI: Cyclodextrin Prevents Abdominal Aortic Aneurysm via Activation of Vascular Smooth Muscle Cell Transcription Factor EB.">DOI <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a></div>
               </div>
             </article>
-            <article class="publication" data-group="all">
+            <article class="publication" data-groups="all" data-year="2019" data-pmid="31074702" data-date="2019-06-01">
               <div class="publication-meta">
-                <time>2019</time>
-                <p><strong><em>J Mol Cell Cardiol.</em></strong> Liu Y, <strong class="me">Lu H</strong>, Zhang C, Hu J, Xu D. 2019;129:293-302. PMID: 30641087.</p>
+                <time datetime="2019-06-01">2019<span class="pub-month">Jun 1</span></time>
+                <p class="pub-journal"><strong><em>Physiol Genomics</em></strong></p>
+                <div class="pub-authors"><span><strong class="me">Lu H</strong>, Sun J, Liang W, Zhang J, Rom O, Garcia-Barrio MT, Li S, Villacorta L, Schopfer FJ, Freeman BA, Chen YE, Fan Y.</span></div>
               </div>
               <div class="publication-main">
-                <h3>Recent advances in understanding the roles of T cells in pressure overload-induced cardiac hypertrophy and remodeling.</h3>
+                <h3><a href="https://pubmed.ncbi.nlm.nih.gov/31074702/" target="_blank" rel="noopener noreferrer">Novel gene regulatory networks identified in response to nitro-conjugated linoleic acid in human endothelial cells.</a></h3>
+                <p class="pub-citation">2019;51(6):224-233 · PMID: 31074702</p>
+                <div class="paper-links"><a class="pubmed-link" href="https://pubmed.ncbi.nlm.nih.gov/31074702/" target="_blank" rel="noopener noreferrer" aria-label="PubMed: Novel gene regulatory networks identified in response to nitro-conjugated linoleic acid in human endothelial cells.">PubMed <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a><a class="doi-link" href="https://doi.org/10.1152/physiolgenomics.00127.2018" target="_blank" rel="noopener noreferrer" aria-label="DOI: Novel gene regulatory networks identified in response to nitro-conjugated linoleic acid in human endothelial cells.">DOI <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a></div>
               </div>
             </article>
-            <article class="publication" data-group="all">
+            <article class="publication" data-groups="all reviews" data-year="2019" data-pmid="30641087" data-date="2019-04-01">
               <div class="publication-meta">
-                <time>2018</time>
-                <p><strong><em>Atherosclerosis.</em></strong> Hu W, <strong class="me">Lu H</strong>, Zhang J, Fan Y, Chang Z, Liang W, Wang H, Zhu T, Garcia-Barrio MT, Peng D, Chen YE, Guo Y. 2018;278:39-48. PMID: 30248551.</p>
+                <time datetime="2019-04">2019<span class="pub-month">Apr</span></time>
+                <p class="pub-journal"><strong><em>J Mol Cell Cardiol</em></strong></p>
+                <div class="pub-authors"><span>Liu Y, <strong class="me">Lu H</strong>, Zhang C, Hu J, Xu D.</span></div>
               </div>
               <div class="publication-main">
-                <h3>Krüppel-like factor 14, a coronary artery disease associated transcription factor, inhibits endothelial inflammation via NF-κB signaling pathway.</h3>
+                <h3><a href="https://pubmed.ncbi.nlm.nih.gov/30641087/" target="_blank" rel="noopener noreferrer">Recent advances in understanding the roles of T cells in pressure overload-induced cardiac hypertrophy and remodeling.</a></h3>
+                <p class="pub-citation">2019;129:293-302 · PMID: 30641087</p>
+                <div class="paper-links"><a class="pubmed-link" href="https://pubmed.ncbi.nlm.nih.gov/30641087/" target="_blank" rel="noopener noreferrer" aria-label="PubMed: Recent advances in understanding the roles of T cells in pressure overload-induced cardiac hypertrophy and remodeling.">PubMed <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a><a class="doi-link" href="https://doi.org/10.1016/j.yjmcc.2019.01.005" target="_blank" rel="noopener noreferrer" aria-label="DOI: Recent advances in understanding the roles of T cells in pressure overload-induced cardiac hypertrophy and remodeling.">DOI <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a></div>
               </div>
             </article>
-            <article class="publication" data-group="all">
+            <article class="publication" data-groups="all" data-year="2019" data-pmid="30772307" data-date="2019-03-01">
               <div class="publication-meta">
-                <time>2018</time>
-                <p><strong><em>Biochim Biophys Acta Mol Basis Dis.</em></strong> Zheng F, Han J, <strong class="me">Lu H</strong>, Cui C, Yang J, Cui Q, Cai J, Zhou Y, Tang C, Xu G, Geng B. 2018;1864(10):3281-3291. PMID: 30010047.</p>
+                <time datetime="2019-03">2019<span class="pub-month">Mar</span></time>
+                <p class="pub-journal"><strong><em>EBioMedicine</em></strong></p>
+                <div class="pub-authors"><span class="authors-short">Rom O, Xu G, Guo Y, ..., <strong class="me">Lu H</strong>, ..., Chen YE, Villacorta L.</span><details class="authors-details"><summary>Full authors (17)</summary><p>Rom O, Xu G, Guo Y, Zhu Y, Wang H, Zhang J, Fan Y, Liang W, <strong class="me">Lu H</strong>, Liu Y, Aviram M, Liu Z, Kim S, Liu W, Wang X, Chen YE, Villacorta L.</p></details></div>
               </div>
               <div class="publication-main">
-                <h3>Cystathionine beta synthase-hydrogen sulfide system in paraventricular nucleus reduced high fatty diet induced obesity and insulin resistance by brain-adipose axis.</h3>
+                <h3><a href="https://pubmed.ncbi.nlm.nih.gov/30772307/" target="_blank" rel="noopener noreferrer">Nitro-fatty acids protect against steatosis and fibrosis during development of nonalcoholic fatty liver disease in mice.</a></h3>
+                <p class="pub-citation">2019;41:62-72 · PMID: 30772307</p>
+                <div class="paper-links"><a class="pubmed-link" href="https://pubmed.ncbi.nlm.nih.gov/30772307/" target="_blank" rel="noopener noreferrer" aria-label="PubMed: Nitro-fatty acids protect against steatosis and fibrosis during development of nonalcoholic fatty liver disease in mice.">PubMed <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a><a class="doi-link" href="https://doi.org/10.1016/j.ebiom.2019.02.019" target="_blank" rel="noopener noreferrer" aria-label="DOI: Nitro-fatty acids protect against steatosis and fibrosis during development of nonalcoholic fatty liver disease in mice.">DOI <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a></div>
               </div>
             </article>
-            <article class="publication" data-group="all">
+            <article class="publication" data-groups="all" data-year="2019" data-pmid="30602303" data-date="2019-03-01">
               <div class="publication-meta">
-                <time>2018</time>
-                <p><strong><em>Circ Res.</em></strong> Fan Y, <strong class="me">Lu H</strong>, Liang W, Garcia-Barrio MT, Guo Y, Zhang J, Zhu T, Hao Y, Zhang J, Chen YE. 2018;122(7):945-957. PMID: 29467198.</p>
+                <time datetime="2019-03">2019<span class="pub-month">Mar</span></time>
+                <p class="pub-journal"><strong><em>Arterioscler Thromb Vasc Biol</em></strong></p>
+                <div class="pub-authors"><span class="authors-short">Liang W, Fan Y, <strong class="me">Lu H</strong>, ..., Zhang J, Chen YE.</span><details class="authors-details"><summary>Full authors (15)</summary><p>Liang W, Fan Y, <strong class="me">Lu H</strong>, Chang Z, Hu W, Sun J, Wang H, Zhu T, Wang J, Adili R, Garcia-Barrio MT, Holinstat M, Eitzman D, Zhang J, Chen YE.</p></details></div>
               </div>
               <div class="publication-main">
-                <h3>Endothelial TFEB (Transcription Factor EB) Positively Regulates Postischemic Angiogenesis.</h3>
+                <h3><a href="https://pubmed.ncbi.nlm.nih.gov/30602303/" target="_blank" rel="noopener noreferrer">KLF11 (Krüppel-Like Factor 11) Inhibits Arterial Thrombosis via Suppression of Tissue Factor in the Vascular Wall.</a></h3>
+                <p class="pub-citation">2019;39(3):402-412 · PMID: 30602303</p>
+                <div class="paper-links"><a class="pubmed-link" href="https://pubmed.ncbi.nlm.nih.gov/30602303/" target="_blank" rel="noopener noreferrer" aria-label="PubMed: KLF11 (Krüppel-Like Factor 11) Inhibits Arterial Thrombosis via Suppression of Tissue Factor in the Vascular Wall.">PubMed <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a><a class="doi-link" href="https://doi.org/10.1161/ATVBAHA.118.311612" target="_blank" rel="noopener noreferrer" aria-label="DOI: KLF11 (Krüppel-Like Factor 11) Inhibits Arterial Thrombosis via Suppression of Tissue Factor in the Vascular Wall.">DOI <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a></div>
               </div>
             </article>
-            <article class="publication" data-group="all">
+            <article class="publication" data-groups="all" data-year="2018" data-pmid="30248551" data-date="2018-11-01">
               <div class="publication-meta">
-                <time>2018</time>
-                <p><strong><em>Sci Rep.</em></strong> Qiao C, Li S, <strong class="me">Lu H</strong>, Meng F, Fan Y, Guo Y, Chen YE, Zhang J. 2018;8(1):2360. PMID: 29403061.</p>
+                <time datetime="2018-11">2018<span class="pub-month">Nov</span></time>
+                <p class="pub-journal"><strong><em>Atherosclerosis</em></strong></p>
+                <div class="pub-authors"><span>Hu W, <strong class="me">Lu H</strong>, Zhang J, Fan Y, Chang Z, Liang W, Wang H, Zhu T, Garcia-Barrio MT, Peng D, Chen YE, Guo Y.</span></div>
               </div>
               <div class="publication-main">
-                <h3>Laminar Flow Attenuates Macrophage Migration Inhibitory Factor Expression in Endothelial Cells.</h3>
+                <h3><a href="https://pubmed.ncbi.nlm.nih.gov/30248551/" target="_blank" rel="noopener noreferrer">Krüppel-like factor 14, a coronary artery disease associated transcription factor, inhibits endothelial inflammation via NF-κB signaling pathway.</a></h3>
+                <p class="pub-citation">2018;278:39-48 · PMID: 30248551</p>
+                <div class="paper-links"><a class="pubmed-link" href="https://pubmed.ncbi.nlm.nih.gov/30248551/" target="_blank" rel="noopener noreferrer" aria-label="PubMed: Krüppel-like factor 14, a coronary artery disease associated transcription factor, inhibits endothelial inflammation via NF-κB signaling pathway.">PubMed <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a><a class="doi-link" href="https://doi.org/10.1016/j.atherosclerosis.2018.09.018" target="_blank" rel="noopener noreferrer" aria-label="DOI: Krüppel-like factor 14, a coronary artery disease associated transcription factor, inhibits endothelial inflammation via NF-κB signaling pathway.">DOI <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a></div>
               </div>
             </article>
-            <article class="publication" data-group="all">
+            <article class="publication" data-groups="all" data-year="2018" data-pmid="30010047" data-date="2018-10-01">
               <div class="publication-meta">
-                <time>2017</time>
-                <p><strong><em>J Mol Cell Biol.</em></strong> Fan Y, <strong class="me">Lu H</strong>, Liang W, Hu W, Zhang J, Chen YE. 2017;9(5):352-363. PMID: 28992202.</p>
+                <time datetime="2018-10">2018<span class="pub-month">Oct</span></time>
+                <p class="pub-journal"><strong><em>Biochim Biophys Acta Mol Basis Dis</em></strong></p>
+                <div class="pub-authors"><span>Zheng F, Han J, <strong class="me">Lu H</strong>, Cui C, Yang J, Cui Q, Cai J, Zhou Y, Tang C, Xu G, Geng B.</span></div>
               </div>
               <div class="publication-main">
-                <h3>Krüppel-like factors and vascular wall homeostasis.</h3>
+                <h3><a href="https://pubmed.ncbi.nlm.nih.gov/30010047/" target="_blank" rel="noopener noreferrer">Cystathionine beta synthase-hydrogen sulfide system in paraventricular nucleus reduced high fatty diet induced obesity and insulin resistance by brain-adipose axis.</a></h3>
+                <p class="pub-citation">2018;1864(10):3281-3291 · PMID: 30010047</p>
+                <div class="paper-links"><a class="pubmed-link" href="https://pubmed.ncbi.nlm.nih.gov/30010047/" target="_blank" rel="noopener noreferrer" aria-label="PubMed: Cystathionine beta synthase-hydrogen sulfide system in paraventricular nucleus reduced high fatty diet induced obesity and insulin resistance by brain-adipose axis.">PubMed <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a><a class="doi-link" href="https://doi.org/10.1016/j.bbadis.2018.07.014" target="_blank" rel="noopener noreferrer" aria-label="DOI: Cystathionine beta synthase-hydrogen sulfide system in paraventricular nucleus reduced high fatty diet induced obesity and insulin resistance by brain-adipose axis.">DOI <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a></div>
               </div>
             </article>
-            <article class="publication" data-group="all">
+            <article class="publication" data-groups="all" data-year="2018" data-pmid="29467198" data-date="2018-03-30">
               <div class="publication-meta">
-                <time>2017</time>
-                <p><strong><em>Sci Signal.</em></strong> <strong class="me">Lu H</strong>, Fan Y, Qiao C, Liang W, Hu W, Zhu T, Zhang J, Chen YE. 2017;10(464). PMID: 28143903.</p>
+                <time datetime="2018-03-30">2018<span class="pub-month">Mar 30</span></time>
+                <p class="pub-journal"><strong><em>Circ Res</em></strong></p>
+                <div class="pub-authors"><span>Fan Y, <strong class="me">Lu H</strong>, Liang W, Garcia-Barrio MT, Guo Y, Zhang J, Zhu T, Hao Y, Zhang J, Chen YE.</span></div>
               </div>
               <div class="publication-main">
-                <h3>TFEB inhibits endothelial cell inflammation and reduces atherosclerosis.</h3>
+                <h3><a href="https://pubmed.ncbi.nlm.nih.gov/29467198/" target="_blank" rel="noopener noreferrer">Endothelial TFEB (Transcription Factor EB) Positively Regulates Postischemic Angiogenesis.</a></h3>
+                <p class="pub-citation">2018;122(7):945-957 · PMID: 29467198</p>
+                <div class="paper-links"><a class="pubmed-link" href="https://pubmed.ncbi.nlm.nih.gov/29467198/" target="_blank" rel="noopener noreferrer" aria-label="PubMed: Endothelial TFEB (Transcription Factor EB) Positively Regulates Postischemic Angiogenesis.">PubMed <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a><a class="doi-link" href="https://doi.org/10.1161/CIRCRESAHA.118.312672" target="_blank" rel="noopener noreferrer" aria-label="DOI: Endothelial TFEB (Transcription Factor EB) Positively Regulates Postischemic Angiogenesis.">DOI <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a></div>
               </div>
             </article>
-            <article class="publication" data-group="all">
+            <article class="publication" data-groups="all" data-year="2018" data-pmid="29403061" data-date="2018-02-05">
               <div class="publication-meta">
-                <time>2016</time>
-                <p><strong><em>Gastroenterology.</em></strong> Fan Y, <strong class="me">Lu H</strong>, Guo Y, Zhu T, Garcia-Barrio MT, Jiang Z, Willer CJ, Zhang J, Chen YE. 2016;150(5):1208-1218. PMID: 26774178.</p>
+                <time datetime="2018-02-05">2018<span class="pub-month">Feb 5</span></time>
+                <p class="pub-journal"><strong><em>Sci Rep</em></strong></p>
+                <div class="pub-authors"><span>Qiao C, Li S, <strong class="me">Lu H</strong>, Meng F, Fan Y, Guo Y, Chen YE, Zhang J.</span></div>
               </div>
               <div class="publication-main">
-                <h3>Hepatic Transmembrane 6 Superfamily Member 2 Regulates Cholesterol Metabolism in Mice.</h3>
+                <h3><a href="https://pubmed.ncbi.nlm.nih.gov/29403061/" target="_blank" rel="noopener noreferrer">Laminar Flow Attenuates Macrophage Migration Inhibitory Factor Expression in Endothelial Cells.</a></h3>
+                <p class="pub-citation">2018;8(1):2360 · PMID: 29403061</p>
+                <div class="paper-links"><a class="pubmed-link" href="https://pubmed.ncbi.nlm.nih.gov/29403061/" target="_blank" rel="noopener noreferrer" aria-label="PubMed: Laminar Flow Attenuates Macrophage Migration Inhibitory Factor Expression in Endothelial Cells.">PubMed <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a><a class="doi-link" href="https://doi.org/10.1038/s41598-018-20885-1" target="_blank" rel="noopener noreferrer" aria-label="DOI: Laminar Flow Attenuates Macrophage Migration Inhibitory Factor Expression in Endothelial Cells.">DOI <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a></div>
+              </div>
+            </article>
+            <article class="publication" data-groups="all reviews" data-year="2017" data-pmid="28992202" data-date="2017-10-01">
+              <div class="publication-meta">
+                <time datetime="2017-10-01">2017<span class="pub-month">Oct 1</span></time>
+                <p class="pub-journal"><strong><em>J Mol Cell Biol</em></strong></p>
+                <div class="pub-authors"><span>Fan Y, <strong class="me">Lu H</strong>, Liang W, Hu W, Zhang J, Chen YE.</span></div>
+              </div>
+              <div class="publication-main">
+                <h3><a href="https://pubmed.ncbi.nlm.nih.gov/28992202/" target="_blank" rel="noopener noreferrer">Krüppel-like factors and vascular wall homeostasis.</a></h3>
+                <p class="pub-citation">2017;9(5):352-363 · PMID: 28992202</p>
+                <div class="paper-links"><a class="pubmed-link" href="https://pubmed.ncbi.nlm.nih.gov/28992202/" target="_blank" rel="noopener noreferrer" aria-label="PubMed: Krüppel-like factors and vascular wall homeostasis.">PubMed <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a><a class="doi-link" href="https://doi.org/10.1093/jmcb/mjx037" target="_blank" rel="noopener noreferrer" aria-label="DOI: Krüppel-like factors and vascular wall homeostasis.">DOI <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a></div>
+              </div>
+            </article>
+            <article class="publication" data-groups="all featured" data-year="2017" data-pmid="28143903" data-date="2017-01-31">
+              <div class="publication-meta">
+                <time datetime="2017-01-31">2017<span class="pub-month">Jan 31</span></time>
+                <p class="pub-journal"><strong><em>Sci Signal</em></strong></p>
+                <div class="pub-authors"><span><strong class="me">Lu H</strong>, Fan Y, Qiao C, Liang W, Hu W, Zhu T, Zhang J, Chen YE.</span></div>
+              </div>
+              <div class="publication-main">
+                <h3><a href="https://pubmed.ncbi.nlm.nih.gov/28143903/" target="_blank" rel="noopener noreferrer">TFEB inhibits endothelial cell inflammation and reduces atherosclerosis.</a></h3>
+                <p class="pub-citation">2017;10(464):eaah4214 · PMID: 28143903</p>
+                <div class="paper-links"><a class="pubmed-link" href="https://pubmed.ncbi.nlm.nih.gov/28143903/" target="_blank" rel="noopener noreferrer" aria-label="PubMed: TFEB inhibits endothelial cell inflammation and reduces atherosclerosis.">PubMed <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a><a class="doi-link" href="https://doi.org/10.1126/scisignal.aah4214" target="_blank" rel="noopener noreferrer" aria-label="DOI: TFEB inhibits endothelial cell inflammation and reduces atherosclerosis.">DOI <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a></div>
+              </div>
+            </article>
+            <article class="publication" data-groups="all" data-year="2016" data-pmid="26774178" data-date="2016-05-01">
+              <div class="publication-meta">
+                <time datetime="2016-05">2016<span class="pub-month">May</span></time>
+                <p class="pub-journal"><strong><em>Gastroenterology</em></strong></p>
+                <div class="pub-authors"><span>Fan Y, <strong class="me">Lu H</strong>, Guo Y, Zhu T, Garcia-Barrio MT, Jiang Z, Willer CJ, Zhang J, Chen YE.</span></div>
+              </div>
+              <div class="publication-main">
+                <h3><a href="https://pubmed.ncbi.nlm.nih.gov/26774178/" target="_blank" rel="noopener noreferrer">Hepatic Transmembrane 6 Superfamily Member 2 Regulates Cholesterol Metabolism in Mice.</a></h3>
+                <p class="pub-citation">2016;150(5):1208-1218 · PMID: 26774178</p>
+                <div class="paper-links"><a class="pubmed-link" href="https://pubmed.ncbi.nlm.nih.gov/26774178/" target="_blank" rel="noopener noreferrer" aria-label="PubMed: Hepatic Transmembrane 6 Superfamily Member 2 Regulates Cholesterol Metabolism in Mice.">PubMed <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a><a class="doi-link" href="https://doi.org/10.1053/j.gastro.2016.01.005" target="_blank" rel="noopener noreferrer" aria-label="DOI: Hepatic Transmembrane 6 Superfamily Member 2 Regulates Cholesterol Metabolism in Mice.">DOI <img class="icon" src="assets/icons/arrow-up-right.svg" width="16" height="16" alt="" /></a></div>
               </div>
             </article>
           </div>
+          <div class="publication-empty" hidden><p>No publications match these filters.</p><button type="button" class="reset-filters">Clear filters</button></div>
         </div>
       </section>
+      <!-- PUBLICATIONS:END -->
 
       <section id="timeline" class="section">
         <div class="section-heading">
@@ -793,7 +899,8 @@
       <section id="contact" class="section contact-section animate-on-scroll">
         <div>
           <p class="section-kicker">Contact</p>
-          <h2>Research collaborations, student training, and academic exchanges in cardiovascular and metabolic disease are welcome.</h2>
+          <h2>Research &amp; Collaboration</h2>
+          <p class="contact-intro">For research collaborations, student training and academic exchanges.</p>
         </div>
         <address>
           <a href="mailto:luhc@sustech.edu.cn">luhc@sustech.edu.cn</a>
@@ -806,10 +913,10 @@
 
     <footer>
       <span>© 2026 Haocheng Lu</span>
-      <a href="#top">Back to top</a>
+      <a href="#top">Back to top<img class="icon" src="assets/icons/arrow-up.svg" width="16" height="16" alt="" /></a>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="script.js?v=20261026"></script>
     <noscript>
       <style>
         .animate-on-scroll,

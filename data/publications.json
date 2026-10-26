@@ -1,0 +1,5196 @@
+{
+  "source": "https://www.ncbi.nlm.nih.gov/myncbi/haocheng.lu.2/bibliography/public/",
+  "verifiedAt": "2026-10-26",
+  "total": 56,
+  "notes": "Membership from both My Bibliography pages; metadata from PubMed XML. Dates use journal publication dates; missing date components are used only for sorting. Author roles retain the supplied CV and previously verified website credits. New TFEB-mRNA corresponding authors verified against PMC13687531; emodin corresponding authors verified from PubMed electronic-address affiliations. Autophagy author list abbreviated to first/corresponding author and Haocheng Lu. Vascular Smooth Muscle Cells in Aortic Aneurysm (PMID 34796717) retains its original review classification. Full page ranges and electronic article identifiers are retained from PubMed XML.",
+  "publications": [
+    {
+      "pmid": "42924840",
+      "title": "Macrophage-Derived Glycoprotein Nonmetastatic Melanoma Protein B Attenuates Cardiac Dysfunction by Promoting Vascular Endothelial Growth Factor-Independent Angiogenesis.",
+      "journal": "J Am Heart Assoc",
+      "year": 2026,
+      "date": "2026-10-23",
+      "sortDate": "2026-10-23",
+      "volume": "",
+      "issue": "",
+      "pages": "e050564",
+      "doi": "10.1161/JAHA.126.050564",
+      "authors": [
+        {
+          "name": "Lin H",
+          "fullName": "Haihuan Lin",
+          "me": false,
+          "marks": "#"
+        },
+        {
+          "name": "Yang Z",
+          "fullName": "Zhihui Yang",
+          "me": false,
+          "marks": "#"
+        },
+        {
+          "name": "Zhang C",
+          "fullName": "Chi Zhang",
+          "me": false,
+          "marks": "#"
+        },
+        {
+          "name": "Ruan L",
+          "fullName": "Lingzhi Ruan",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Huang Z",
+          "fullName": "Zemin Huang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Hong C",
+          "fullName": "Chenglv Hong",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Lu H",
+          "fullName": "Haocheng Lu",
+          "me": true,
+          "marks": ""
+        },
+        {
+          "name": "Lin J",
+          "fullName": "Jie Lin",
+          "me": false,
+          "marks": ""
+        }
+      ],
+      "review": false,
+      "featured": false,
+      "latest": true
+    },
+    {
+      "pmid": "42905254",
+      "title": "Lipid nanoparticle-mediated transcription factor EB mRNA delivery for the treatment of metabolic dysfunction-associated steatotic liver disease.",
+      "journal": "Mol Biomed",
+      "year": 2026,
+      "date": "2026-10-21",
+      "sortDate": "2026-10-21",
+      "volume": "7",
+      "issue": "1",
+      "pages": "220",
+      "doi": "10.1186/s43556-026-00615-0",
+      "authors": [
+        {
+          "name": "Ju W",
+          "fullName": "Wenhao Ju",
+          "me": false,
+          "marks": "#"
+        },
+        {
+          "name": "Zhang C",
+          "fullName": "Chi Zhang",
+          "me": false,
+          "marks": "#*"
+        },
+        {
+          "name": "Zhang T",
+          "fullName": "Tingting Zhang",
+          "me": false,
+          "marks": "#"
+        },
+        {
+          "name": "Liu Y",
+          "fullName": "Yingjie Liu",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Wang X",
+          "fullName": "Xingyun Wang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zeng L",
+          "fullName": "Linjun Zeng",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Cao Y",
+          "fullName": "Yangpo Cao",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Lin H",
+          "fullName": "Haihuan Lin",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Li O",
+          "fullName": "Ouhui Li",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Wang PG",
+          "fullName": "Peng George Wang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "He Y",
+          "fullName": "Yunjiao He",
+          "me": false,
+          "marks": "*"
+        },
+        {
+          "name": "Lu H",
+          "fullName": "Haocheng Lu",
+          "me": true,
+          "marks": "*"
+        }
+      ],
+      "review": false,
+      "featured": true,
+      "latest": true
+    },
+    {
+      "pmid": "42901350",
+      "title": "Integrative genetic analyses for drug repurposing identify emodin as a candidate modulator of STAT3 signaling in abdominal aortic aneurysm.",
+      "journal": "Vascul Pharmacol",
+      "year": 2026,
+      "date": "2026-10-20",
+      "sortDate": "2026-10-20",
+      "volume": "165",
+      "issue": "",
+      "pages": "107711",
+      "doi": "10.1016/j.vph.2026.107711",
+      "authors": [
+        {
+          "name": "Liu Y",
+          "fullName": "Yingjie Liu",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Xu Z",
+          "fullName": "Zhijun Xu",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Deng L",
+          "fullName": "Lin Deng",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhang C",
+          "fullName": "Chi Zhang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Ruan X",
+          "fullName": "Xiao Ruan",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhao L",
+          "fullName": "Linlu Zhao",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Yang Y",
+          "fullName": "Ying Yang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Wang Z",
+          "fullName": "Zanxin Wang",
+          "me": false,
+          "marks": "*"
+        },
+        {
+          "name": "Lu H",
+          "fullName": "Haocheng Lu",
+          "me": true,
+          "marks": "*"
+        }
+      ],
+      "review": false,
+      "featured": true,
+      "latest": true
+    },
+    {
+      "pmid": "42060473",
+      "title": "TCF7L2 promotes abdominal aortic aneurysm through smooth muscle cell-mediated extracellular matrix remodeling.",
+      "journal": "JCI Insight",
+      "year": 2026,
+      "date": "2026-06-22",
+      "sortDate": "2026-06-22",
+      "volume": "11",
+      "issue": "12",
+      "pages": "e195681",
+      "doi": "10.1172/jci.insight.195681",
+      "authors": [
+        {
+          "name": "Deng Y",
+          "fullName": "Yongjie Deng",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Liu Y",
+          "fullName": "Yaozhong Liu",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhao Y",
+          "fullName": "Yang Zhao",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Liu H",
+          "fullName": "Hongyu Liu",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhao G",
+          "fullName": "Guizhen Zhao",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Wang Z",
+          "fullName": "Zhenguo Wang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhang X",
+          "fullName": "Xu Zhang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Xue C",
+          "fullName": "Chao Xue",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Huang W",
+          "fullName": "Wei Huang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhu T",
+          "fullName": "Tianqing Zhu",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Lu H",
+          "fullName": "Haocheng Lu",
+          "me": true,
+          "marks": ""
+        },
+        {
+          "name": "Guo Y",
+          "fullName": "Yanhong Guo",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Chang L",
+          "fullName": "Lin Chang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Surakka I",
+          "fullName": "Ida Surakka",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Chen YE",
+          "fullName": "Y Eugene Chen",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhang J",
+          "fullName": "Jifeng Zhang",
+          "me": false,
+          "marks": ""
+        }
+      ],
+      "review": false,
+      "featured": false,
+      "latest": true
+    },
+    {
+      "pmid": "42078196",
+      "title": "Metabolic reprogramming in aortic diseases: insights from metabolomics and therapeutic opportunities.",
+      "journal": "Med Rev (2021)",
+      "year": 2026,
+      "date": "2026-04",
+      "sortDate": "2026-04-01",
+      "volume": "6",
+      "issue": "2",
+      "pages": "142-161",
+      "doi": "10.1515/mr-2026-0010",
+      "authors": [
+        {
+          "name": "Liu Y",
+          "fullName": "Yingjie Liu",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhao L",
+          "fullName": "Linlu Zhao",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhang C",
+          "fullName": "Chi Zhang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Ruan X",
+          "fullName": "Xiao Ruan",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Yu H",
+          "fullName": "Hualong Yu",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Cao Y",
+          "fullName": "Yangpo Cao",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Ju W",
+          "fullName": "Wenhao Ju",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Lu H",
+          "fullName": "Haocheng Lu",
+          "me": true,
+          "marks": "*"
+        }
+      ],
+      "review": true,
+      "featured": true,
+      "latest": true
+    },
+    {
+      "pmid": "41676939",
+      "title": "Role of Caveolae and Caveolin in Vascular Physiology and Pathology.",
+      "journal": "J Am Heart Assoc",
+      "year": 2026,
+      "date": "2026-02-17",
+      "sortDate": "2026-02-17",
+      "volume": "15",
+      "issue": "4",
+      "pages": "e047590",
+      "doi": "10.1161/JAHA.125.047590",
+      "authors": [
+        {
+          "name": "Zhang C",
+          "fullName": "Chi Zhang",
+          "me": false,
+          "marks": "#"
+        },
+        {
+          "name": "Hu W",
+          "fullName": "Wenting Hu",
+          "me": false,
+          "marks": "#"
+        },
+        {
+          "name": "Zhang J",
+          "fullName": "Jiaye Zhang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Wang Z",
+          "fullName": "Zanxin Wang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Lu H",
+          "fullName": "Haocheng Lu",
+          "me": true,
+          "marks": "*"
+        }
+      ],
+      "review": true,
+      "featured": true,
+      "latest": true
+    },
+    {
+      "pmid": "41532295",
+      "title": "SWAP70 Promotes Atherosclerosis Via Endothelial CAV1 Nuclear Translocation.",
+      "journal": "Circ Res",
+      "year": 2026,
+      "date": "2026-02-13",
+      "sortDate": "2026-02-13",
+      "volume": "138",
+      "issue": "4",
+      "pages": "e327048",
+      "doi": "10.1161/CIRCRESAHA.125.327048",
+      "authors": [
+        {
+          "name": "Gao T",
+          "fullName": "Tianyu Gao",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Li X",
+          "fullName": "Xinxin Li",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhang W",
+          "fullName": "Wei Zhang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Yang Y",
+          "fullName": "Yuzhou Yang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Liu Y",
+          "fullName": "Yiying Liu",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Liang F",
+          "fullName": "Fengchao Liang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Lu H",
+          "fullName": "Haocheng Lu",
+          "me": true,
+          "marks": ""
+        },
+        {
+          "name": "Wang L",
+          "fullName": "Laiyuan Wang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Bai B",
+          "fullName": "Bo Bai",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Gu D",
+          "fullName": "Dongfeng Gu",
+          "me": false,
+          "marks": ""
+        }
+      ],
+      "review": false,
+      "featured": false,
+      "latest": true
+    },
+    {
+      "pmid": "41058009",
+      "title": "CRISPR-MI and scRNA-Seq Reveal TREM2's Function in Monocyte Infiltration and Macrophage Apoptosis During Abdominal Aortic Aneurysm Development.",
+      "journal": "Adv Sci (Weinh)",
+      "year": 2025,
+      "date": "2025-12",
+      "sortDate": "2025-12-01",
+      "volume": "12",
+      "issue": "48",
+      "pages": "e12227",
+      "doi": "10.1002/advs.202412227",
+      "authors": [
+        {
+          "name": "Lu H",
+          "fullName": "Haocheng Lu",
+          "me": true,
+          "marks": ""
+        },
+        {
+          "name": "Xue C",
+          "fullName": "Chao Xue",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhao Y",
+          "fullName": "Yang Zhao",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Sun J",
+          "fullName": "Jinjian Sun",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhao C",
+          "fullName": "Changzhi Zhao",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhang X",
+          "fullName": "Xu Zhang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhao G",
+          "fullName": "Guizhen Zhao",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Liu Y",
+          "fullName": "Yaozhong Liu",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Liu H",
+          "fullName": "Hongyu Liu",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Deng Y",
+          "fullName": "Yongjie Deng",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Wang Y",
+          "fullName": "Ying Wang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhang C",
+          "fullName": "Chi Zhang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Liu Y",
+          "fullName": "Yingjie Liu",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zeng L",
+          "fullName": "Linjun Zeng",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Yang Y",
+          "fullName": "Ying Yang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Li B",
+          "fullName": "Bolun Li",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Ding S",
+          "fullName": "Shusi Ding",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhou L",
+          "fullName": "Linkang Zhou",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Kuang H",
+          "fullName": "Henry Kuang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Wang Z",
+          "fullName": "Zanxin Wang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Ju W",
+          "fullName": "Wenhao Ju",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Lin H",
+          "fullName": "Haihuan Lin",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Lin J",
+          "fullName": "Jie Lin",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Guo Y",
+          "fullName": "Yanhong Guo",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Chang L",
+          "fullName": "Lin Chang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhao H",
+          "fullName": "Hongmei Zhao",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Wang J",
+          "fullName": "Jing Wang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Lin J",
+          "fullName": "Jiandie Lin",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zheng L",
+          "fullName": "Lemin Zheng",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Chen YE",
+          "fullName": "Y Eugene Chen",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhang J",
+          "fullName": "Jifeng Zhang",
+          "me": false,
+          "marks": ""
+        }
+      ],
+      "review": false,
+      "featured": true,
+      "latest": true
+    },
+    {
+      "pmid": "39359016",
+      "title": "Diminished nuclear-localized β-adrenoceptor signalling activates YAP to promote kidney fibrosis in diabetic nephropathy.",
+      "journal": "Br J Pharmacol",
+      "year": 2025,
+      "date": "2025-10",
+      "sortDate": "2025-10-01",
+      "volume": "182",
+      "issue": "20",
+      "pages": "4926-4943",
+      "doi": "10.1111/bph.17347",
+      "authors": [
+        {
+          "name": "Xiang W",
+          "fullName": "Wenjing Xiang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Li L",
+          "fullName": "Lei Li",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Qin M",
+          "fullName": "Manman Qin",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Li L",
+          "fullName": "Lei Li",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Yu H",
+          "fullName": "Hualong Yu",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Wang F",
+          "fullName": "Fangyuan Wang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Ni S",
+          "fullName": "Siyuan Ni",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Shen A",
+          "fullName": "Ao Shen",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Lu H",
+          "fullName": "Haocheng Lu",
+          "me": true,
+          "marks": ""
+        },
+        {
+          "name": "Ni H",
+          "fullName": "Haibo Ni",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Wang Y",
+          "fullName": "Ying Wang",
+          "me": false,
+          "marks": ""
+        }
+      ],
+      "review": false,
+      "featured": false,
+      "latest": true
+    },
+    {
+      "pmid": "40762097",
+      "title": "Hypertriglyceridemia as a Key Contributor to Abdominal Aortic Aneurysm Development and Rupture: Insights From Genetic and Experimental Models.",
+      "journal": "Circulation",
+      "year": 2025,
+      "date": "2025-09-23",
+      "sortDate": "2025-09-23",
+      "volume": "152",
+      "issue": "12",
+      "pages": "862-881",
+      "doi": "10.1161/CIRCULATIONAHA.125.074737",
+      "authors": [
+        {
+          "name": "Liu Y",
+          "fullName": "Yaozhong Liu",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Wang H",
+          "fullName": "Huilun Wang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Yu M",
+          "fullName": "Minzhi Yu",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Cai L",
+          "fullName": "Lei Cai",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhao Y",
+          "fullName": "Ying Zhao",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Cheng Y",
+          "fullName": "Yalun Cheng",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Deng Y",
+          "fullName": "Yongjie Deng",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhao Y",
+          "fullName": "Yang Zhao",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Lu H",
+          "fullName": "Haocheng Lu",
+          "me": true,
+          "marks": ""
+        },
+        {
+          "name": "Wu X",
+          "fullName": "Xiaokang Wu",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhao G",
+          "fullName": "Guizhen Zhao",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Xue C",
+          "fullName": "Chao Xue",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Liu H",
+          "fullName": "Hongyu Liu",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Surakka I",
+          "fullName": "Ida Surakka",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Schwendeman A",
+          "fullName": "Anna Schwendeman",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Lu HS",
+          "fullName": "Hong S Lu",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Daugherty A",
+          "fullName": "Alan Daugherty",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Chang L",
+          "fullName": "Lin Chang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhang J",
+          "fullName": "Jifeng Zhang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Temel RE",
+          "fullName": "Ryan E Temel",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Chen YE",
+          "fullName": "Y Eugene Chen",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Guo Y",
+          "fullName": "Yanhong Guo",
+          "me": false,
+          "marks": ""
+        }
+      ],
+      "review": false,
+      "featured": false,
+      "latest": true
+    },
+    {
+      "pmid": "40564118",
+      "title": "Angiogenesis in Atrial Fibrillation: A Literature Review.",
+      "journal": "Biomedicines",
+      "year": 2025,
+      "date": "2025-06-06",
+      "sortDate": "2025-06-06",
+      "volume": "13",
+      "issue": "6",
+      "pages": "1399",
+      "doi": "10.3390/biomedicines13061399",
+      "authors": [
+        {
+          "name": "Lin J",
+          "fullName": "Jie Lin",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Lin H",
+          "fullName": "Haihuan Lin",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Xu Z",
+          "fullName": "Zhijun Xu",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Yang Z",
+          "fullName": "Zhihui Yang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Hong C",
+          "fullName": "Chenglv Hong",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Wang Y",
+          "fullName": "Ying Wang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Lu H",
+          "fullName": "Haocheng Lu",
+          "me": true,
+          "marks": "*"
+        }
+      ],
+      "review": true,
+      "featured": false,
+      "latest": false
+    },
+    {
+      "pmid": "39945066",
+      "title": "Restoring Vascular Smooth Muscle Cell Mitochondrial Function Attenuates Abdominal Aortic Aneurysm in Mice.",
+      "journal": "Arterioscler Thromb Vasc Biol",
+      "year": 2025,
+      "date": "2025-04",
+      "sortDate": "2025-04-01",
+      "volume": "45",
+      "issue": "4",
+      "pages": "523-540",
+      "doi": "10.1161/ATVBAHA.124.321730",
+      "authors": [
+        {
+          "name": "Liu Y",
+          "fullName": "Yaozhong Liu",
+          "me": false,
+          "marks": "#"
+        },
+        {
+          "name": "Yu M",
+          "fullName": "Minzhi Yu",
+          "me": false,
+          "marks": "#"
+        },
+        {
+          "name": "Wang H",
+          "fullName": "Huilun Wang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Dorsey KH",
+          "fullName": "Kristen Hong Dorsey",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Cheng Y",
+          "fullName": "Yalun Cheng",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhao Y",
+          "fullName": "Ying Zhao",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Luo Y",
+          "fullName": "Yonghong Luo",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhao G",
+          "fullName": "Guizhen Zhao",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhao Y",
+          "fullName": "Yang Zhao",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Lu H",
+          "fullName": "Haocheng Lu",
+          "me": true,
+          "marks": ""
+        },
+        {
+          "name": "Deng Y",
+          "fullName": "Yongjie Deng",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Mu W",
+          "fullName": "Wenjuan Mu",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Liu H",
+          "fullName": "Hongyu Liu",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Wu X",
+          "fullName": "Xiaokang Wu",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Wang Z",
+          "fullName": "Zhenguo Wang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhang J",
+          "fullName": "Jifeng Zhang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Chang L",
+          "fullName": "Lin Chang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Chen YE",
+          "fullName": "Y Eugene Chen",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Schwendman A",
+          "fullName": "Anna Schwendman",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Guo Y",
+          "fullName": "Yanhong Guo",
+          "me": false,
+          "marks": ""
+        }
+      ],
+      "review": false,
+      "featured": false,
+      "latest": false
+    },
+    {
+      "pmid": "40336639",
+      "title": "Case Report: A FBN1 frameshift-and-nonsense mutation and aortic dissection in Marfan syndrome.",
+      "journal": "Front Cardiovasc Med",
+      "year": 2025,
+      "date": "2025",
+      "sortDate": "2025-01-01",
+      "volume": "12",
+      "issue": "",
+      "pages": "1533138",
+      "doi": "10.3389/fcvm.2025.1533138",
+      "authors": [
+        {
+          "name": "Su C",
+          "fullName": "Chao Su",
+          "me": false,
+          "marks": "#"
+        },
+        {
+          "name": "Zeng L",
+          "fullName": "Linjun Zeng",
+          "me": false,
+          "marks": "#"
+        },
+        {
+          "name": "Lu H",
+          "fullName": "Haocheng Lu",
+          "me": true,
+          "marks": "*"
+        },
+        {
+          "name": "Wang Z",
+          "fullName": "Zanxin Wang",
+          "me": false,
+          "marks": "*"
+        },
+        {
+          "name": "Wei M",
+          "fullName": "Minxin Wei",
+          "me": false,
+          "marks": "*"
+        }
+      ],
+      "review": false,
+      "featured": false,
+      "latest": false
+    },
+    {
+      "pmid": "37212950",
+      "title": "Novel Drug Targets for Atrial Fibrillation Identified Through Mendelian Randomization Analysis of the Blood Proteome.",
+      "journal": "Cardiovasc Drugs Ther",
+      "year": 2024,
+      "date": "2024-12",
+      "sortDate": "2024-12-01",
+      "volume": "38",
+      "issue": "6",
+      "pages": "1215-1222",
+      "doi": "10.1007/s10557-023-07467-8",
+      "authors": [
+        {
+          "name": "Ning Z",
+          "fullName": "Zuodong Ning",
+          "me": false,
+          "marks": "#"
+        },
+        {
+          "name": "Huang Y",
+          "fullName": "Yunying Huang",
+          "me": false,
+          "marks": "#"
+        },
+        {
+          "name": "Lu H",
+          "fullName": "Haocheng Lu",
+          "me": true,
+          "marks": ""
+        },
+        {
+          "name": "Zhou Y",
+          "fullName": "Yong Zhou",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Tu T",
+          "fullName": "Tao Tu",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Ouyang F",
+          "fullName": "Feifan Ouyang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Liu Y",
+          "fullName": "Yaozhong Liu",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Liu Q",
+          "fullName": "Qiming Liu",
+          "me": false,
+          "marks": ""
+        }
+      ],
+      "review": false,
+      "featured": false,
+      "latest": false
+    },
+    {
+      "pmid": "39462409",
+      "title": "Endothelial KLF11 is a novel protector against diabetic atherosclerosis.",
+      "journal": "Cardiovasc Diabetol",
+      "year": 2024,
+      "date": "2024-10-26",
+      "sortDate": "2024-10-26",
+      "volume": "23",
+      "issue": "1",
+      "pages": "381",
+      "doi": "10.1186/s12933-024-02473-y",
+      "authors": [
+        {
+          "name": "Zhao G",
+          "fullName": "Guizhen Zhao",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhao Y",
+          "fullName": "Yang Zhao",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Liang W",
+          "fullName": "Wenying Liang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Lu H",
+          "fullName": "Haocheng Lu",
+          "me": true,
+          "marks": ""
+        },
+        {
+          "name": "Liu H",
+          "fullName": "Hongyu Liu",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Deng Y",
+          "fullName": "Yongjie Deng",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhu T",
+          "fullName": "Tianqing Zhu",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Guo Y",
+          "fullName": "Yanhong Guo",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Chang L",
+          "fullName": "Lin Chang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Garcia-Barrio MT",
+          "fullName": "Minerva T Garcia-Barrio",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Chen YE",
+          "fullName": "Y Eugene Chen",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhang J",
+          "fullName": "Jifeng Zhang",
+          "me": false,
+          "marks": ""
+        }
+      ],
+      "review": false,
+      "featured": false,
+      "latest": false
+    },
+    {
+      "pmid": "38601164",
+      "title": "Genetic insight into putative causes of xanthelasma palpebrarum: a Mendelian randomization study.",
+      "journal": "Front Immunol",
+      "year": 2024,
+      "date": "2024",
+      "sortDate": "2024-01-01",
+      "volume": "15",
+      "issue": "",
+      "pages": "1347112",
+      "doi": "10.3389/fimmu.2024.1347112",
+      "authors": [
+        {
+          "name": "Hu W",
+          "fullName": "Wenting Hu",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Liu Y",
+          "fullName": "Yaozhong Liu",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Lian C",
+          "fullName": "Cuihong Lian",
+          "me": false,
+          "marks": "#"
+        },
+        {
+          "name": "Lu H",
+          "fullName": "Haocheng Lu",
+          "me": true,
+          "marks": ""
+        }
+      ],
+      "review": false,
+      "featured": false,
+      "latest": false
+    },
+    {
+      "pmid": "40151378",
+      "title": "CD63-Snorkel tagging for isolation of exosomes.",
+      "journal": "Extracell Vesicle",
+      "year": 2023,
+      "date": "2023-12",
+      "sortDate": "2023-12-01",
+      "volume": "2",
+      "issue": "",
+      "pages": "100031",
+      "doi": "10.1016/j.vesic.2023.100031",
+      "authors": [
+        {
+          "name": "Han C",
+          "fullName": "Chaoshan Han",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Yang J",
+          "fullName": "Junjie Yang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Yin T",
+          "fullName": "Tingting Yin",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "An J",
+          "fullName": "Junqing An",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Qiao A",
+          "fullName": "Aijun Qiao",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Cao Y",
+          "fullName": "Yangpo Cao",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Feng Y",
+          "fullName": "Yuliang Feng",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Lu H",
+          "fullName": "Haocheng Lu",
+          "me": true,
+          "marks": ""
+        },
+        {
+          "name": "Wang Y",
+          "fullName": "Ying Wang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Yang L",
+          "fullName": "Liang Yang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Qin G",
+          "fullName": "Gangjian Qin",
+          "me": false,
+          "marks": ""
+        }
+      ],
+      "review": false,
+      "featured": false,
+      "latest": false
+    },
+    {
+      "pmid": "37768825",
+      "title": "Myeloid BAF60a deficiency alters metabolic homeostasis and exacerbates atherosclerosis.",
+      "journal": "Cell Rep",
+      "year": 2023,
+      "date": "2023-10-31",
+      "sortDate": "2023-10-31",
+      "volume": "42",
+      "issue": "10",
+      "pages": "113171",
+      "doi": "10.1016/j.celrep.2023.113171",
+      "authors": [
+        {
+          "name": "Zhao Y",
+          "fullName": "Yang Zhao",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Liu Y",
+          "fullName": "Yuhao Liu",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhao G",
+          "fullName": "Guizhen Zhao",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Lu H",
+          "fullName": "Haocheng Lu",
+          "me": true,
+          "marks": ""
+        },
+        {
+          "name": "Liu Y",
+          "fullName": "Yaozhong Liu",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Xue C",
+          "fullName": "Chao Xue",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Chang Z",
+          "fullName": "Ziyi Chang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Liu H",
+          "fullName": "Hongyu Liu",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Deng Y",
+          "fullName": "Yongjie Deng",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Liang W",
+          "fullName": "Wenying Liang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Wang H",
+          "fullName": "Huilun Wang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Rom O",
+          "fullName": "Oren Rom",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Garcia-Barrio MT",
+          "fullName": "Minerva T Garcia-Barrio",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhu T",
+          "fullName": "Tianqing Zhu",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Guo Y",
+          "fullName": "Yanhong Guo",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Chang L",
+          "fullName": "Lin Chang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Lin J",
+          "fullName": "Jiandie Lin",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Chen YE",
+          "fullName": "Y Eugene Chen",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhang J",
+          "fullName": "Jifeng Zhang",
+          "me": false,
+          "marks": ""
+        }
+      ],
+      "review": false,
+      "featured": false,
+      "latest": false
+    },
+    {
+      "pmid": "37289544",
+      "title": "Generating endogenous Myh11-driven Cre mice for sex-independent gene deletion in smooth muscle cells.",
+      "journal": "JCI Insight",
+      "year": 2023,
+      "date": "2023-07-24",
+      "sortDate": "2023-07-24",
+      "volume": "8",
+      "issue": "14",
+      "pages": "e171661",
+      "doi": "10.1172/jci.insight.171661",
+      "authors": [
+        {
+          "name": "Zhao Y",
+          "fullName": "Yang Zhao",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhao G",
+          "fullName": "Guizhen Zhao",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Chang Z",
+          "fullName": "Ziyi Chang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhu T",
+          "fullName": "Tianqing Zhu",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhao Y",
+          "fullName": "Ying Zhao",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Lu H",
+          "fullName": "Haocheng Lu",
+          "me": true,
+          "marks": ""
+        },
+        {
+          "name": "Xue C",
+          "fullName": "Chao Xue",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Saunders TL",
+          "fullName": "Thomas L Saunders",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Guo Y",
+          "fullName": "Yanhong Guo",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Chang L",
+          "fullName": "Lin Chang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Chen YE",
+          "fullName": "Y Eugene Chen",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhang J",
+          "fullName": "Jifeng Zhang",
+          "me": false,
+          "marks": ""
+        }
+      ],
+      "review": false,
+      "featured": false,
+      "latest": false
+    },
+    {
+      "pmid": "37079380",
+      "title": "PRDM16 deficiency in vascular smooth muscle cells aggravates abdominal aortic aneurysm.",
+      "journal": "JCI Insight",
+      "year": 2023,
+      "date": "2023-06-08",
+      "sortDate": "2023-06-08",
+      "volume": "8",
+      "issue": "11",
+      "pages": "e167041",
+      "doi": "10.1172/jci.insight.167041",
+      "authors": [
+        {
+          "name": "Wang Z",
+          "fullName": "Zhenguo Wang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhao X",
+          "fullName": "Xiangjie Zhao",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhao G",
+          "fullName": "Guizhen Zhao",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Guo Y",
+          "fullName": "Yanhong Guo",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Lu H",
+          "fullName": "Haocheng Lu",
+          "me": true,
+          "marks": ""
+        },
+        {
+          "name": "Mu W",
+          "fullName": "Wenjuan Mu",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhong J",
+          "fullName": "Juan Zhong",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Garcia-Barrio M",
+          "fullName": "Minerva Garcia-Barrio",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhang J",
+          "fullName": "Jifeng Zhang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Chen YE",
+          "fullName": "Y Eugene Chen",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Chang L",
+          "fullName": "Lin Chang",
+          "me": false,
+          "marks": ""
+        }
+      ],
+      "review": false,
+      "featured": false,
+      "latest": false
+    },
+    {
+      "pmid": "36594018",
+      "title": "Genetic ablation of diabetes-associated gene Ccdc92 reduces obesity and insulin resistance in mice.",
+      "journal": "iScience",
+      "year": 2023,
+      "date": "2023-01-20",
+      "sortDate": "2023-01-20",
+      "volume": "26",
+      "issue": "1",
+      "pages": "105769",
+      "doi": "10.1016/j.isci.2022.105769",
+      "authors": [
+        {
+          "name": "Ren L",
+          "fullName": "Lu Ren",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Du W",
+          "fullName": "Wa Du",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Song D",
+          "fullName": "Dan Song",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Lu H",
+          "fullName": "Haocheng Lu",
+          "me": true,
+          "marks": ""
+        },
+        {
+          "name": "Hamblin MH",
+          "fullName": "Milton H Hamblin",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Wang C",
+          "fullName": "Chenran Wang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Du C",
+          "fullName": "Chunying Du",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Fan GC",
+          "fullName": "Guo-Chang Fan",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Becker RC",
+          "fullName": "Richard C Becker",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Fan Y",
+          "fullName": "Yanbo Fan",
+          "me": false,
+          "marks": ""
+        }
+      ],
+      "review": false,
+      "featured": false,
+      "latest": false
+    },
+    {
+      "pmid": "36482858",
+      "title": "Mitochondria dysfunction in the failing right heart: what is the potential therapeutic target?",
+      "journal": "J Physiol",
+      "year": 2023,
+      "date": "2023-01",
+      "sortDate": "2023-01-01",
+      "volume": "601",
+      "issue": "2",
+      "pages": "255-256",
+      "doi": "10.1113/JP283977",
+      "authors": [
+        {
+          "name": "Lu H",
+          "fullName": "Haocheng Lu",
+          "me": true,
+          "marks": ""
+        },
+        {
+          "name": "Zhang C",
+          "fullName": "Chi Zhang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Li Y",
+          "fullName": "Yueqiu Li",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Wang Y",
+          "fullName": "Ying Wang",
+          "me": false,
+          "marks": ""
+        }
+      ],
+      "review": false,
+      "featured": false,
+      "latest": false
+    },
+    {
+      "pmid": "36066968",
+      "title": "BAF60c prevents abdominal aortic aneurysm formation through epigenetic control of vascular smooth muscle cell homeostasis.",
+      "journal": "J Clin Invest",
+      "year": 2022,
+      "date": "2022-11-01",
+      "sortDate": "2022-11-01",
+      "volume": "132",
+      "issue": "21",
+      "pages": "e158309",
+      "doi": "10.1172/JCI158309",
+      "authors": [
+        {
+          "name": "Zhao G",
+          "fullName": "Guizhen Zhao",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhao Y",
+          "fullName": "Yang Zhao",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Lu H",
+          "fullName": "Haocheng Lu",
+          "me": true,
+          "marks": ""
+        },
+        {
+          "name": "Chang Z",
+          "fullName": "Ziyi Chang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Liu H",
+          "fullName": "Hongyu Liu",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Wang H",
+          "fullName": "Huilun Wang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Liang W",
+          "fullName": "Wenying Liang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Liu Y",
+          "fullName": "Yuhao Liu",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhu T",
+          "fullName": "Tianqing Zhu",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Rom O",
+          "fullName": "Oren Rom",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Guo Y",
+          "fullName": "Yanhong Guo",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Chang L",
+          "fullName": "Lin Chang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Yang B",
+          "fullName": "Bo Yang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Garcia-Barrio MT",
+          "fullName": "Minerva T Garcia-Barrio",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Lin JD",
+          "fullName": "Jiandie D Lin",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Chen YE",
+          "fullName": "Y Eugene Chen",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhang J",
+          "fullName": "Jifeng Zhang",
+          "me": false,
+          "marks": ""
+        }
+      ],
+      "review": false,
+      "featured": false,
+      "latest": false
+    },
+    {
+      "pmid": "36139452",
+      "title": "Myeloid TM6SF2 Deficiency Inhibits Atherosclerosis.",
+      "journal": "Cells",
+      "year": 2022,
+      "date": "2022-09-15",
+      "sortDate": "2022-09-15",
+      "volume": "11",
+      "issue": "18",
+      "pages": "2877",
+      "doi": "10.3390/cells11182877",
+      "authors": [
+        {
+          "name": "Zhu W",
+          "fullName": "Wenzhen Zhu",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Liang W",
+          "fullName": "Wenying Liang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Lu H",
+          "fullName": "Haocheng Lu",
+          "me": true,
+          "marks": ""
+        },
+        {
+          "name": "Chang L",
+          "fullName": "Lin Chang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhang J",
+          "fullName": "Jifeng Zhang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Chen YE",
+          "fullName": "Y Eugene Chen",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Guo Y",
+          "fullName": "Yanhong Guo",
+          "me": false,
+          "marks": ""
+        }
+      ],
+      "review": false,
+      "featured": false,
+      "latest": false
+    },
+    {
+      "pmid": "34428834",
+      "title": "KLF11 Protects against Venous Thrombosis via Suppressing Tissue Factor Expression.",
+      "journal": "Thromb Haemost",
+      "year": 2022,
+      "date": "2022-05",
+      "sortDate": "2022-05-01",
+      "volume": "122",
+      "issue": "5",
+      "pages": "777-788",
+      "doi": "10.1055/s-0041-1735191",
+      "authors": [
+        {
+          "name": "Liang W",
+          "fullName": "Wenying Liang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Lu H",
+          "fullName": "Haocheng Lu",
+          "me": true,
+          "marks": ""
+        },
+        {
+          "name": "Sun J",
+          "fullName": "Jinjian Sun",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhao G",
+          "fullName": "Guizhen Zhao",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Wang H",
+          "fullName": "Huilun Wang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Guo Y",
+          "fullName": "Yanhong Guo",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Eitzman D",
+          "fullName": "Daniel Eitzman",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Chen YE",
+          "fullName": "Y Eugene Chen",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Fan Y",
+          "fullName": "Yanbo Fan",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhang J",
+          "fullName": "Jifeng Zhang",
+          "me": false,
+          "marks": ""
+        }
+      ],
+      "review": false,
+      "featured": false,
+      "latest": false
+    },
+    {
+      "pmid": "35306139",
+      "title": "RNA sequencing reveals perivascular adipose tissue plasticity in response to angiotensin II.",
+      "journal": "Pharmacol Res",
+      "year": 2022,
+      "date": "2022-04",
+      "sortDate": "2022-04-01",
+      "volume": "178",
+      "issue": "",
+      "pages": "106183",
+      "doi": "10.1016/j.phrs.2022.106183",
+      "authors": [
+        {
+          "name": "Wang Z",
+          "fullName": "Zhenguo Wang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Lu H",
+          "fullName": "Haocheng Lu",
+          "me": true,
+          "marks": ""
+        },
+        {
+          "name": "Garcia-Barrio M",
+          "fullName": "Minerva Garcia-Barrio",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Guo Y",
+          "fullName": "Yanhong Guo",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhang J",
+          "fullName": "Jifeng Zhang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Chen YE",
+          "fullName": "Y Eugene Chen",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Chang L",
+          "fullName": "Lin Chang",
+          "me": false,
+          "marks": ""
+        }
+      ],
+      "review": false,
+      "featured": false,
+      "latest": false
+    },
+    {
+      "pmid": "33538785",
+      "title": "Krüppel-like factor 14 deletion in myeloid cells accelerates atherosclerotic lesion development.",
+      "journal": "Cardiovasc Res",
+      "year": 2022,
+      "date": "2022-01-29",
+      "sortDate": "2022-01-29",
+      "volume": "118",
+      "issue": "2",
+      "pages": "475-488",
+      "doi": "10.1093/cvr/cvab027",
+      "authors": [
+        {
+          "name": "Wang H",
+          "fullName": "Huilun Wang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Guo Y",
+          "fullName": "Yanhong Guo",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Lu H",
+          "fullName": "Haocheng Lu",
+          "me": true,
+          "marks": ""
+        },
+        {
+          "name": "Luo Y",
+          "fullName": "Yonghong Luo",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Hu W",
+          "fullName": "Wenting Hu",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Liang W",
+          "fullName": "Wenying Liang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Garcia-Barrio MT",
+          "fullName": "Minerva T Garcia-Barrio",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Chang L",
+          "fullName": "Lin Chang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Schwendeman A",
+          "fullName": "Anna Schwendeman",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhang J",
+          "fullName": "Jifeng Zhang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Chen YE",
+          "fullName": "Y Eugene Chen",
+          "me": false,
+          "marks": ""
+        }
+      ],
+      "review": false,
+      "featured": false,
+      "latest": false
+    },
+    {
+      "pmid": "34661916",
+      "title": "Liver-humanized mice: A translational strategy to study metabolic disorders.",
+      "journal": "J Cell Physiol",
+      "year": 2022,
+      "date": "2022-01",
+      "sortDate": "2022-01-01",
+      "volume": "237",
+      "issue": "1",
+      "pages": "489-506",
+      "doi": "10.1002/jcp.30610",
+      "authors": [
+        {
+          "name": "Luo Y",
+          "fullName": "Yonghong Luo",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Lu H",
+          "fullName": "Haocheng Lu",
+          "me": true,
+          "marks": ""
+        },
+        {
+          "name": "Peng D",
+          "fullName": "Daoquan Peng",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Ruan X",
+          "fullName": "Xiangbo Ruan",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Eugene Chen Y",
+          "fullName": "Yuqing Eugene Chen",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Guo Y",
+          "fullName": "Yanhong Guo",
+          "me": false,
+          "marks": ""
+        }
+      ],
+      "review": true,
+      "featured": false,
+      "latest": false
+    },
+    {
+      "pmid": "34796717",
+      "title": "Vascular Smooth Muscle Cells in Aortic Aneurysm: From Genetics to Mechanisms.",
+      "journal": "J Am Heart Assoc",
+      "year": 2021,
+      "date": "2021-12-21",
+      "sortDate": "2021-12-21",
+      "volume": "10",
+      "issue": "24",
+      "pages": "e023601",
+      "doi": "10.1161/JAHA.121.023601",
+      "authors": [
+        {
+          "name": "Lu H",
+          "fullName": "Haocheng Lu",
+          "me": true,
+          "marks": ""
+        },
+        {
+          "name": "Du W",
+          "fullName": "Wa Du",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Ren L",
+          "fullName": "Lu Ren",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Hamblin MH",
+          "fullName": "Milton H Hamblin",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Becker RC",
+          "fullName": "Richard C Becker",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Chen YE",
+          "fullName": "Y Eugene Chen",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Fan Y",
+          "fullName": "Yanbo Fan",
+          "me": false,
+          "marks": ""
+        }
+      ],
+      "review": true,
+      "featured": true,
+      "latest": false
+    },
+    {
+      "pmid": "34746691",
+      "title": "Type 2 diabetes sex-specific effects associated with E167K coding variant in TM6SF2.",
+      "journal": "iScience",
+      "year": 2021,
+      "date": "2021-11-19",
+      "sortDate": "2021-11-19",
+      "volume": "24",
+      "issue": "11",
+      "pages": "103196",
+      "doi": "10.1016/j.isci.2021.103196",
+      "authors": [
+        {
+          "name": "Fan Y",
+          "fullName": "Yanbo Fan",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Wolford BN",
+          "fullName": "Brooke N Wolford",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Lu H",
+          "fullName": "Haocheng Lu",
+          "me": true,
+          "marks": ""
+        },
+        {
+          "name": "Liang W",
+          "fullName": "Wenying Liang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Sun J",
+          "fullName": "Jinjian Sun",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhou W",
+          "fullName": "Wei Zhou",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Rom O",
+          "fullName": "Oren Rom",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Mahajan A",
+          "fullName": "Anubha Mahajan",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Surakka I",
+          "fullName": "Ida Surakka",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Graham SE",
+          "fullName": "Sarah E Graham",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Liu Z",
+          "fullName": "Zhipeng Liu",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Kim H",
+          "fullName": "Hyunbae Kim",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Ramdas S",
+          "fullName": "Shweta Ramdas",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Fritsche LG",
+          "fullName": "Lars G Fritsche",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Nielsen JB",
+          "fullName": "Jonas B Nielsen",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Gabrielsen ME",
+          "fullName": "Maiken Elvestad Gabrielsen",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Hveem K",
+          "fullName": "Kristian Hveem",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Yang D",
+          "fullName": "Dongshan Yang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Song J",
+          "fullName": "Jun Song",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Garcia-Barrio MT",
+          "fullName": "Minerva T Garcia-Barrio",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhang J",
+          "fullName": "Jifeng Zhang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Liu W",
+          "fullName": "Wanqing Liu",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhang K",
+          "fullName": "Kezhong Zhang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Willer CJ",
+          "fullName": "Cristen J Willer",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Chen YE",
+          "fullName": "Y Eugene Chen",
+          "me": false,
+          "marks": ""
+        }
+      ],
+      "review": false,
+      "featured": false,
+      "latest": false
+    },
+    {
+      "pmid": "32671602",
+      "title": "Suppression of Vascular Macrophage Activation by Nitro-Oleic Acid and its Implication for Abdominal Aortic Aneurysm Therapy.",
+      "journal": "Cardiovasc Drugs Ther",
+      "year": 2021,
+      "date": "2021-10",
+      "sortDate": "2021-10-01",
+      "volume": "35",
+      "issue": "5",
+      "pages": "939-951",
+      "doi": "10.1007/s10557-020-07031-8",
+      "authors": [
+        {
+          "name": "Zhao Y",
+          "fullName": "Yang Zhao",
+          "me": false,
+          "marks": "#"
+        },
+        {
+          "name": "Chang Z",
+          "fullName": "Ziyi Chang",
+          "me": false,
+          "marks": "#"
+        },
+        {
+          "name": "Zhao G",
+          "fullName": "Guizhen Zhao",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Lu H",
+          "fullName": "Haocheng Lu",
+          "me": true,
+          "marks": ""
+        },
+        {
+          "name": "Xiong W",
+          "fullName": "Wenhao Xiong",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Liang W",
+          "fullName": "Wenying Liang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Wang H",
+          "fullName": "Huilun Wang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Villacorta L",
+          "fullName": "Luis Villacorta",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Garcia-Barrio MT",
+          "fullName": "Minerva T Garcia-Barrio",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhu T",
+          "fullName": "Tianqing Zhu",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Guo Y",
+          "fullName": "Yanhong Guo",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Fan Y",
+          "fullName": "Yanbo Fan",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Chang L",
+          "fullName": "Lin Chang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Schopfer FJ",
+          "fullName": "Francisco J Schopfer",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Freeman BA",
+          "fullName": "Bruce A Freeman",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhang J",
+          "fullName": "Jifeng Zhang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Chen YE",
+          "fullName": "Y Eugene Chen",
+          "me": false,
+          "marks": ""
+        }
+      ],
+      "review": false,
+      "featured": false,
+      "latest": false
+    },
+    {
+      "pmid": "34265237",
+      "title": "Regulatory variants in TCF7L2 are associated with thoracic aortic aneurysm.",
+      "journal": "Am J Hum Genet",
+      "year": 2021,
+      "date": "2021-09-02",
+      "sortDate": "2021-09-02",
+      "volume": "108",
+      "issue": "9",
+      "pages": "1578-1589",
+      "doi": "10.1016/j.ajhg.2021.06.016",
+      "authors": [
+        {
+          "name": "Roychowdhury T",
+          "fullName": "Tanmoy Roychowdhury",
+          "me": false,
+          "marks": "#"
+        },
+        {
+          "name": "Lu H",
+          "fullName": "Haocheng Lu",
+          "me": true,
+          "marks": "#"
+        },
+        {
+          "name": "Hornsby WE",
+          "fullName": "Whitney E Hornsby",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Crone B",
+          "fullName": "Bradley Crone",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Wang GT",
+          "fullName": "Gao T Wang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Guo DC",
+          "fullName": "Dong-Chuan Guo",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Sendamarai AK",
+          "fullName": "Anoop K Sendamarai",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Devineni P",
+          "fullName": "Poornima Devineni",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Lin M",
+          "fullName": "Maoxuan Lin",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhou W",
+          "fullName": "Wei Zhou",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Graham SE",
+          "fullName": "Sarah E Graham",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Wolford BN",
+          "fullName": "Brooke N Wolford",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Surakka I",
+          "fullName": "Ida Surakka",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Wang Z",
+          "fullName": "Zhenguo Wang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Chang L",
+          "fullName": "Lin Chang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhang J",
+          "fullName": "Jifeng Zhang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Mathis M",
+          "fullName": "Michael Mathis",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Brummett CM",
+          "fullName": "Chad M Brummett",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Melendez TL",
+          "fullName": "Tori L Melendez",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Shea MJ",
+          "fullName": "Michael J Shea",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Kim KM",
+          "fullName": "Karen Meekyong Kim",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Deeb GM",
+          "fullName": "G Michael Deeb",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Patel HJ",
+          "fullName": "Himanshu J Patel",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Eliason J",
+          "fullName": "Jonathan Eliason",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Eagle KA",
+          "fullName": "Kim A Eagle",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Yang B",
+          "fullName": "Bo Yang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Ganesh SK",
+          "fullName": "Santhi K Ganesh",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Brumpton B",
+          "fullName": "Ben Brumpton",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Åsvold BO",
+          "fullName": "Bjørn Olav Åsvold",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Skogholt AH",
+          "fullName": "Anne Heidi Skogholt",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Hveem K",
+          "fullName": "Kristian Hveem",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "VA Million Veteran Program",
+          "fullName": "VA Million Veteran Program",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Pyarajan S",
+          "fullName": "Saiju Pyarajan",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Klarin D",
+          "fullName": "Derek Klarin",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Tsao PS",
+          "fullName": "Philip S Tsao",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Damrauer SM",
+          "fullName": "Scott M Damrauer",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Leal SM",
+          "fullName": "Suzanne M Leal",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Milewicz DM",
+          "fullName": "Dianna M Milewicz",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Chen YE",
+          "fullName": "Y Eugene Chen",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Garcia-Barrio MT",
+          "fullName": "Minerva T Garcia-Barrio",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Willer CJ",
+          "fullName": "Cristen J Willer",
+          "me": false,
+          "marks": ""
+        }
+      ],
+      "review": false,
+      "featured": true,
+      "latest": false
+    },
+    {
+      "pmid": "34320345",
+      "title": "Dysregulated oxalate metabolism is a driver and therapeutic target in atherosclerosis.",
+      "journal": "Cell Rep",
+      "year": 2021,
+      "date": "2021-07-27",
+      "sortDate": "2021-07-27",
+      "volume": "36",
+      "issue": "4",
+      "pages": "109420",
+      "doi": "10.1016/j.celrep.2021.109420",
+      "authors": [
+        {
+          "name": "Liu Y",
+          "fullName": "Yuhao Liu",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhao Y",
+          "fullName": "Ying Zhao",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Shukha Y",
+          "fullName": "Yousef Shukha",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Lu H",
+          "fullName": "Haocheng Lu",
+          "me": true,
+          "marks": ""
+        },
+        {
+          "name": "Wang L",
+          "fullName": "Lu Wang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Liu Z",
+          "fullName": "Zhipeng Liu",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Liu C",
+          "fullName": "Cai Liu",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhao Y",
+          "fullName": "Yang Zhao",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Wang H",
+          "fullName": "Huilun Wang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhao G",
+          "fullName": "Guizhen Zhao",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Liang W",
+          "fullName": "Wenying Liang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Fan Y",
+          "fullName": "Yanbo Fan",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Chang L",
+          "fullName": "Lin Chang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Yurdagul A",
+          "fullName": "Arif Yurdagul",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Pattillo CB",
+          "fullName": "Christopher B Pattillo",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Orr AW",
+          "fullName": "A Wayne Orr",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Aviram M",
+          "fullName": "Michael Aviram",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Wen B",
+          "fullName": "Bo Wen",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Garcia-Barrio MT",
+          "fullName": "Minerva T Garcia-Barrio",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhang J",
+          "fullName": "Jifeng Zhang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Liu W",
+          "fullName": "Wanqing Liu",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Sun D",
+          "fullName": "Duxin Sun",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Hayek T",
+          "fullName": "Tony Hayek",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Chen YE",
+          "fullName": "Y Eugene Chen",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Rom O",
+          "fullName": "Oren Rom",
+          "me": false,
+          "marks": ""
+        }
+      ],
+      "review": false,
+      "featured": false,
+      "latest": false
+    },
+    {
+      "pmid": "33856594",
+      "title": "Integration of Transformative Platforms for the Discovery of Causative Genes in Cardiovascular Diseases.",
+      "journal": "Cardiovasc Drugs Ther",
+      "year": 2021,
+      "date": "2021-06",
+      "sortDate": "2021-06-01",
+      "volume": "35",
+      "issue": "3",
+      "pages": "637-654",
+      "doi": "10.1007/s10557-021-07175-1",
+      "authors": [
+        {
+          "name": "Lu H",
+          "fullName": "Haocheng Lu",
+          "me": true,
+          "marks": ""
+        },
+        {
+          "name": "Zhang J",
+          "fullName": "Jifeng Zhang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Chen YE",
+          "fullName": "Y Eugene Chen",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Garcia-Barrio MT",
+          "fullName": "Minerva T Garcia-Barrio",
+          "me": false,
+          "marks": ""
+        }
+      ],
+      "review": true,
+      "featured": false,
+      "latest": false
+    },
+    {
+      "pmid": "32678909",
+      "title": "Single-cell RNA sequencing reveals the cellular heterogeneity of aneurysmal infrarenal abdominal aorta.",
+      "journal": "Cardiovasc Res",
+      "year": 2021,
+      "date": "2021-04-23",
+      "sortDate": "2021-04-23",
+      "volume": "117",
+      "issue": "5",
+      "pages": "1402-1416",
+      "doi": "10.1093/cvr/cvaa214",
+      "authors": [
+        {
+          "name": "Zhao G",
+          "fullName": "Guizhen Zhao",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Lu H",
+          "fullName": "Haocheng Lu",
+          "me": true,
+          "marks": ""
+        },
+        {
+          "name": "Chang Z",
+          "fullName": "Ziyi Chang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhao Y",
+          "fullName": "Yang Zhao",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhu T",
+          "fullName": "Tianqing Zhu",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Chang L",
+          "fullName": "Lin Chang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Guo Y",
+          "fullName": "Yanhong Guo",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Garcia-Barrio MT",
+          "fullName": "Minerva T Garcia-Barrio",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Chen YE",
+          "fullName": "Y Eugene Chen",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhang J",
+          "fullName": "Jifeng Zhang",
+          "me": false,
+          "marks": ""
+        }
+      ],
+      "review": false,
+      "featured": false,
+      "latest": false
+    },
+    {
+      "pmid": "33535788",
+      "title": "New Insight Into Metformin-Induced Cholesterol-Lowering Effect Crosstalk Between Glucose and Cholesterol Homeostasis via ChREBP (Carbohydrate-Responsive Element-Binding Protein)-Mediated PCSK9 (Proprotein Convertase Subtilisin/Kexin Type 9) Regulation.",
+      "journal": "Arterioscler Thromb Vasc Biol",
+      "year": 2021,
+      "date": "2021-04",
+      "sortDate": "2021-04-01",
+      "volume": "41",
+      "issue": "4",
+      "pages": "e208-e223",
+      "doi": "10.1161/ATVBAHA.120.315708",
+      "authors": [
+        {
+          "name": "Hu D",
+          "fullName": "Die Hu",
+          "me": false,
+          "marks": "#"
+        },
+        {
+          "name": "Guo Y",
+          "fullName": "Yanhong Guo",
+          "me": false,
+          "marks": "#"
+        },
+        {
+          "name": "Wu R",
+          "fullName": "Renrong Wu",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Shao T",
+          "fullName": "Tiannan Shao",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Long J",
+          "fullName": "Junke Long",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Yu B",
+          "fullName": "Bilian Yu",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Wang H",
+          "fullName": "Huilun Wang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Luo Y",
+          "fullName": "Yonghong Luo",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Lu H",
+          "fullName": "Haocheng Lu",
+          "me": true,
+          "marks": ""
+        },
+        {
+          "name": "Zhang J",
+          "fullName": "Jifeng Zhang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Chen YE",
+          "fullName": "Y Eugene Chen",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Peng D",
+          "fullName": "Daoquan Peng",
+          "me": false,
+          "marks": ""
+        }
+      ],
+      "review": false,
+      "featured": false,
+      "latest": false
+    },
+    {
+      "pmid": "33507881",
+      "title": "KLF11 protects against abdominal aortic aneurysm through inhibition of endothelial cell dysfunction.",
+      "journal": "JCI Insight",
+      "year": 2021,
+      "date": "2021-03-08",
+      "sortDate": "2021-03-08",
+      "volume": "6",
+      "issue": "5",
+      "pages": "e141673",
+      "doi": "10.1172/jci.insight.141673",
+      "authors": [
+        {
+          "name": "Zhao G",
+          "fullName": "Guizhen Zhao",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Chang Z",
+          "fullName": "Ziyi Chang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhao Y",
+          "fullName": "Yang Zhao",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Guo Y",
+          "fullName": "Yanhong Guo",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Lu H",
+          "fullName": "Haocheng Lu",
+          "me": true,
+          "marks": ""
+        },
+        {
+          "name": "Liang W",
+          "fullName": "Wenying Liang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Rom O",
+          "fullName": "Oren Rom",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Wang H",
+          "fullName": "Huilun Wang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Sun J",
+          "fullName": "Jinjian Sun",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhu T",
+          "fullName": "Tianqing Zhu",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Fan Y",
+          "fullName": "Yanbo Fan",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Chang L",
+          "fullName": "Lin Chang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Yang B",
+          "fullName": "Bo Yang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Garcia-Barrio MT",
+          "fullName": "Minerva T Garcia-Barrio",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Chen YE",
+          "fullName": "Y Eugene Chen",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhang J",
+          "fullName": "Jifeng Zhang",
+          "me": false,
+          "marks": ""
+        }
+      ],
+      "review": false,
+      "featured": false,
+      "latest": false
+    },
+    {
+      "pmid": "33297755",
+      "title": "Endothelial TFEB (Transcription Factor EB) Improves Glucose Tolerance via Upregulation of IRS (Insulin Receptor Substrate) 1 and IRS2.",
+      "journal": "Arterioscler Thromb Vasc Biol",
+      "year": 2021,
+      "date": "2021-02",
+      "sortDate": "2021-02-01",
+      "volume": "41",
+      "issue": "2",
+      "pages": "783-795",
+      "doi": "10.1161/ATVBAHA.120.315310",
+      "authors": [
+        {
+          "name": "Sun J",
+          "fullName": "Jinjian Sun",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Lu H",
+          "fullName": "Haocheng Lu",
+          "me": true,
+          "marks": ""
+        },
+        {
+          "name": "Liang W",
+          "fullName": "Wenying Liang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhao G",
+          "fullName": "Guizhen Zhao",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Ren L",
+          "fullName": "Lu Ren",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Hu D",
+          "fullName": "Die Hu",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Chang Z",
+          "fullName": "Ziyi Chang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Liu Y",
+          "fullName": "Yuhao Liu",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Garcia-Barrio MT",
+          "fullName": "Minerva T Garcia-Barrio",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhang J",
+          "fullName": "Jifeng Zhang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Chen YE",
+          "fullName": "Y Eugene Chen",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Fan Y",
+          "fullName": "Yanbo Fan",
+          "me": false,
+          "marks": ""
+        }
+      ],
+      "review": false,
+      "featured": false,
+      "latest": false
+    },
+    {
+      "pmid": "34095155",
+      "title": "Single-Cell Transcriptomics Reveals Endothelial Plasticity During Diabetic Atherogenesis.",
+      "journal": "Front Cell Dev Biol",
+      "year": 2021,
+      "date": "2021",
+      "sortDate": "2021-01-01",
+      "volume": "9",
+      "issue": "",
+      "pages": "689469",
+      "doi": "10.3389/fcell.2021.689469",
+      "authors": [
+        {
+          "name": "Zhao G",
+          "fullName": "Guizhen Zhao",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Lu H",
+          "fullName": "Haocheng Lu",
+          "me": true,
+          "marks": ""
+        },
+        {
+          "name": "Liu Y",
+          "fullName": "Yuhao Liu",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhao Y",
+          "fullName": "Yang Zhao",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhu T",
+          "fullName": "Tianqing Zhu",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Garcia-Barrio MT",
+          "fullName": "Minerva T Garcia-Barrio",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Chen YE",
+          "fullName": "Y Eugene Chen",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhang J",
+          "fullName": "Jifeng Zhang",
+          "me": false,
+          "marks": ""
+        }
+      ],
+      "review": false,
+      "featured": false,
+      "latest": false
+    },
+    {
+      "pmid": "33634751",
+      "title": "Guidelines for the use and interpretation of assays for monitoring autophagy (4th edition).",
+      "journal": "Autophagy",
+      "year": 2021,
+      "date": "2021-01",
+      "sortDate": "2021-01-01",
+      "volume": "17",
+      "issue": "1",
+      "pages": "1-382",
+      "doi": "10.1080/15548627.2020.1797280",
+      "authors": [
+        {
+          "name": "Klionsky DJ",
+          "fullName": "Daniel J Klionsky",
+          "me": false,
+          "marks": "*"
+        },
+        {
+          "name": "...",
+          "fullName": "",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Lu H",
+          "fullName": "Haocheng Lu",
+          "me": true,
+          "marks": ""
+        },
+        {
+          "name": "...",
+          "fullName": "",
+          "me": false,
+          "marks": ""
+        }
+      ],
+      "review": false,
+      "featured": false,
+      "latest": false
+    },
+    {
+      "pmid": "33418500",
+      "title": "Transcription factor EB regulates cardiovascular homeostasis.",
+      "journal": "EBioMedicine",
+      "year": 2021,
+      "date": "2021-01",
+      "sortDate": "2021-01-01",
+      "volume": "63",
+      "issue": "",
+      "pages": "103207",
+      "doi": "10.1016/j.ebiom.2020.103207",
+      "authors": [
+        {
+          "name": "Lu H",
+          "fullName": "Haocheng Lu",
+          "me": true,
+          "marks": ""
+        },
+        {
+          "name": "Sun J",
+          "fullName": "Jinjian Sun",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Hamblin MH",
+          "fullName": "Milton H Hamblin",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Chen YE",
+          "fullName": "Y Eugene Chen",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Fan Y",
+          "fullName": "Yanbo Fan",
+          "me": false,
+          "marks": ""
+        }
+      ],
+      "review": true,
+      "featured": true,
+      "latest": false
+    },
+    {
+      "pmid": "33268508",
+      "title": "Glycine-based treatment ameliorates NAFLD by modulating fatty acid oxidation, glutathione synthesis, and the gut microbiome.",
+      "journal": "Sci Transl Med",
+      "year": 2020,
+      "date": "2020-12-02",
+      "sortDate": "2020-12-02",
+      "volume": "12",
+      "issue": "572",
+      "pages": "eaaz2841",
+      "doi": "10.1126/scitranslmed.aaz2841",
+      "authors": [
+        {
+          "name": "Rom O",
+          "fullName": "Oren Rom",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Liu Y",
+          "fullName": "Yuhao Liu",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Liu Z",
+          "fullName": "Zhipeng Liu",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhao Y",
+          "fullName": "Ying Zhao",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Wu J",
+          "fullName": "Jianfeng Wu",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Ghrayeb A",
+          "fullName": "Alia Ghrayeb",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Villacorta L",
+          "fullName": "Luis Villacorta",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Fan Y",
+          "fullName": "Yanbo Fan",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Chang L",
+          "fullName": "Lin Chang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Wang L",
+          "fullName": "Lu Wang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Liu C",
+          "fullName": "Cai Liu",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Yang D",
+          "fullName": "Dongshan Yang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Song J",
+          "fullName": "Jun Song",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Rech JC",
+          "fullName": "Jason C Rech",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Guo Y",
+          "fullName": "Yanhong Guo",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Wang H",
+          "fullName": "Huilun Wang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhao G",
+          "fullName": "Guizhen Zhao",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Liang W",
+          "fullName": "Wenying Liang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Koike Y",
+          "fullName": "Yui Koike",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Lu H",
+          "fullName": "Haocheng Lu",
+          "me": true,
+          "marks": ""
+        },
+        {
+          "name": "Koike T",
+          "fullName": "Tomonari Koike",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Hayek T",
+          "fullName": "Tony Hayek",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Pennathur S",
+          "fullName": "Subramaniam Pennathur",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Xi C",
+          "fullName": "Chuanwu Xi",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Wen B",
+          "fullName": "Bo Wen",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Sun D",
+          "fullName": "Duxin Sun",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Garcia-Barrio MT",
+          "fullName": "Minerva T Garcia-Barrio",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Aviram M",
+          "fullName": "Michael Aviram",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Gottlieb E",
+          "fullName": "Eyal Gottlieb",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Mor I",
+          "fullName": "Inbal Mor",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Liu W",
+          "fullName": "Wanqing Liu",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhang J",
+          "fullName": "Jifeng Zhang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Chen YE",
+          "fullName": "Y Eugene Chen",
+          "me": false,
+          "marks": ""
+        }
+      ],
+      "review": false,
+      "featured": false,
+      "latest": false
+    },
+    {
+      "pmid": "33097703",
+      "title": "MEPE loss-of-function variant associates with decreased bone mineral density and increased fracture risk.",
+      "journal": "Nat Commun",
+      "year": 2020,
+      "date": "2020-10-23",
+      "sortDate": "2020-10-23",
+      "volume": "11",
+      "issue": "1",
+      "pages": "4093",
+      "doi": "10.1038/s41467-020-17315-0",
+      "authors": [
+        {
+          "name": "Surakka I",
+          "fullName": "Ida Surakka",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Fritsche LG",
+          "fullName": "Lars G Fritsche",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhou W",
+          "fullName": "Wei Zhou",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Backman J",
+          "fullName": "Joshua Backman",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Kosmicki JA",
+          "fullName": "Jack A Kosmicki",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Lu H",
+          "fullName": "Haocheng Lu",
+          "me": true,
+          "marks": ""
+        },
+        {
+          "name": "Brumpton B",
+          "fullName": "Ben Brumpton",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Nielsen JB",
+          "fullName": "Jonas B Nielsen",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Gabrielsen ME",
+          "fullName": "Maiken E Gabrielsen",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Skogholt AH",
+          "fullName": "Anne Heidi Skogholt",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Wolford B",
+          "fullName": "Brooke Wolford",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Graham SE",
+          "fullName": "Sarah E Graham",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Chen YE",
+          "fullName": "Y Eugene Chen",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Lee S",
+          "fullName": "Seunggeun Lee",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Kang HM",
+          "fullName": "Hyun Min Kang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Langhammer A",
+          "fullName": "Arnulf Langhammer",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Forsmo S",
+          "fullName": "Siri Forsmo",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Åsvold BO",
+          "fullName": "Bjørn O Åsvold",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Styrkarsdottir U",
+          "fullName": "Unnur Styrkarsdottir",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Holm H",
+          "fullName": "Hilma Holm",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Gudbjartsson D",
+          "fullName": "Daniel Gudbjartsson",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Stefansson K",
+          "fullName": "Kari Stefansson",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Baras A",
+          "fullName": "Aris Baras",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Regeneron Genetics Center",
+          "fullName": "Regeneron Genetics Center",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Abecasis GR",
+          "fullName": "Goncalo R Abecasis",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Hveem K",
+          "fullName": "Kristian Hveem",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Willer CJ",
+          "fullName": "Cristen J Willer",
+          "me": false,
+          "marks": ""
+        }
+      ],
+      "review": false,
+      "featured": false,
+      "latest": false
+    },
+    {
+      "pmid": "32787523",
+      "title": "BAF60a Deficiency in Vascular Smooth Muscle Cells Prevents Abdominal Aortic Aneurysm by Reducing Inflammation and Extracellular Matrix Degradation.",
+      "journal": "Arterioscler Thromb Vasc Biol",
+      "year": 2020,
+      "date": "2020-10",
+      "sortDate": "2020-10-01",
+      "volume": "40",
+      "issue": "10",
+      "pages": "2494-2507",
+      "doi": "10.1161/ATVBAHA.120.314955",
+      "authors": [
+        {
+          "name": "Chang Z",
+          "fullName": "Ziyi Chang",
+          "me": false,
+          "marks": "#"
+        },
+        {
+          "name": "Zhao G",
+          "fullName": "Guizhen Zhao",
+          "me": false,
+          "marks": "#"
+        },
+        {
+          "name": "Zhao Y",
+          "fullName": "Yang Zhao",
+          "me": false,
+          "marks": "#"
+        },
+        {
+          "name": "Lu H",
+          "fullName": "Haocheng Lu",
+          "me": true,
+          "marks": ""
+        },
+        {
+          "name": "Xiong W",
+          "fullName": "Wenhao Xiong",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Liang W",
+          "fullName": "Wenying Liang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Sun J",
+          "fullName": "Jinjian Sun",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Wang H",
+          "fullName": "Huilun Wang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhu T",
+          "fullName": "Tianqing Zhu",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Rom O",
+          "fullName": "Oren Rom",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Guo Y",
+          "fullName": "Yanhong Guo",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Fan Y",
+          "fullName": "Yanbo Fan",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Chang L",
+          "fullName": "Lin Chang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Yang B",
+          "fullName": "Bo Yang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Garcia-Barrio MT",
+          "fullName": "Minerva T Garcia-Barrio",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Lin JD",
+          "fullName": "Jiandie D Lin",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Chen YE",
+          "fullName": "Y Eugene Chen",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhang J",
+          "fullName": "Jifeng Zhang",
+          "me": false,
+          "marks": ""
+        }
+      ],
+      "review": false,
+      "featured": false,
+      "latest": false
+    },
+    {
+      "pmid": "32354235",
+      "title": "Cyclodextrin Prevents Abdominal Aortic Aneurysm via Activation of Vascular Smooth Muscle Cell Transcription Factor EB.",
+      "journal": "Circulation",
+      "year": 2020,
+      "date": "2020-08-04",
+      "sortDate": "2020-08-04",
+      "volume": "142",
+      "issue": "5",
+      "pages": "483-498",
+      "doi": "10.1161/CIRCULATIONAHA.119.044803",
+      "authors": [
+        {
+          "name": "Lu H",
+          "fullName": "Haocheng Lu",
+          "me": true,
+          "marks": ""
+        },
+        {
+          "name": "Sun J",
+          "fullName": "Jinjian Sun",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Liang W",
+          "fullName": "Wenying Liang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Chang Z",
+          "fullName": "Ziyi Chang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Rom O",
+          "fullName": "Oren Rom",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhao Y",
+          "fullName": "Yang Zhao",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhao G",
+          "fullName": "Guizhen Zhao",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Xiong W",
+          "fullName": "Wenhao Xiong",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Wang H",
+          "fullName": "Huilun Wang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhu T",
+          "fullName": "Tianqing Zhu",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Guo Y",
+          "fullName": "Yanhong Guo",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Chang L",
+          "fullName": "Lin Chang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Garcia-Barrio MT",
+          "fullName": "Minerva T Garcia-Barrio",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhang J",
+          "fullName": "Jifeng Zhang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Chen YE",
+          "fullName": "Y Eugene Chen",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Fan Y",
+          "fullName": "Yanbo Fan",
+          "me": false,
+          "marks": ""
+        }
+      ],
+      "review": false,
+      "featured": true,
+      "latest": false
+    },
+    {
+      "pmid": "31074702",
+      "title": "Novel gene regulatory networks identified in response to nitro-conjugated linoleic acid in human endothelial cells.",
+      "journal": "Physiol Genomics",
+      "year": 2019,
+      "date": "2019-06-01",
+      "sortDate": "2019-06-01",
+      "volume": "51",
+      "issue": "6",
+      "pages": "224-233",
+      "doi": "10.1152/physiolgenomics.00127.2018",
+      "authors": [
+        {
+          "name": "Lu H",
+          "fullName": "Haocheng Lu",
+          "me": true,
+          "marks": ""
+        },
+        {
+          "name": "Sun J",
+          "fullName": "Jinjian Sun",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Liang W",
+          "fullName": "Wenying Liang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhang J",
+          "fullName": "Jifeng Zhang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Rom O",
+          "fullName": "Oren Rom",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Garcia-Barrio MT",
+          "fullName": "Minerva T Garcia-Barrio",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Li S",
+          "fullName": "Shengdi Li",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Villacorta L",
+          "fullName": "Luis Villacorta",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Schopfer FJ",
+          "fullName": "Francisco J Schopfer",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Freeman BA",
+          "fullName": "Bruce A Freeman",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Chen YE",
+          "fullName": "Y Eugene Chen",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Fan Y",
+          "fullName": "Yanbo Fan",
+          "me": false,
+          "marks": ""
+        }
+      ],
+      "review": false,
+      "featured": false,
+      "latest": false
+    },
+    {
+      "pmid": "30641087",
+      "title": "Recent advances in understanding the roles of T cells in pressure overload-induced cardiac hypertrophy and remodeling.",
+      "journal": "J Mol Cell Cardiol",
+      "year": 2019,
+      "date": "2019-04",
+      "sortDate": "2019-04-01",
+      "volume": "129",
+      "issue": "",
+      "pages": "293-302",
+      "doi": "10.1016/j.yjmcc.2019.01.005",
+      "authors": [
+        {
+          "name": "Liu Y",
+          "fullName": "Yuhao Liu",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Lu H",
+          "fullName": "Haocheng Lu",
+          "me": true,
+          "marks": ""
+        },
+        {
+          "name": "Zhang C",
+          "fullName": "Chao Zhang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Hu J",
+          "fullName": "Jiahui Hu",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Xu D",
+          "fullName": "Danyan Xu",
+          "me": false,
+          "marks": ""
+        }
+      ],
+      "review": true,
+      "featured": false,
+      "latest": false
+    },
+    {
+      "pmid": "30772307",
+      "title": "Nitro-fatty acids protect against steatosis and fibrosis during development of nonalcoholic fatty liver disease in mice.",
+      "journal": "EBioMedicine",
+      "year": 2019,
+      "date": "2019-03",
+      "sortDate": "2019-03-01",
+      "volume": "41",
+      "issue": "",
+      "pages": "62-72",
+      "doi": "10.1016/j.ebiom.2019.02.019",
+      "authors": [
+        {
+          "name": "Rom O",
+          "fullName": "Oren Rom",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Xu G",
+          "fullName": "Guan Xu",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Guo Y",
+          "fullName": "Yanhong Guo",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhu Y",
+          "fullName": "Yunhao Zhu",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Wang H",
+          "fullName": "Huilun Wang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhang J",
+          "fullName": "Jifeng Zhang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Fan Y",
+          "fullName": "Yanbo Fan",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Liang W",
+          "fullName": "Wenying Liang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Lu H",
+          "fullName": "Haocheng Lu",
+          "me": true,
+          "marks": ""
+        },
+        {
+          "name": "Liu Y",
+          "fullName": "Yuhao Liu",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Aviram M",
+          "fullName": "Michael Aviram",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Liu Z",
+          "fullName": "Zhipeng Liu",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Kim S",
+          "fullName": "Seongho Kim",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Liu W",
+          "fullName": "Wanqing Liu",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Wang X",
+          "fullName": "Xueding Wang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Chen YE",
+          "fullName": "Y Eugene Chen",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Villacorta L",
+          "fullName": "Luis Villacorta",
+          "me": false,
+          "marks": ""
+        }
+      ],
+      "review": false,
+      "featured": false,
+      "latest": false
+    },
+    {
+      "pmid": "30602303",
+      "title": "KLF11 (Krüppel-Like Factor 11) Inhibits Arterial Thrombosis via Suppression of Tissue Factor in the Vascular Wall.",
+      "journal": "Arterioscler Thromb Vasc Biol",
+      "year": 2019,
+      "date": "2019-03",
+      "sortDate": "2019-03-01",
+      "volume": "39",
+      "issue": "3",
+      "pages": "402-412",
+      "doi": "10.1161/ATVBAHA.118.311612",
+      "authors": [
+        {
+          "name": "Liang W",
+          "fullName": "Wenying Liang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Fan Y",
+          "fullName": "Yanbo Fan",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Lu H",
+          "fullName": "Haocheng Lu",
+          "me": true,
+          "marks": ""
+        },
+        {
+          "name": "Chang Z",
+          "fullName": "Ziyi Chang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Hu W",
+          "fullName": "Wenting Hu",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Sun J",
+          "fullName": "Jinjian Sun",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Wang H",
+          "fullName": "Huilun Wang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhu T",
+          "fullName": "Tianqing Zhu",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Wang J",
+          "fullName": "Jintao Wang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Adili R",
+          "fullName": "Reheman Adili",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Garcia-Barrio MT",
+          "fullName": "Minerva T Garcia-Barrio",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Holinstat M",
+          "fullName": "Michael Holinstat",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Eitzman D",
+          "fullName": "Daniel Eitzman",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhang J",
+          "fullName": "Jifeng Zhang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Chen YE",
+          "fullName": "Y Eugene Chen",
+          "me": false,
+          "marks": ""
+        }
+      ],
+      "review": false,
+      "featured": false,
+      "latest": false
+    },
+    {
+      "pmid": "30248551",
+      "title": "Krüppel-like factor 14, a coronary artery disease associated transcription factor, inhibits endothelial inflammation via NF-κB signaling pathway.",
+      "journal": "Atherosclerosis",
+      "year": 2018,
+      "date": "2018-11",
+      "sortDate": "2018-11-01",
+      "volume": "278",
+      "issue": "",
+      "pages": "39-48",
+      "doi": "10.1016/j.atherosclerosis.2018.09.018",
+      "authors": [
+        {
+          "name": "Hu W",
+          "fullName": "Wenting Hu",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Lu H",
+          "fullName": "Haocheng Lu",
+          "me": true,
+          "marks": ""
+        },
+        {
+          "name": "Zhang J",
+          "fullName": "Jifeng Zhang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Fan Y",
+          "fullName": "Yanbo Fan",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Chang Z",
+          "fullName": "Ziyi Chang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Liang W",
+          "fullName": "Wenying Liang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Wang H",
+          "fullName": "Huilun Wang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhu T",
+          "fullName": "Tianqing Zhu",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Garcia-Barrio MT",
+          "fullName": "Minerva T Garcia-Barrio",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Peng D",
+          "fullName": "Daoquan Peng",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Chen YE",
+          "fullName": "Y Eugene Chen",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Guo Y",
+          "fullName": "Yanhong Guo",
+          "me": false,
+          "marks": ""
+        }
+      ],
+      "review": false,
+      "featured": false,
+      "latest": false
+    },
+    {
+      "pmid": "30010047",
+      "title": "Cystathionine beta synthase-hydrogen sulfide system in paraventricular nucleus reduced high fatty diet induced obesity and insulin resistance by brain-adipose axis.",
+      "journal": "Biochim Biophys Acta Mol Basis Dis",
+      "year": 2018,
+      "date": "2018-10",
+      "sortDate": "2018-10-01",
+      "volume": "1864",
+      "issue": "10",
+      "pages": "3281-3291",
+      "doi": "10.1016/j.bbadis.2018.07.014",
+      "authors": [
+        {
+          "name": "Zheng F",
+          "fullName": "Fengjiao Zheng",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Han J",
+          "fullName": "Jingnan Han",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Lu H",
+          "fullName": "Haocheng Lu",
+          "me": true,
+          "marks": ""
+        },
+        {
+          "name": "Cui C",
+          "fullName": "Changting Cui",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Yang J",
+          "fullName": "Jichun Yang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Cui Q",
+          "fullName": "Qinghua Cui",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Cai J",
+          "fullName": "Jun Cai",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhou Y",
+          "fullName": "Yong Zhou",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Tang C",
+          "fullName": "Chaoshu Tang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Xu G",
+          "fullName": "Guoheng Xu",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Geng B",
+          "fullName": "Bin Geng",
+          "me": false,
+          "marks": ""
+        }
+      ],
+      "review": false,
+      "featured": false,
+      "latest": false
+    },
+    {
+      "pmid": "29467198",
+      "title": "Endothelial TFEB (Transcription Factor EB) Positively Regulates Postischemic Angiogenesis.",
+      "journal": "Circ Res",
+      "year": 2018,
+      "date": "2018-03-30",
+      "sortDate": "2018-03-30",
+      "volume": "122",
+      "issue": "7",
+      "pages": "945-957",
+      "doi": "10.1161/CIRCRESAHA.118.312672",
+      "authors": [
+        {
+          "name": "Fan Y",
+          "fullName": "Yanbo Fan",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Lu H",
+          "fullName": "Haocheng Lu",
+          "me": true,
+          "marks": ""
+        },
+        {
+          "name": "Liang W",
+          "fullName": "Wenying Liang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Garcia-Barrio MT",
+          "fullName": "Minerva T Garcia-Barrio",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Guo Y",
+          "fullName": "Yanhong Guo",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhang J",
+          "fullName": "Ji Zhang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhu T",
+          "fullName": "Tianqing Zhu",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Hao Y",
+          "fullName": "Yibai Hao",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhang J",
+          "fullName": "Jifeng Zhang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Chen YE",
+          "fullName": "Y Eugene Chen",
+          "me": false,
+          "marks": ""
+        }
+      ],
+      "review": false,
+      "featured": false,
+      "latest": false
+    },
+    {
+      "pmid": "29403061",
+      "title": "Laminar Flow Attenuates Macrophage Migration Inhibitory Factor Expression in Endothelial Cells.",
+      "journal": "Sci Rep",
+      "year": 2018,
+      "date": "2018-02-05",
+      "sortDate": "2018-02-05",
+      "volume": "8",
+      "issue": "1",
+      "pages": "2360",
+      "doi": "10.1038/s41598-018-20885-1",
+      "authors": [
+        {
+          "name": "Qiao C",
+          "fullName": "Congzhen Qiao",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Li S",
+          "fullName": "Shengdi Li",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Lu H",
+          "fullName": "Haocheng Lu",
+          "me": true,
+          "marks": ""
+        },
+        {
+          "name": "Meng F",
+          "fullName": "Fan Meng",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Fan Y",
+          "fullName": "Yanbo Fan",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Guo Y",
+          "fullName": "Yanhong Guo",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Chen YE",
+          "fullName": "Y Eugene Chen",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhang J",
+          "fullName": "Jifeng Zhang",
+          "me": false,
+          "marks": ""
+        }
+      ],
+      "review": false,
+      "featured": false,
+      "latest": false
+    },
+    {
+      "pmid": "28992202",
+      "title": "Krüppel-like factors and vascular wall homeostasis.",
+      "journal": "J Mol Cell Biol",
+      "year": 2017,
+      "date": "2017-10-01",
+      "sortDate": "2017-10-01",
+      "volume": "9",
+      "issue": "5",
+      "pages": "352-363",
+      "doi": "10.1093/jmcb/mjx037",
+      "authors": [
+        {
+          "name": "Fan Y",
+          "fullName": "Yanbo Fan",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Lu H",
+          "fullName": "Haocheng Lu",
+          "me": true,
+          "marks": ""
+        },
+        {
+          "name": "Liang W",
+          "fullName": "Wenying Liang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Hu W",
+          "fullName": "Wenting Hu",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhang J",
+          "fullName": "Jifeng Zhang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Chen YE",
+          "fullName": "Y Eugene Chen",
+          "me": false,
+          "marks": ""
+        }
+      ],
+      "review": true,
+      "featured": false,
+      "latest": false
+    },
+    {
+      "pmid": "28143903",
+      "title": "TFEB inhibits endothelial cell inflammation and reduces atherosclerosis.",
+      "journal": "Sci Signal",
+      "year": 2017,
+      "date": "2017-01-31",
+      "sortDate": "2017-01-31",
+      "volume": "10",
+      "issue": "464",
+      "pages": "eaah4214",
+      "doi": "10.1126/scisignal.aah4214",
+      "authors": [
+        {
+          "name": "Lu H",
+          "fullName": "Haocheng Lu",
+          "me": true,
+          "marks": ""
+        },
+        {
+          "name": "Fan Y",
+          "fullName": "Yanbo Fan",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Qiao C",
+          "fullName": "Congzhen Qiao",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Liang W",
+          "fullName": "Wenying Liang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Hu W",
+          "fullName": "Wenting Hu",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhu T",
+          "fullName": "Tianqing Zhu",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhang J",
+          "fullName": "Jifeng Zhang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Chen YE",
+          "fullName": "Y Eugene Chen",
+          "me": false,
+          "marks": ""
+        }
+      ],
+      "review": false,
+      "featured": true,
+      "latest": false
+    },
+    {
+      "pmid": "26774178",
+      "title": "Hepatic Transmembrane 6 Superfamily Member 2 Regulates Cholesterol Metabolism in Mice.",
+      "journal": "Gastroenterology",
+      "year": 2016,
+      "date": "2016-05",
+      "sortDate": "2016-05-01",
+      "volume": "150",
+      "issue": "5",
+      "pages": "1208-1218",
+      "doi": "10.1053/j.gastro.2016.01.005",
+      "authors": [
+        {
+          "name": "Fan Y",
+          "fullName": "Yanbo Fan",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Lu H",
+          "fullName": "Haocheng Lu",
+          "me": true,
+          "marks": ""
+        },
+        {
+          "name": "Guo Y",
+          "fullName": "Yanhong Guo",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhu T",
+          "fullName": "Tianqing Zhu",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Garcia-Barrio MT",
+          "fullName": "Minerva T Garcia-Barrio",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Jiang Z",
+          "fullName": "Zhisheng Jiang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Willer CJ",
+          "fullName": "Cristen J Willer",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Zhang J",
+          "fullName": "Jifeng Zhang",
+          "me": false,
+          "marks": ""
+        },
+        {
+          "name": "Chen YE",
+          "fullName": "Y Eugene Chen",
+          "me": false,
+          "marks": ""
+        }
+      ],
+      "review": false,
+      "featured": false,
+      "latest": false
+    }
+  ]
+}
