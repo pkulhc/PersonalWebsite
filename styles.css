@@ -201,6 +201,38 @@ footer { display: flex; justify-content: space-between; align-items: center; gap
 footer a { display: inline-flex; align-items: center; gap: 12px; color: #fff; min-height: 32px; }
 footer .icon { filter: invert(1); }
 
+/* Short, one-shot motion keeps the academic content in the foreground. */
+@media (prefers-reduced-motion: no-preference) {
+  body, .site-header, .hero, .stats, .section, footer {
+    transition: background-color 240ms ease, border-color 240ms ease, color 180ms ease;
+  }
+  .site-nav a { transition: color 180ms ease, box-shadow 180ms ease; }
+  .button {
+    transition: transform 200ms ease, box-shadow 200ms ease, background-color 200ms ease, border-color 200ms ease;
+  }
+  .theme-toggle, .nav-toggle {
+    transition: transform 160ms ease, background-color 180ms ease, border-color 180ms ease;
+  }
+  .theme-toggle:active, .nav-toggle:active { transform: scale(0.94); }
+  .button:active { transform: translateY(1px); }
+  .profile-figure {
+    transition: transform 280ms ease, box-shadow 280ms ease, border-color 220ms ease;
+  }
+  .publication-main h3 { transition: transform 220ms ease; }
+  .paper-links .icon, .publication-source .icon, .profile-paper-link::after, footer .icon {
+    transition: transform 200ms ease;
+  }
+  .tab { transition: background-color 180ms ease, color 180ms ease; }
+}
+@media (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference) {
+  .button:hover { transform: translateY(-2px); box-shadow: 0 6px 16px #00000012; }
+  .profile-figure:hover { transform: translateY(-4px); box-shadow: 0 12px 28px #00000012; }
+  .publication:hover .publication-main h3 { transform: translateX(3px); }
+  .paper-links a:hover .icon, .publication-source a:hover .icon,
+  .profile-paper-link:hover::after { transform: translate(2px, -2px); }
+  footer a:hover .icon { transform: translateY(-3px); }
+}
+
 @media (max-width: 1100px) {
   .site-header { gap: 18px; }
   .site-nav { gap: 16px; font-size: 12px; }

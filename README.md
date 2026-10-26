@@ -29,3 +29,11 @@ lists can be expanded. The autophagy guidelines retain only Daniel J. Klionsky
 (first and corresponding author), Haocheng Lu and ellipses.
 
 Local Lucide icons are version 0.468.0; their license is in `assets/icons/LICENSE`.
+
+## Motion
+
+The shared script uses the Web Animations API for one-shot hero entrances,
+scroll reveals and short control transitions. CSS adds hover feedback without
+changing layout dimensions. All content remains readable without animation
+support or JavaScript. Motion respects `prefers-reduced-motion`, including
+changes made while the page is open, and keyboard focus cancels entrance motion.
