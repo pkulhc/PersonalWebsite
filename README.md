@@ -1,39 +1,38 @@
 # Haocheng Lu Personal Website
 
-A modern static personal academic website for Haocheng Lu, Department of Pharmacology, School of Medicine, Southern University of Science and Technology.
+A static bilingual (中文 / English) academic website for Haocheng Lu, Department of Pharmacology, School of Medicine, Southern University of Science and Technology (SUSTech).
+
+## Structure
+
+- `index.html` — Chinese page
+- `en.html` — English page
+- `styles.css` — shared editorial visual system, including light and dark themes
+- `script.js` — shared interactions: publication filter/search, figure lightbox, theme toggle, hero canvas, and the NCBI publication counter
+- `assets/` — portrait and mechanism illustrations (WebP)
 
 ## Local Preview
 
-Open `index.html` directly in a browser.
+Open `index.html` directly in a browser, or serve the folder with any static server.
 
 ## Deployment
 
-This site is static and can be deployed with GitHub Pages from the repository root.
+GitHub Pages serves the `main` branch root at https://pkulhc.github.io/PersonalWebsite/.
 
 ## Publications
 
-`data/publications.json` is the shared, dated bibliography for both languages.
-The 2026-10-26 snapshot contains 56 unique PubMed records from both pages of
-the public NCBI My Bibliography. PubMed XML supplies bibliographic metadata;
-verified author-credit annotations are retained separately in each author record.
-The ten featured papers are first-/corresponding-author selections.
+The selected publication lists are maintained directly in the Publications section of
+`index.html` and `en.html`; there is no build step. Journal Impact Factors follow the
+latest JCR release — when the annual data updates, change every occurrence of a
+journal consistently on both pages. Author names are bold for Haocheng Lu; `#`
+marks co-first authors and `*` marks corresponding authors. The statistics bar
+defaults to the current NCBI count (56) and refreshes from NCBI E-utilities at
+runtime when the API is reachable.
 
-After editing the dataset, run `node scripts/build-publications.mjs` to regenerate
-the marked sections of `index.html` and `en.html`. The generated HTML is the
-deployed content; there are no runtime API calls or required build dependencies.
-Full publication text and links remain available without JavaScript.
+## Design
 
-Author names are bold for Haocheng Lu; `#` identifies co-first authors and `*`
-identifies corresponding authors, including co-corresponding authors. Long author
-lists can be expanded. The autophagy guidelines retain only Daniel J. Klionsky
-(first and corresponding author), Haocheng Lu and ellipses.
-
-Local Lucide icons are version 0.468.0; their license is in `assets/icons/LICENSE`.
-
-## Motion
-
-The shared script uses the Web Animations API for one-shot hero entrances,
-scroll reveals and short control transitions. CSS adds hover feedback without
-changing layout dimensions. All content remains readable without animation
-support or JavaScript. Motion respects `prefers-reduced-motion`, including
-changes made while the page is open, and keyboard focus cancels entrance motion.
+Typography pairs Newsreader / Noto Serif SC for display headings with Inter /
+Noto Sans SC for UI and body text. The color system draws on the vascular
+illustrations (arterial red, TFEB emerald, laminar blue) on an acid-free paper
+ground. The theme choice is stored in `localStorage` and follows
+`prefers-color-scheme` when unset. Motion respects `prefers-reduced-motion`, and
+all content remains readable without JavaScript.
