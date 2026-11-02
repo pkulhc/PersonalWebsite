@@ -1,19 +1,31 @@
+const isEn = document.documentElement.lang?.startsWith("en");
 const header = document.querySelector(".site-header");
+const progressBar = document.querySelector(".scroll-progress");
 const navToggle = document.querySelector(".nav-toggle");
 const navLinks = document.querySelectorAll(".site-nav a");
-const tabs = document.querySelectorAll(".tab");
-const publications = document.querySelectorAll(".publication");
-const pubSearchInput = document.getElementById("pub-search");
+const tabs = [...document.querySelectorAll(".tab")];
+const publications = [...document.querySelectorAll(".publication")];
+const pubSearchInput = document.getElementById("publication-search");
+const pubYearSelect = document.getElementById("publication-year");
+const pubCountEl = document.getElementById("publication-count");
 const pubEmptyMsg = document.getElementById("pub-empty");
+const resetBtn = document.querySelector(".reset-filters");
 
-// ── Header scroll state ──
+// ── Header scroll state & reading progress bar ──
 const updateHeader = () => {
-  if (!header) return;
-  header.dataset.scrolled = window.scrollY > 12 ? "true" : "false";
+  if (header) {
+    header.dataset.scrolled = window.scrollY > 12 ? "true" : "false";
+  }
+  if (progressBar) {
+    const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+    const progress = docHeight > 0 ? Math.min(Math.max(window.scrollY / docHeight, 0), 1) : 0;
+    progressBar.style.transform = `scaleX(${progress})`;
+  }
 };
 
 updateHeader();
 window.addEventListener("scroll", updateHeader, { passive: true });
+window.addEventListener("resize", updateHeader, { passive: true });
 
 // ── Mobile navigation toggle ──
 navToggle?.addEventListener("click", () => {
@@ -28,115 +40,156 @@ navLinks.forEach((link) => {
   });
 });
 
-// ── Publications filtering & live search ──
+// ── Publications filtering (Category + Year + Live Search) ──
 let activeCategory = "featured";
 
 function filterPublications() {
   const query = (pubSearchInput?.value || "").trim().toLowerCase();
+  const selectedYear = pubYearSelect?.value || "all";
   let visibleCount = 0;
-  const seenTitles = new Set();
 
   publications.forEach((paper) => {
-    const matchesCategory = activeCategory === "all" || paper.dataset.group === activeCategory;
+    const groups = (paper.dataset.groups || paper.dataset.group || "").split(/\s+/);
+    const matchesCategory = activeCategory === "all" || groups.includes(activeCategory);
+    const matchesYear = selectedYear === "all" || paper.dataset.year === selectedYear;
     const textContent = paper.textContent.toLowerCase();
-    const matchesQuery = !query || textContent.includes(query);
+    const pmid = (paper.dataset.pmid || "").toLowerCase();
+    const matchesQuery = !query || textContent.includes(query) || pmid.includes(query);
 
-    // Deduplicate identical titles when showing "all" or searching across categories
-    const titleText = paper.querySelector("h3")?.textContent.trim().toLowerCase() || "";
-    const isDuplicateInAll = (activeCategory === "all" || query.length > 0) && seenTitles.has(titleText);
-
-    const shouldShow = (query.length > 0 ? matchesQuery : matchesCategory && matchesQuery) && !isDuplicateInAll;
+    // When user types a search query or picks a specific year, search across the active tab
+    // (or if in Featured/Latest/Reviews and 0 results, still respect current tab unless All is chosen)
+    const shouldShow = matchesCategory && matchesYear && matchesQuery;
 
     paper.hidden = !shouldShow;
     if (shouldShow) {
       visibleCount++;
-      if (titleText) seenTitles.add(titleText);
     }
   });
+
+  if (pubCountEl) {
+    pubCountEl.textContent = isEn
+      ? `${visibleCount} ${visibleCount === 1 ? "paper" : "papers"} shown`
+      : `当前显示 ${visibleCount} 篇论文`;
+  }
 
   if (pubEmptyMsg) {
     pubEmptyMsg.hidden = visibleCount > 0;
   }
 }
 
-tabs.forEach((tab) => {
-  tab.addEventListener("click", () => {
-    activeCategory = tab.dataset.filter || "featured";
+function activateTab(tab, focusTab = false) {
+  activeCategory = tab.dataset.filter || "featured";
+  tabs.forEach((item) => {
+    const isActive = item === tab;
+    item.classList.toggle("active", isActive);
+    item.setAttribute("aria-selected", String(isActive));
+    item.setAttribute("tabindex", isActive ? "0" : "-1");
+  });
+  if (focusTab) tab.focus();
+  filterPublications();
+}
 
-    tabs.forEach((item) => {
-      const isActive = item === tab;
-      item.classList.toggle("active", isActive);
-      item.setAttribute("aria-selected", String(isActive));
-    });
-
-    filterPublications();
+tabs.forEach((tab, index) => {
+  tab.addEventListener("click", () => activateTab(tab));
+  tab.addEventListener("keydown", (e) => {
+    if (e.key === "ArrowRight" || e.key === "ArrowLeft") {
+      e.preventDefault();
+      const dir = e.key === "ArrowRight" ? 1 : -1;
+      const nextIndex = (index + dir + tabs.length) % tabs.length;
+      activateTab(tabs[nextIndex], true);
+    } else if (e.key === "Home") {
+      e.preventDefault();
+      activateTab(tabs[0], true);
+    } else if (e.key === "End") {
+      e.preventDefault();
+      activateTab(tabs[tabs.length - 1], true);
+    }
   });
 });
 
 pubSearchInput?.addEventListener("input", () => {
+  // Automatically switch to "All" tab when searching so all 56 papers are searchable
+  if (pubSearchInput.value.trim().length > 0 && activeCategory !== "all") {
+    const allTab = tabs.find((t) => t.dataset.filter === "all");
+    if (allTab) {
+      activateTab(allTab);
+      return;
+    }
+  }
   filterPublications();
+});
+
+pubYearSelect?.addEventListener("change", () => {
+  if (pubYearSelect.value !== "all" && activeCategory !== "all") {
+    const allTab = tabs.find((t) => t.dataset.filter === "all");
+    if (allTab) {
+      activateTab(allTab);
+      return;
+    }
+  }
+  filterPublications();
+});
+
+resetBtn?.addEventListener("click", () => {
+  if (pubSearchInput) pubSearchInput.value = "";
+  if (pubYearSelect) pubYearSelect.value = "all";
+  const featuredTab = tabs.find((t) => t.dataset.filter === "featured") || tabs[0];
+  if (featuredTab) activateTab(featuredTab);
+  else filterPublications();
 });
 
 // Initialize default publication filter
 filterPublications();
-
-// ── Enhance Impact Factor (IF) into styled badges & add PubMed links ──
-document.querySelectorAll(".publication").forEach((pub) => {
-  const metaP = pub.querySelector(".publication-meta p");
-  if (metaP) {
-    metaP.innerHTML = metaP.innerHTML.replace(
-      /\bIF:\s*([\d.]+)/g,
-      '<span class="if-badge" title="Journal Impact Factor">IF $1</span>'
-    );
-  }
-
-  const titleEl = pub.querySelector(".publication-main h3");
-  if (!titleEl) return;
-
-  const isEn = document.documentElement.lang?.startsWith("en");
-  const title = titleEl.textContent.trim();
-  const link = document.createElement("a");
-  link.href = `https://pubmed.ncbi.nlm.nih.gov/?term=${encodeURIComponent(title)}`;
-  link.target = "_blank";
-  link.rel = "noopener noreferrer";
-  link.className = "pubmed-link";
-  link.textContent = isEn ? "PubMed" : "PubMed 检索";
-  link.setAttribute("aria-label", isEn ? `Search on PubMed: ${title}` : `在 PubMed 中搜索: ${title}`);
-
-  pub.querySelector(".publication-main")?.appendChild(link);
-});
 
 // ── Scientific Figure Lightbox ──
 const lightbox = document.getElementById("figure-lightbox");
 const lightboxImg = document.getElementById("lightbox-img");
 const lightboxTitle = document.getElementById("lightbox-title");
 const lightboxDesc = document.getElementById("lightbox-desc");
+const lightboxLink = document.getElementById("lightbox-link");
+const lightboxCloseBtn = lightbox?.querySelector(".lightbox-close");
+let lastFocusedElement = null;
 
 function openLightbox(figure) {
   if (!lightbox || !lightboxImg) return;
   const img = figure.querySelector("img");
-  const title = figure.querySelector("h4")?.textContent || figure.querySelector("figcaption")?.textContent || "";
+  const title = figure.querySelector("h4")?.textContent || "";
   const desc = figure.querySelector("figcaption p")?.textContent || "";
+  const paperLink = figure.querySelector(".profile-paper-link")?.getAttribute("href");
 
   if (!img) return;
+  lastFocusedElement = document.activeElement;
   lightboxImg.src = img.src;
   lightboxImg.alt = img.alt;
   if (lightboxTitle) lightboxTitle.textContent = title;
   if (lightboxDesc) lightboxDesc.textContent = desc;
+  if (lightboxLink) {
+    if (paperLink) {
+      lightboxLink.href = paperLink;
+      lightboxLink.hidden = false;
+    } else {
+      lightboxLink.hidden = true;
+    }
+  }
 
   lightbox.hidden = false;
   document.body.classList.add("lightbox-open");
+  lightboxCloseBtn?.focus();
 }
 
 function closeLightbox() {
   if (!lightbox) return;
   lightbox.hidden = true;
   document.body.classList.remove("lightbox-open");
+  if (lastFocusedElement && typeof lastFocusedElement.focus === "function") {
+    lastFocusedElement.focus();
+  }
 }
 
 document.querySelectorAll(".profile-figure").forEach((fig) => {
-  fig.addEventListener("click", () => openLightbox(fig));
-  fig.addEventListener("keydown", (e) => {
+  const media = fig.querySelector(".figure-media") || fig;
+  media.addEventListener("click", () => openLightbox(fig));
+  media.addEventListener("keydown", (e) => {
     if (e.key === "Enter" || e.key === " ") {
       e.preventDefault();
       openLightbox(fig);
@@ -291,7 +344,15 @@ function applyTheme(theme) {
 
 function updateToggleLabel(theme) {
   if (themeToggle) {
-    themeToggle.setAttribute("aria-label", theme === "dark" ? "切换浅色模式" : "切换暗色模式");
+    const label = isEn
+      ? theme === "dark"
+        ? "Switch to light mode"
+        : "Switch to dark mode"
+      : theme === "dark"
+        ? "切换浅色模式"
+        : "切换暗色模式";
+    themeToggle.setAttribute("aria-label", label);
+    themeToggle.setAttribute("title", label);
   }
 }
 
@@ -343,7 +404,7 @@ window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", (e)
     const h = canvas.height / dpr;
     nodes = Array.from({ length: 24 }, (_, i) => ({
       x: Math.random() * w,
-      y: (h * 0.18) + (Math.random() * h * 0.68),
+      y: h * 0.18 + Math.random() * h * 0.68,
       vx: 0.22 + Math.random() * 0.35,
       r: 1.5 + Math.random() * 2.2,
       phase: i * 0.7,
@@ -360,7 +421,6 @@ window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", (e)
 
     ctx.clearRect(0, 0, w, h);
 
-    // Subtle laminar flow streamlines
     const streamCount = 5;
     for (let s = 0; s < streamCount; s++) {
       const baseY = h * (0.24 + s * 0.13);
@@ -380,7 +440,6 @@ window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", (e)
       ctx.stroke();
     }
 
-    // Drifting cellular/vesicle particles along laminar flow
     nodes.forEach((n) => {
       n.x += n.vx;
       if (n.x > w + 20) n.x = -20;
@@ -423,19 +482,16 @@ window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", (e)
 
 // ── Fetch NCBI publication count ──
 (async function fetchCitationCount() {
-  const countEl = document.getElementById("ncbi-count") || document.querySelector(".stats strong");
-  const inlineCountEl = document.querySelector(".pub-summary .inline-highlight");
-  if (!countEl) return;
+  const totalEls = document.querySelectorAll("[data-publication-total]");
+  if (totalEls.length === 0) return;
 
   const CACHE_KEY = "ncbi-pub-count";
-  const fallback = countEl.textContent.trim();
+  const fallback = totalEls[0].textContent.trim();
 
   function applyCount(val) {
-    countEl.textContent = val;
-    if (inlineCountEl) {
-      const isEn = document.documentElement.lang?.startsWith("en");
-      inlineCountEl.textContent = isEn ? `${val} publications` : `${val} 篇`;
-    }
+    totalEls.forEach((el) => {
+      el.textContent = val;
+    });
   }
 
   const cached = sessionStorage.getItem(CACHE_KEY);
